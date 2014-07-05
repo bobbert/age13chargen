@@ -1,0 +1,77 @@
+<%= form_for(@character_class) do |f| %>
+  <% if @character_class.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@character_class.errors.count, "error") %> prohibited this character_class from being saved:</h2>
+
+      <ul>
+      <% @character_class.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :baseHp %><br>
+    <%= f.number_field :baseHp %>
+  </div>
+  <div class="field">
+    <%= f.label :recoveryDie %><br>
+    <%= f.number_field :recoveryDie %>
+  </div>
+  <div class="field">
+    <%= f.label :basePd %><br>
+    <%= f.number_field :basePd %>
+  </div>
+  <div class="field">
+    <%= f.label :baseMd %><br>
+    <%= f.number_field :baseMd %>
+  </div>
+  <div class="field">
+    <%= f.label :defaultAc %><br>
+    <%= f.number_field :defaultAc %>
+  </div>
+  <div class="field">
+    <%= f.label :numTalents %><br>
+    <%= f.number_field :numTalents %>
+  </div>
+  <div class="field">
+    <%= f.label :numBackgrounds %><br>
+    <%= f.number_field :numBackgrounds %>
+  </div>
+  <div class="field">
+    <%= f.label :default1hWeaponDie %><br>
+    <%= f.number_field :default1hWeaponDie %>
+  </div>
+  <div class="field">
+    <%= f.label :default2hWeaponDie %><br>
+    <%= f.number_field :default2hWeaponDie %>
+  </div>
+  <div class="field">
+    <%= f.label :defaultThrownDie %><br>
+    <%= f.number_field :defaultThrownDie %>
+  </div>
+  <div class="field">
+    <%= f.label :defaultBowDie %><br>
+    <%= f.number_field :defaultBowDie %>
+  </div>
+  <div class="field">
+    <%= f.label :shieldPenalty %><br>
+    <%= f.number_field :shieldPenalty %>
+  </div>
+  <div class="field">
+    <%= f.label :meleeMissDmg %><br>
+    <%= f.check_box :meleeMissDmg %>
+  </div>
+  <div class="field">
+    <%= f.label :rangedMissDmg %><br>
+    <%= f.check_box :rangedMissDmg %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

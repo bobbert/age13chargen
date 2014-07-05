@@ -1,0 +1,79 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @character_class.name %>
+</p>
+
+<p>
+  <strong>Basehp:</strong>
+  <%= @character_class.baseHp %>
+</p>
+
+<p>
+  <strong>Recoverydie:</strong>
+  <%= @character_class.recoveryDie %>
+</p>
+
+<p>
+  <strong>Basepd:</strong>
+  <%= @character_class.basePd %>
+</p>
+
+<p>
+  <strong>Basemd:</strong>
+  <%= @character_class.baseMd %>
+</p>
+
+<p>
+  <strong>Defaultac:</strong>
+  <%= @character_class.defaultAc %>
+</p>
+
+<p>
+  <strong>Numtalents:</strong>
+  <%= @character_class.numTalents %>
+</p>
+
+<p>
+  <strong>Numbackgrounds:</strong>
+  <%= @character_class.numBackgrounds %>
+</p>
+
+<p>
+  <strong>Default1hweapondie:</strong>
+  <%= @character_class.default1hWeaponDie %>
+</p>
+
+<p>
+  <strong>Default2hweapondie:</strong>
+  <%= @character_class.default2hWeaponDie %>
+</p>
+
+<p>
+  <strong>Defaultthrowndie:</strong>
+  <%= @character_class.defaultThrownDie %>
+</p>
+
+<p>
+  <strong>Defaultbowdie:</strong>
+  <%= @character_class.defaultBowDie %>
+</p>
+
+<p>
+  <strong>Shieldpenalty:</strong>
+  <%= @character_class.shieldPenalty %>
+</p>
+
+<p>
+  <strong>Meleemissdmg:</strong>
+  <%= @character_class.meleeMissDmg %>
+</p>
+
+<p>
+  <strong>Rangedmissdmg:</strong>
+  <%= @character_class.rangedMissDmg %>
+</p>
+
+<%= link_to 'Edit', edit_character_class_path(@character_class) %> |
+<%= link_to 'Back', character_classes_path %>

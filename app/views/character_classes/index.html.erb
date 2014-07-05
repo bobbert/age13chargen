@@ -1,0 +1,53 @@
+<h1>Listing character_classes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Basehp</th>
+      <th>Recoverydie</th>
+      <th>Basepd</th>
+      <th>Basemd</th>
+      <th>Defaultac</th>
+      <th>Numtalents</th>
+      <th>Numbackgrounds</th>
+      <th>Default1hweapondie</th>
+      <th>Default2hweapondie</th>
+      <th>Defaultthrowndie</th>
+      <th>Defaultbowdie</th>
+      <th>Shieldpenalty</th>
+      <th>Meleemissdmg</th>
+      <th>Rangedmissdmg</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @character_classes.each do |character_class| %>
+      <tr>
+        <td><%= character_class.name %></td>
+        <td><%= character_class.baseHp %></td>
+        <td><%= character_class.recoveryDie %></td>
+        <td><%= character_class.basePd %></td>
+        <td><%= character_class.baseMd %></td>
+        <td><%= character_class.defaultAc %></td>
+        <td><%= character_class.numTalents %></td>
+        <td><%= character_class.numBackgrounds %></td>
+        <td><%= character_class.default1hWeaponDie %></td>
+        <td><%= character_class.default2hWeaponDie %></td>
+        <td><%= character_class.defaultThrownDie %></td>
+        <td><%= character_class.defaultBowDie %></td>
+        <td><%= character_class.shieldPenalty %></td>
+        <td><%= character_class.meleeMissDmg %></td>
+        <td><%= character_class.rangedMissDmg %></td>
+        <td><%= link_to 'Show', character_class %></td>
+        <td><%= link_to 'Edit', edit_character_class_path(character_class) %></td>
+        <td><%= link_to 'Destroy', character_class, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Character class', new_character_class_path %>
