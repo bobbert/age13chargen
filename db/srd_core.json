@@ -1,0 +1,443 @@
+{
+    "tier": [
+        {
+            "name": "adventurer",
+            "multiplier": 1
+        },
+        {
+            "name": "champion",
+            "multiplier": 2
+        },
+        {
+            "name": "epic",
+            "multiplier": 3
+        }
+    ],
+    "ability_score": [
+        {
+            "name": "strength",
+            "abbrev": "str"
+        },
+        {
+            "name": "constitution",
+            "abbrev": "con"
+        },
+        {
+            "name": "dexterity",
+            "abbrev": "dex"
+        },
+        {
+            "name": "intelligence",
+            "abbrev": "int"
+        },
+        {
+            "name": "wisdom",
+            "abbrev": "wis"
+        },
+        {
+            "name": "charisma",
+            "abbrev": "cha"
+        }
+    ],
+    "point_buy": [
+        {
+            "ability_score": 18,
+            "cost": 16
+        },
+        {
+            "ability_score": 17,
+            "cost": 13
+        },
+        {
+            "ability_score": 16,
+            "cost": 10
+        },
+        {
+            "ability_score": 15,
+            "cost": 8
+        },
+        {
+            "ability_score": 14,
+            "cost": 6
+        },
+        {
+            "ability_score": 13,
+            "cost": 5
+        },
+        {
+            "ability_score": 12,
+            "cost": 4
+        },
+        {
+            "ability_score": 11,
+            "cost": 3
+        },
+        {
+            "ability_score": 10,
+            "cost": 2
+        },
+        {
+            "ability_score": 9,
+            "cost": 1
+        },
+        {
+            "ability_score": 8,
+            "cost": 0
+        }
+    ],
+    "level": [
+        {
+            "level": 1,
+            "tier": "adventurer",
+            "hpMultiplier": 3,
+            "abilityBonuses": 0
+        },
+        {
+            "level": 2,
+            "tier": "adventurer",
+            "hpMultiplier": 4,
+            "abilityBonuses": 0
+        },
+        {
+            "level": 3,
+            "tier": "adventurer",
+            "hpMultiplier": 5,
+            "abilityBonuses": 0
+        },
+        {
+            "level": 4,
+            "tier": "adventurer",
+            "hpMultiplier": 6,
+            "abilityBonuses": 3
+        },
+        {
+            "level": 5,
+            "tier": "champion",
+            "hpMultiplier": 8,
+            "abilityBonuses": 0
+        },
+        {
+            "level": 6,
+            "tier": "champion",
+            "hpMultiplier": 10,
+            "abilityBonuses": 0
+        },
+        {
+            "level": 7,
+            "tier": "champion",
+            "hpMultiplier": 12,
+            "abilityBonuses": 3
+        },
+        {
+            "level": 8,
+            "tier": "epic",
+            "hpMultiplier": 16,
+            "abilityBonuses": 0
+        },
+        {
+            "level": 9,
+            "tier": "epic",
+            "hpMultiplier": 20,
+            "abilityBonuses": 0
+        },
+        {
+            "level": 10,
+            "tier": "epic",
+            "hpMultiplier": 24,
+            "abilityBonuses": 3
+        }
+    ],
+    "race": [
+        {
+            "name": "human",
+            "abilityBonus": [
+                "strength",
+                "constitution",
+                "dexterity",
+                "intelligence",
+                "wisdom",
+                "charisma"
+            ]
+        },
+        {
+            "name": "dwarf",
+            "abilityBonus": [
+                "constitution",
+                "wisdom"
+            ]
+        },
+        {
+            "name": "dark elf",
+            "abilityBonus": [
+                "dexterity",
+                "charisma"
+            ]
+        },
+        {
+            "name": "high elf",
+            "abilityBonus": [
+                "intelligence",
+                "charisma"
+            ]
+        },
+        {
+            "name": "wood elf",
+            "abilityBonus": [
+                "dexterity",
+                "wisdom"
+            ]
+        },
+        {
+            "name": "gnome",
+            "abilityBonus": [
+                "dexterity",
+                "intelligence"
+            ]
+        },
+        {
+            "name": "half-elf",
+            "abilityBonus": [
+                "constitution",
+                "charisma"
+            ]
+        },
+        {
+            "name": "half-orc",
+            "abilityBonus": [
+                "strength",
+                "dexterity"
+            ]
+        },
+        {
+            "name": "halfling",
+            "abilityBonus": [
+                "constitution",
+                "dexterity"
+            ]
+        },
+        {
+            "name": "dragonic",
+            "alternateName": "dragonspawn",
+            "abilityBonus": [
+                "strength",
+                "charisma"
+            ]
+        },
+        {
+            "name": "holy one",
+            "alternateName": "aasimar",
+            "abilityBonus": [
+                "wisdom",
+                "charisma"
+            ]
+        },
+        {
+            "name": "forgeborn",
+            "alternateName": "dwarf-forged",
+            "abilityBonus": [
+                "strength",
+                "constitution"
+            ]
+        },
+        {
+            "name": "tiefling",
+            "alternateName": "demontouched",
+            "abilityBonus": [
+                "strength",
+                "intelligence"
+            ]
+        }
+    ],
+    "character_class": [
+        {
+            "name": "barbarian",
+            "baseHp": 7,
+            "defaultAc": 12,
+            "basePd": 11,
+            "baseMd": 10,
+            "numBackgrounds": 8,
+            "recoveryDie": 10,
+            "numTalents": 3,
+            "default1hWeaponDie": 8,
+            "default2hWeaponDie": 10,
+            "defaultThrownDie": 6,
+            "defaultBowDie": 8,
+            "shieldPenalty": 0,
+            "meleeMissDmg": true,
+            "rangedMissDmg": false,
+            "abilityBonus": [
+                "strength",
+                "constitution"
+            ]
+        },
+        {
+            "name": "bard",
+            "baseHp": 7,
+            "defaultAc": 12,
+            "basePd": 10,
+            "baseMd": 11,
+            "numBackgrounds": 8,
+            "recoveryDie": 8,
+            "numTalents": 3,
+            "default1hWeaponDie": 8,
+            "default2hWeaponDie": 8,
+            "defaultThrownDie": 6,
+            "defaultBowDie": 6,
+            "shieldPenalty": 1,
+            "meleeMissDmg": true,
+            "rangedMissDmg": false,
+            "abilityBonus": [
+                "dexterity",
+                "charisma"
+            ]
+        },
+        {
+            "name": "cleric",
+            "baseHp": 7,
+            "defaultAc": 14,
+            "basePd": 11,
+            "baseMd": 11,
+            "numBackgrounds": 8,
+            "recoveryDie": 8,
+            "numTalents": 3,
+            "default1hWeaponDie": 6,
+            "default2hWeaponDie": 8,
+            "defaultThrownDie": 6,
+            "defaultBowDie": 0,
+            "shieldPenalty": 0,
+            "meleeMissDmg": true,
+            "rangedMissDmg": false,
+            "abilityBonus": [
+                "strength",
+                "wisdom"
+            ]
+        },
+        {
+            "name": "fighter",
+            "baseHp": 8,
+            "defaultAc": 15,
+            "basePd": 10,
+            "baseMd": 10,
+            "numBackgrounds": 8,
+            "recoveryDie": 10,
+            "numTalents": 3,
+            "default1hWeaponDie": 8,
+            "default2hWeaponDie": 10,
+            "defaultThrownDie": 6,
+            "defaultBowDie": 8,
+            "shieldPenalty": 0,
+            "meleeMissDmg": true,
+            "rangedMissDmg": false,
+            "abilityBonus": [
+                "strength",
+                "constitution"
+            ]
+        },
+        {
+            "name": "paladin",
+            "baseHp": 8,
+            "defaultAc": 16,
+            "basePd": 10,
+            "baseMd": 12,
+            "numBackgrounds": 8,
+            "recoveryDie": 10,
+            "numTalents": 3,
+            "default1hWeaponDie": 8,
+            "default2hWeaponDie": 10,
+            "defaultThrownDie": 6,
+            "defaultBowDie": 8,
+            "shieldPenalty": 0,
+            "meleeMissDmg": true,
+            "rangedMissDmg": false,
+            "abilityBonus": [
+                "strength",
+                "charisma"
+            ]
+        },
+        {
+            "name": "ranger",
+            "baseHp": 7,
+            "defaultAc": 14,
+            "basePd": 11,
+            "baseMd": 10,
+            "numBackgrounds": 8,
+            "recoveryDie": 8,
+            "numTalents": 3,
+            "default1hWeaponDie": 8,
+            "default2hWeaponDie": 10,
+            "defaultThrownDie": 6,
+            "defaultBowDie": 8,
+            "shieldPenalty": 0,
+            "meleeMissDmg": true,
+            "rangedMissDmg": true,
+            "abilityBonus": [
+                "strength",
+                "dexterity",
+                "wisdom"
+            ]
+        },
+        {
+            "name": "rogue",
+            "baseHp": 6,
+            "defaultAc": 12,
+            "basePd": 12,
+            "baseMd": 10,
+            "numBackgrounds": 8,
+            "recoveryDie": 8,
+            "numTalents": 3,
+            "default1hWeaponDie": 8,
+            "default2hWeaponDie": 8,
+            "defaultThrownDie": 6,
+            "defaultBowDie": 6,
+            "shieldPenalty": 2,
+            "meleeMissDmg": true,
+            "rangedMissDmg": true,
+            "abilityBonus": [
+                "dexterity",
+                "charisma"
+            ]
+        },
+        {
+            "name": "sorcerer",
+            "baseHp": 6,
+            "defaultAc": 10,
+            "basePd": 11,
+            "baseMd": 10,
+            "numBackgrounds": 8,
+            "recoveryDie": 6,
+            "numTalents": 3,
+            "default1hWeaponDie": 6,
+            "default2hWeaponDie": 8,
+            "defaultThrownDie": 6,
+            "defaultBowDie": 4,
+            "shieldPenalty": 2,
+            "meleeMissDmg": true,
+            "rangedMissDmg": false,
+            "abilityBonus": [
+                "constitution",
+                "charisma"
+            ]
+        },
+        {
+            "name": "wizard",
+            "baseHp": 6,
+            "defaultAc": 10,
+            "basePd": 10,
+            "baseMd": 12,
+            "numBackgrounds": 8,
+            "recoveryDie": 6,
+            "numTalents": 3,
+            "default1hWeaponDie": 4,
+            "default2hWeaponDie": 6,
+            "defaultThrownDie": 4,
+            "defaultBowDie": 4,
+            "shieldPenalty": 2,
+            "meleeMissDmg": false,
+            "rangedMissDmg": false,
+            "abilityBonus": [
+                "intelligence",
+                "wisdom"
+            ]
+        }
+    ]
+}
