@@ -439,5 +439,3768 @@
                 "wisdom"
             ]
         }
+    ],
+    "feats": [
+        {
+            "name": "Further Backgrounding",
+            "tier": "adventurer",
+            "description": "Add 2 total points to your backgrounds, or 2 new points of backgrounds."
+        },
+        {
+            "name": "Further Backgrounding",
+            "tier": "champion",
+            "description": "Add 3 total points to your backgrounds, or 3 new points of backgrounds."
+        },
+        {
+            "name": "Further Backgrounding",
+            "tier": "epic",
+            "description": "Add 2 total points to your backgrounds, or 2 new points of backgrounds. You can raise one background to 7."
+        },
+        {
+            "name": "Imp. Initiative",
+            "tier": "adventurer",
+            "description": "+4 to initiative checks."
+        },
+        {
+            "name": "Linguist",
+            "tier": "adventurer",
+            "description": "Speak all normal humanoid languages well enough."
+        },
+        {
+            "name": "Linguist",
+            "tier": "champion",
+            "description": "Speak, read, and write normal languages fluently; and speak bizarre languages no one else can deal with."
+        },
+        {
+            "name": "Precise Shot",
+            "tier": "adventurer",
+            "description": "Ranged attacks won’t hit engaged allies."
+        },
+        {
+            "name": "Rapid Reload",
+            "tier": "adventurer",
+            "description": "Quick action to reload heavy crossbow; free action to reload light or hand crossbow."
+        },
+        {
+            "name": "Reach Tricks",
+            "tier": "adventurer",
+            "description": "Once per battle, use a reach weapon in a special way."
+        },
+        {
+            "name": "Ritual Casting",
+            "tier": "adventurer",
+            "description": "Cast spells you know as rituals."
+        },
+        {
+            "name": "Skill Escalation",
+            "tier": "adventurer",
+            "description": "Add the escalation die to your skill checks after seeing roll; 2/day."
+        },
+        {
+            "name": "Strong Recovery",
+            "tier": "adventurer",
+            "description": "Reroll one die when rolling recovery dice. At 5th level, reroll 2 dice. At 8th level, reroll three dice."
+        },
+        {
+            "name": "Toughness",
+            "tier": "adventurer",
+            "description": "Gain bonus hp equal to half your class baseline hp; improves at 5th and 8th level."
+        },
+        {
+            "name": "Cruel",
+            "prereq": {
+                "race": "Dark Elf"
+            },
+            "tier": "champion",
+            "description": "Once per day, use cruel to deal 5 ongoing damage per level against a target you miss or you roll a natural odd attack roll against (even a 1)."
+        },
+        {
+            "name": "Breath Weapon",
+            "prereq": {
+                "race": "Dragonic"
+            },
+            "tier": "champion",
+            "description": "Breath weapon now targets 1d3 enemies in a nearby group."
+        },
+        {
+            "name": "That's Your Best Shot?",
+            "prereq": {
+                "race": "Dwarf"
+            },
+            "tier": "champion",
+            "description": "If escalation die is 2+, the best shot recovery is free."
+        },
+        {
+            "name": "Heritage of the Sword",
+            "prereq": {
+                "race": "Elf"
+            },
+            "tier": "adventurer",
+            "description": "Use d6 and d8 swords without penalties; or if already able to use such swords without penalties, +2 melee damage."
+        },
+        {
+            "name": "Confounding",
+            "prereq": {
+                "race": "Gnome"
+            },
+            "tier": "champion",
+            "description": "Target of confounding is weakened instead of dazed."
+        },
+        {
+            "name": "Surprising",
+            "prereq": {
+                "race": "Half-Elf"
+            },
+            "tier": "champion",
+            "description": "Use surprising an extra time, but only to change a nearby ally's d20 roll."
+        },
+        {
+            "name": "Evasive",
+            "prereq": {
+                "race": "Halfling"
+            },
+            "tier": "champion",
+            "description": "The foe's reroll when you use evasive takes a –5 penalty."
+        },
+        {
+            "name": "Lethal",
+            "prereq": {
+                "race": "Half-Orc"
+            },
+            "tier": "champion",
+            "description": "If lethal attack reroll is 16+, use lethal again that battle."
+        },
+        {
+            "name": "Highblood Teleport",
+            "prereq": {
+                "race": "High Elf"
+            },
+            "tier": "champion",
+            "description": "When you teleport, deal damage equal to twice your level to engaged enemy."
+        },
+        {
+            "name": "Halo",
+            "prereq": {
+                "race": "Holy One"
+            },
+            "tier": "champion",
+            "description": "Halo now activates whenever you heal using a recovery."
+        },
+        {
+            "name": "Quick to Fight",
+            "prereq": {
+                "race": "Human"
+            },
+            "tier": "champion",
+            "description": "Increase escalation die by +1 when you roll natural 19 or 20 for initiative."
+        },
+        {
+            "name": "Never Say Die",
+            "prereq": {
+                "race": "Forgeborn"
+            },
+            "tier": "champion",
+            "description": "When you roll 16+ on your never say die save, take an extra standard action next turn."
+        },
+        {
+            "name": "Curse of Chaos",
+            "prereq": {
+                "race": "Tiefling"
+            },
+            "tier": "champion",
+            "description": "Use curse of chaos for free when a nearby enemy gets a natural 1 attack roll."
+        },
+        {
+            "name": "Elven Grace",
+            "prereq": {
+                "race": "Wood Elf"
+            },
+            "tier": "champion",
+            "description": "Start your elven grace rolls with a d4 instead of a d6."
+        },
+        {
+            "name": "Barbarian Rage",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Class"
+            },
+            "tier": "adventurer",
+            "description": "When esc die is 4+, start raging for free as a quick action."
+        },
+        {
+            "name": "Barbarian Rage",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Class"
+            },
+            "tier": "champion",
+            "description": "Now start raging for free when esc. die is 3+."
+        },
+        {
+            "name": "Barbarian Rage",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Class"
+            },
+            "tier": "epic",
+            "description": "Now start raging for free when esc. die is 2+."
+        },
+        {
+            "name": "Anc.Warband",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "The warband fights for 1 round even after you are unconscious."
+        },
+        {
+            "name": "Barbaric Cleave",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Gain +2 bonus to Barbaric Cleave attacks, and on a hit with Barbaric Cleave, you can heal using a recovery."
+        },
+        {
+            "name": "Barbaric Cleave",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "You can move for free before using a Barbaric Cleave attack."
+        },
+        {
+            "name": "Barbaric Cleave",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Use Barbaric Cleave as often as you want in one battle."
+        },
+        {
+            "name": "Building Frenzy",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "The bonus damage dice are now d6s instead of d4s."
+        },
+        {
+            "name": "Building Frenzy",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "The bonus damage dice are now d10s instead of d6s."
+        },
+        {
+            "name": "Building Frenzy",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Use Building Frenzy twice per day now."
+        },
+        {
+            "name": "Natural Will",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Use Natural Will twice per day now."
+        },
+        {
+            "name": "Natural Will",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Bonus increases to +4 MD. "
+        },
+        {
+            "name": "Natural Will",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Use Natural Will as a free action, even as a reaction to an attack."
+        },
+        {
+            "name": "Relentless",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Gain resist damage 12+ until next turn after you crit."
+        },
+        {
+            "name": "Slayer",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Gain +2 bonus to Slayer attacks."
+        },
+        {
+            "name": "Slayer",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Once per battle, deal Slayer damage on a miss."
+        },
+        {
+            "name": "Slayer",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Gain 20 temp hp when your Slayer attack drops a non-mook enemy."
+        },
+        {
+            "name": "Strongheart",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Increase your maximum recoveries by 1."
+        },
+        {
+            "name": "Strongheart",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "You gain +1 PD and when you heal using a recovery, you can roll a save."
+        },
+        {
+            "name": "Strongheart",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Increase your maximum recoveries by 1 (2 total)."
+        },
+        {
+            "name": "Unstoppable",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "The recovery from your Unstoppable attack is free."
+        },
+        {
+            "name": "Unstoppable",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Add 2 x Con mod to the total healing from the Unstoppable recovery."
+        },
+        {
+            "name": "Unstoppable",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Use Unstoppable twice per battle now."
+        },
+        {
+            "name": "Violence",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Deal half damage with missed attacks when you use Violence."
+        },
+        {
+            "name": "Violence",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Attack roll bonus using Violence increases to +1d6 from +1d4."
+        },
+        {
+            "name": "Whirlwind",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Deal normal miss damage with missed Whirlwind attacks. "
+        },
+        {
+            "name": "Whirlwind",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Penalty to AC and PD from Whirlwind is now –2. Disengage attempts after using Whirlwind succeed automatically."
+        },
+        {
+            "name": "Whirlwind",
+            "prereq": {
+                "class": "Barbarian",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Use Whirlwind anytime during your turn now."
+        },
+        {
+            "name": "Bardic Songs",
+            "prereq": {
+                "class": "Bard",
+                "type": "Class"
+            },
+            "tier": "adventurer",
+            "description": "Songs continue for one round when you are silenced, stunned, or unconscious."
+        },
+        {
+            "name": "Battle Cries",
+            "prereq": {
+                "class": "Bard",
+                "type": "Class"
+            },
+            "tier": "adventurer",
+            "description": "Use your 1st or 3rd level battle cries without making a melee attack."
+        },
+        {
+            "name": "Balladeer",
+            "prereq": {
+                "class": "Bard",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "First time you use the ballad-created relationship, 5s become 6s. +2 to Balladeer checks."
+        },
+        {
+            "name": "Balladeer",
+            "prereq": {
+                "class": "Bard",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Sing two ballads a day."
+        },
+        {
+            "name": "Balladeer",
+            "prereq": {
+                "class": "Bard",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Gain 3 or 4 bonus dice at the cost of an equal number of cursed dice with each enemy."
+        },
+        {
+            "name": "Battle Skald",
+            "prereq": {
+                "class": "Bard",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Once per day, use battle cries on yourself."
+        },
+        {
+            "name": "Battle Skald",
+            "prereq": {
+                "class": "Bard",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Battle cries used on yourself also help an ally."
+        },
+        {
+            "name": "Battle Skald",
+            "prereq": {
+                "class": "Bard",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Once per battle, reroll an attack meant to trigger a battle cry."
+        },
+        {
+            "name": "Jack of Spells",
+            "prereq": {
+                "class": "Bard",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Gain 3 cantrips if you choose wizard; gain dancing lights if you choose sorcerer. Also use Charisma for attack and damage bonuses with the spell you’ve jacked."
+        },
+        {
+            "name": "Jack of Spells",
+            "prereq": {
+                "class": "Bard",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Jack another spell from a second other spell-casting class."
+        },
+        {
+            "name": "Jack of Spells",
+            "prereq": {
+                "class": "Bard",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Jack another spell from a third other spell-casting class."
+        },
+        {
+            "name": "Hang Tough!",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "adventurer",
+            "description": "If the ally is staggered, double hang tough temporary hp."
+        },
+        {
+            "name": "Hang Tough!",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "champion",
+            "description": "Add your level to the temporary hp (before any doubling for being staggered)."
+        },
+        {
+            "name": "Hang Tough!",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "epic",
+            "description": "You can be the target of hang tough."
+        },
+        {
+            "name": "It's All Yours!",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "adventurer",
+            "description": "Your ally's attack also deals +1d6 damage."
+        },
+        {
+            "name": "It's All Yours!",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "champion",
+            "description": "Damage bonus increases to +3d6."
+        },
+        {
+            "name": "It's All Yours!",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "epic",
+            "description": "Damage bonus increases to +3d12."
+        },
+        {
+            "name": "Move It!",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "adventurer",
+            "description": "Your allies gain a +2 bonus to move it disengage checks."
+        },
+        {
+            "name": "Move It!",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "champion",
+            "description": "Bonus increases to +5."
+        },
+        {
+            "name": "Move It!",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "epic",
+            "description": "Ally can pop free of one enemy automatically before rolling disengage. "
+        },
+        {
+            "name": "Pull It Together!",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "adventurer",
+            "description": "Target ally also heals +1d4 hp per point of escalation die."
+        },
+        {
+            "name": "Pull It Together!",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "champion",
+            "description": "Battle cry now triggers on any natural even roll; healing increases to +1d6 per point."
+        },
+        {
+            "name": "Pull It Together!",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "epic",
+            "description": "Use the battle cry 3 times per battle; healing increases to +1d10 per point. "
+        },
+        {
+            "name": "Stay Strong!",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "adventurer",
+            "description": "The AC bonus also applies to PD."
+        },
+        {
+            "name": "Stay Strong!",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "champion",
+            "description": "The AC bonus also applies to MD."
+        },
+        {
+            "name": "Stay Strong!",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "epic",
+            "description": "Bonus increases to +4. "
+        },
+        {
+            "name": "The Time Is Now",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "epic",
+            "description": "The battle cry now triggers on a natural 18+ instead of 19+."
+        },
+        {
+            "name": "They Fall Before Us!",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "epic",
+            "description": "The battle cry now triggers on a natural 19+ instead of 20+."
+        },
+        {
+            "name": "Victory is Ours!",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "champion",
+            "description": "Trigger is now 3+ on the escalation die instead of 5+."
+        },
+        {
+            "name": "Victory is Ours!",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "epic",
+            "description": "Allies' damage bonus is now +3d12."
+        },
+        {
+            "name": "We Need You!",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "adventurer",
+            "description": "The battle cry save now gets a +1 bonus."
+        },
+        {
+            "name": "We Need You!",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "champion",
+            "description": "Save bonus increases to +2."
+        },
+        {
+            "name": "We Need You!",
+            "prereq": {
+                "battlecry": "Bard"
+            },
+            "tier": "epic",
+            "description": "If escalation die is 3+, two allies can roll a save."
+        },
+        {
+            "name": "Arrow of Verse",
+            "prereq": {
+                "bardsong_or_spell": "Bard"
+            },
+            "tier": "champion",
+            "description": "Recharge after battle is now 11+."
+        },
+        {
+            "name": "Arrow of Verse",
+            "prereq": {
+                "bardsong_or_spell": "Bard"
+            },
+            "tier": "epic",
+            "description": "Bonus dice and miss dice are now d12s."
+        },
+        {
+            "name": "Battle Chant",
+            "prereq": {
+                "bardsong_or_spell": "Bard"
+            },
+            "tier": "adventurer",
+            "description": "Use d6s instead of d4s for battle chant damage."
+        },
+        {
+            "name": "Battle Chant",
+            "prereq": {
+                "bardsong_or_spell": "Bard"
+            },
+            "tier": "champion",
+            "description": "Once per day, expend a recovery to reroll a battle chant attack."
+        },
+        {
+            "name": "Battle Chant",
+            "prereq": {
+                "bardsong_or_spell": "Bard"
+            },
+            "tier": "epic",
+            "description": "One battle per day, use d10s instead of d6s for battle chant damage."
+        },
+        {
+            "name": "Befuddle",
+            "prereq": {
+                "bardsong_or_spell": "Bard"
+            },
+            "tier": "adventurer",
+            "description": "Recharge check for befuddle now 6+."
+        },
+        {
+            "name": "Befuddle",
+            "prereq": {
+                "bardsong_or_spell": "Bard"
+            },
+            "tier": "champion",
+            "description": "Target of befuddle now only needs to be in sight."
+        },
+        {
+            "name": "Befuddle",
+            "prereq": {
+                "bardsong_or_spell": "Bard"
+            },
+            "tier": "epic",
+            "description": "On a hit, the confusion effect is now save ends."
+        },
+        {
+            "name": "Overworld Two-Step",
+            "prereq": {
+                "bardsong_or_spell": "Bard"
+            },
+            "tier": "champion",
+            "description": "Recharge check is 11+."
+        },
+        {
+            "name": "Overworld Two-Step",
+            "prereq": {
+                "bardsong_or_spell": "Bard"
+            },
+            "tier": "epic",
+            "description": "Far away allies can now also have their positions swapped."
+        },
+        {
+            "name": "Song of Thunder",
+            "prereq": {
+                "bardsong_or_spell": "Bard"
+            },
+            "tier": "champion",
+            "description": "Number of targets increases to 2d4."
+        },
+        {
+            "name": "Song of Thunder",
+            "prereq": {
+                "bardsong_or_spell": "Bard"
+            },
+            "tier": "epic",
+            "description": "Two of the targets can now be far away."
+        },
+        {
+            "name": "Soundburst",
+            "prereq": {
+                "bardsong_or_spell": "Bard"
+            },
+            "tier": "adventurer",
+            "description": "On a natural even hit, the dazed effect is now save ends."
+        },
+        {
+            "name": "Soundburst",
+            "prereq": {
+                "bardsong_or_spell": "Bard"
+            },
+            "tier": "champion",
+            "description": "Spell is now recharge 16+ after battle."
+        },
+        {
+            "name": "Soundburst",
+            "prereq": {
+                "bardsong_or_spell": "Bard"
+            },
+            "tier": "epic",
+            "description": "Spell now targets 1d4 + 1 enemies in a group."
+        },
+        {
+            "name": "Vicious Mockery",
+            "prereq": {
+                "bardsong_or_spell": "Bard"
+            },
+            "tier": "adventurer",
+            "description": "Hit effect is now a save ends effect."
+        },
+        {
+            "name": "Vicious Mockery",
+            "prereq": {
+                "bardsong_or_spell": "Bard"
+            },
+            "tier": "champion",
+            "description": "Recharge check for vicious mockery now 6+."
+        },
+        {
+            "name": "Vicious Mockery",
+            "prereq": {
+                "bardsong_or_spell": "Bard"
+            },
+            "tier": "epic",
+            "description": "Natural even miss doesn't expend vicious mockery."
+        },
+        {
+            "name": "Wild Heal",
+            "prereq": {
+                "bardsong_or_spell": "Bard"
+            },
+            "tier": "adventurer",
+            "description": "Wild heal is now recharge 16+ after battle. "
+        },
+        {
+            "name": "Wild Heal",
+            "prereq": {
+                "bardsong_or_spell": "Bard"
+            },
+            "tier": "champion",
+            "description": "Add a third random target. "
+        },
+        {
+            "name": "Wild Heal",
+            "prereq": {
+                "bardsong_or_spell": "Bard"
+            },
+            "tier": "epic",
+            "description": "Wild heal effect now provides free recoveries."
+        },
+        {
+            "name": "Heal",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Class"
+            },
+            "tier": "adventurer",
+            "description": "Target can now be nearby instead of ally you're next to."
+        },
+        {
+            "name": "Heal",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Class"
+            },
+            "tier": "champion",
+            "description": "If target is unconscious, add 1d10 x your Cha mod to recovery."
+        },
+        {
+            "name": "Heal",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Class"
+            },
+            "tier": "epic",
+            "description": "Add +30 hp to recovery if you're next to target."
+        },
+        {
+            "name": "Domain: Healing",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Allies you heal can use your recoveries instead."
+        },
+        {
+            "name": "Domain: Healing",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Invocation of healing provides 2 extra uses of heal that battle."
+        },
+        {
+            "name": "Domain: Healing",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Allies you heal add triple your level hp instead of double."
+        },
+        {
+            "name": "Domain: Justice OR Vengeance",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "You can give the reroll blessing to yourself."
+        },
+        {
+            "name": "Domain: Justice OR Vengeance",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "When you gain a reroll blessing, gain two blessings instead of one."
+        },
+        {
+            "name": "Domain: Justice OR Vengeance",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Gain a +4 bonus to the rerolled attack."
+        },
+        {
+            "name": "Dom: Knowledge OR Lore",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Once per day, change knowledge skill roll to natural 20."
+        },
+        {
+            "name": "Dom: Knowledge OR Lore",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Now use a d4 for invocation instead of d6."
+        },
+        {
+            "name": "Dom: Knowledge OR Lore",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Gain a positive relationship point with different random icon each day."
+        },
+        {
+            "name": "Domain: Life OR Death",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "The death save bonus is now +2."
+        },
+        {
+            "name": "Domain: Life OR Death",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Each battle, the first nearby ally that becomes staggered gains hit points equal to double your level."
+        },
+        {
+            "name": "Domain: Life OR Death",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "You gain one free use of resurrection."
+        },
+        {
+            "name": "Domain: Love OR Beauty",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "You gain a two-dice conflicted icon relationship instead."
+        },
+        {
+            "name": "Dom: Protection OR Community",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "One ally can roll a save each time you target allies with a spell."
+        },
+        {
+            "name": "Domain: Strength",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Once per battle, deal bonus damage with melee attack, d4s equal to Strength modifier or level, whichever is higher. "
+        },
+        {
+            "name": "Domain: Strength",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Damage bonus dice are now d8s instead of d4s."
+        },
+        {
+            "name": "Domain: Strength",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Once per day, the damage bonus dice are d20s instead of d8s."
+        },
+        {
+            "name": "Domain: Sun or Anti-Undead",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Your attacks dealing holy damage gain a +1 damage bonus per tier."
+        },
+        {
+            "name": "Domain: Sun or Anti-Undead",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Gain a +2 bonus to all defenses against attacks by undead."
+        },
+        {
+            "name": "Domain: Sun or Anti-Undead",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "The Sun/Anti-Undead invocation also affects your allies' spells. "
+        },
+        {
+            "name": "Domain: Trickery OR Illusion",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Your trick die can now be used for any d20 roll."
+        },
+        {
+            "name": "Domain: Trickery OR Illusion",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "You get a free use of the trick die when the escalation die reaches 3+."
+        },
+        {
+            "name": "Domain: War OR Leadership",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "The domain power works with any attack now."
+        },
+        {
+            "name": "Domain: War OR Leadership",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "The attack bonus can now apply to multiple enemies you attack."
+        },
+        {
+            "name": "Domain: War OR Leadership",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Your allies also get a damage bonus against the enemies you attack equal to double your Cha mod."
+        },
+        {
+            "name": "Circle of Prot",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "Spell is now recharge 16+ after battle instead of daily."
+        },
+        {
+            "name": "Combat Boon",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Spell"
+            },
+            "tier": "adventurer",
+            "description": "The combat boon save automatically succeeds if the attack is a crit."
+        },
+        {
+            "name": "Combat Boon",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "Ally can roll a save even if attack misses."
+        },
+        {
+            "name": "Javelin of Faith",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Spell"
+            },
+            "tier": "adventurer",
+            "description": "Deals +1d6 damage vs. undamaged target. Increases at each tier."
+        },
+        {
+            "name": "Javelin of Faith",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "Spell can now target far away enemy with –2 attack penalty."
+        },
+        {
+            "name": "Javelin of Faith",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "Make the spell’s attack a second time when roll a natural 18+."
+        },
+        {
+            "name": "Judgment",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "Spell now deals half damage on a miss. "
+        },
+        {
+            "name": "Judgment",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "Spell is now recharge 16+ after battle instead of daily."
+        },
+        {
+            "name": "Mighty Healing",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "This spell is now a close-quarters spell. "
+        },
+        {
+            "name": "Prayer for Readiness",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "This spell is now a quick action to cast."
+        },
+        {
+            "name": "Spirits of the Righteous",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "You also gain the AC bonus. "
+        },
+        {
+            "name": "Turn Undead",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Spell"
+            },
+            "tier": "adventurer",
+            "description": "You can expend turn undead to gain an extra use of heal for one battle."
+        },
+        {
+            "name": "Turn Undead",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "Target demons or undead with turn undead."
+        },
+        {
+            "name": "Turn Undead",
+            "prereq": {
+                "class": "Cleric",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "Increase target hp limit by 100 hp."
+        },
+        {
+            "name": "Extra Tough",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Class"
+            },
+            "tier": "adventurer",
+            "description": "Gain an additional recovery."
+        },
+        {
+            "name": "Threatening",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Class"
+            },
+            "tier": "adventurer",
+            "description": "Deal damage to enemies that fail to disengage from you equal to your Dex or Con mod; increases at 5th and 8th level."
+        },
+        {
+            "name": "Threatening",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Class"
+            },
+            "tier": "champion",
+            "description": "Non-mook enemies that fail to disengage from you are vulnerable."
+        },
+        {
+            "name": "Cleave",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "You can move to reach a new target before using your Cleave attack."
+        },
+        {
+            "name": "Cleave",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Use Cleave twice each battle now (but only once per round)."
+        },
+        {
+            "name": "Cleave",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Gain a +4 bonus with Cleave attacks."
+        },
+        {
+            "name": "Comeback Strike",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "You don't take the –2 penalty for Comeback Strike attacks."
+        },
+        {
+            "name": "Comeback Strike",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Once per day, use Comeback Strike twice in a battle."
+        },
+        {
+            "name": "Comeback Strike",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Gain a +4 bonus with Comeback Strike attacks."
+        },
+        {
+            "name": "Counter-Attack",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Counter-Attack attack now deals full damage. "
+        },
+        {
+            "name": "Counter-Attack",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Use Counter-Attack once per turn instead of per round."
+        },
+        {
+            "name": "Counter-Attack",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Use Counter-Attack when escalation die is 3+."
+        },
+        {
+            "name": "Deadeye Archer",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Spend a quick action before attack to add your Dex mod to the damage if you miss."
+        },
+        {
+            "name": "Deadeye Archer",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Once per battle, your crit range with a ranged attack expands by +4."
+        },
+        {
+            "name": "Deadeye Archer",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Your crit range with ranged weapon attacks expands by +1."
+        },
+        {
+            "name": "Heavy Warrior",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Once per day, use Heavy Warrior twice in a battle."
+        },
+        {
+            "name": "Heavy Warrior",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Heavy Warrior now works against an attack vs. PD."
+        },
+        {
+            "name": "Heavy Warrior",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Once per day, reroll a recharge roll for a magic armor power."
+        },
+        {
+            "name": "Power Attack",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Deal Power Attack damage even if you miss."
+        },
+        {
+            "name": "Power Attack",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "One battle per day, use Power Attack twice in a battle."
+        },
+        {
+            "name": "Power Attack",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Power Attack damage dice increase to 1d6 (1-H) or 1d8 (2-H)."
+        },
+        {
+            "name": "Skilled Intercept",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "You can pop free from up to 2 enemies when using Skilled Intercept."
+        },
+        {
+            "name": "Skilled Intercept",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Add escalation die to Skilled Intercept saves."
+        },
+        {
+            "name": "Skilled Intercept",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "You do not take opportunity attacks while using Skilled Intercept."
+        },
+        {
+            "name": "Tough as Iron",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Once per day, rally a second time in the same battle using a quick action."
+        },
+        {
+            "name": "Tough as Iron",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Increase your total recoveries by 2."
+        },
+        {
+            "name": "Tough as Iron",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Gain another use of Tough As Iron when you roll a natural 20 with an attack."
+        },
+        {
+            "name": "A Dozen Cuts",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "champion",
+            "description": "Once per battle, trigger a dozen cuts with a natural odd hit."
+        },
+        {
+            "name": "Brace for It",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "adventurer",
+            "description": "Brace for it now works against any type of attack."
+        },
+        {
+            "name": "Brace for It",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "champion",
+            "description": "Brace for it now works any number of times before your next turn."
+        },
+        {
+            "name": "Carve an Opening",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "champion",
+            "description": "Crit range expands by +2 instead of +1."
+        },
+        {
+            "name": "Combat Mastery",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "epic",
+            "description": "Combat mastery now triggers on any natural even hit. "
+        },
+        {
+            "name": "Deadly Assault",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "adventurer",
+            "description": "Effect now let’s you reroll 1s and 2s for damage."
+        },
+        {
+            "name": "Deadly Assault",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "champion",
+            "description": "Deadly assault now triggers on any natural 17+."
+        },
+        {
+            "name": "Defensive Fighting",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "adventurer",
+            "description": "AC bonus also applies to PD."
+        },
+        {
+            "name": "Defensive Fighting",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "champion",
+            "description": "Bonus increases to +3."
+        },
+        {
+            "name": "Defensive Fighting",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "epic",
+            "description": "AC bonus also applies to MD."
+        },
+        {
+            "name": "Heavy Blows",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "champion",
+            "description": "Triggers on any miss if using two-handed weapon."
+        },
+        {
+            "name": "Heavy Blows",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "epic",
+            "description": "Add double (1-H) or triple (2-H) the escalation die to miss damage."
+        },
+        {
+            "name": "Hero’s Skill",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "champion",
+            "description": "Add +4 instead of +2."
+        },
+        {
+            "name": "Hero’s Skill",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "epic",
+            "description": "The damage is no longer halved if the attack hits."
+        },
+        {
+            "name": "Never Surrender",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "epic",
+            "description": "Gain a +2 bonus to your never surrender save."
+        },
+        {
+            "name": "Precision Attack",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "adventurer",
+            "description": "Precision attack now works with ranged attacks."
+        },
+        {
+            "name": "Punish Them",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "adventurer",
+            "description": "Stop the movement of the target of your punish them attack."
+        },
+        {
+            "name": "Punish Them",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "champion",
+            "description": "Dazed effect is now a save ends effect (11+)."
+        },
+        {
+            "name": "Punish Them",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "epic",
+            "description": "Dazed effect is now weakened (11+ save ends)."
+        },
+        {
+            "name": "Second Shot",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "champion",
+            "description": "The second shot attack only takes a –2 penalty."
+        },
+        {
+            "name": "Set 'em Up",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "epic",
+            "description": "The crit range bonus now also applies to any ally who attacks the target while you are engaged with the target."
+        },
+        {
+            "name": "Shield Bash",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "adventurer",
+            "description": "Can pop the target free of your allies."
+        },
+        {
+            "name": "Shield Bash",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "champion",
+            "description": "Once per battle, daze your shield bash target if it’s staggered."
+        },
+        {
+            "name": "Spinning Charge",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "epic",
+            "description": "Your spinning charge attack deals full damage is esc die is 3+."
+        },
+        {
+            "name": "Steady Now",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "champion",
+            "description": "Gain temporary hp equal to double your Con mod instead."
+        },
+        {
+            "name": "Strong Guard",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "champion",
+            "description": "AC bonus also applies to PD."
+        },
+        {
+            "name": "Strong Guard",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "epic",
+            "description": "Bonus increases to +3."
+        },
+        {
+            "name": "Sword of Destiny",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "epic",
+            "description": "Now trigger sword of destiny with a natural 18+ if the esc die is 3+."
+        },
+        {
+            "name": "Two-Weapon Pressure",
+            "prereq": {
+                "class": "Fighter",
+                "type": "Maneuver"
+            },
+            "tier": "champion",
+            "description": "The attack bonus increases to +4."
+        },
+        {
+            "name": "Smite Evil",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Class"
+            },
+            "tier": "adventurer",
+            "description": "Gain a +4 attack bonus with Smite Evil attacks."
+        },
+        {
+            "name": "Smite Evil",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Class"
+            },
+            "tier": "champion",
+            "description": "Add a total of +2d12 damage with Smith Evil."
+        },
+        {
+            "name": "Smite Evil",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Class"
+            },
+            "tier": "epic",
+            "description": "Add a total of +4d12 damage with Smite Evil."
+        },
+        {
+            "name": "Bastion",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Increase your total recoveries by 1."
+        },
+        {
+            "name": "Bastion",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Once per day, use Bastion twice in a battle."
+        },
+        {
+            "name": "Bastion",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Your ally takes no damage; you still take half."
+        },
+        {
+            "name": "Cleric Training",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Use your Charisma as the attack ability for cleric spells."
+        },
+        {
+            "name": "Cleric Training",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Cast the cleric's heal spell twice per day."
+        },
+        {
+            "name": "Cleric Training",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Choose 2 cleric spells to gain instead of one."
+        },
+        {
+            "name": "Fearless",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Gain a +1 bonus to death saves."
+        },
+        {
+            "name": "Fearless",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Gain a +1 bonus to all saves except death saves."
+        },
+        {
+            "name": "Fearless",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Nearby allies gain a +1 bonus to death saves."
+        },
+        {
+            "name": "Implacable",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "You gain a +1 bonus to saves. "
+        },
+        {
+            "name": "Implacable",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Once per turn, you can take damage equal to your level to reroll a save. "
+        },
+        {
+            "name": "Implacable",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "You gain a +1 bonus to Physical Defense and a +1 bonus to Mental Defense."
+        },
+        {
+            "name": "Lay on Hands",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Add twice your Cha mod to Lay on Hands healing."
+        },
+        {
+            "name": "Lay on Hands",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Lay on Hands healing uses a free recovery instead of one of your own."
+        },
+        {
+            "name": "Lay on Hands",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Two additional uses of Lay on Hands each day."
+        },
+        {
+            "name": "Paladin's Challenge",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "The attack and disengage penalty is equal to –4 or to the esc. die, whichever is higher"
+        },
+        {
+            "name": "Paladin's Challenge",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "You can have two enemies challenged at same time."
+        },
+        {
+            "name": "Paladin's Challenge",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Enemies you challenge are vulnerable to your attacks."
+        },
+        {
+            "name": "Path of URE",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Once per day, reroll relationship dice with a good or ambiguous icon."
+        },
+        {
+            "name": "Path of URE",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Your melee and ranged attacks deal holy damage."
+        },
+        {
+            "name": "Path of URE",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Gain 1 relationship point with a good or ambiguous icon."
+        },
+        {
+            "name": "Way of Evil Bastards",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Once per day, reroll relationship dice with evil or ambiguous icon."
+        },
+        {
+            "name": "Way of Evil Bastards",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "When your Smite Evil attack kills 3 or more mooks, you don’t expend it."
+        },
+        {
+            "name": "Way of Evil Bastards",
+            "prereq": {
+                "class": "Paladin",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Gain 1 relationship point with an evil or ambiguous icon."
+        },
+        {
+            "name": "Archery",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Gain +2 attack bonus and +1 crit range to Archery rerolls."
+        },
+        {
+            "name": "Archery",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Once per day, use Archery twice in a battle."
+        },
+        {
+            "name": "Archery",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Once per day, turn a hit with a ranged attack into a crit."
+        },
+        {
+            "name": "Double Melee Attack",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Gain a +2 bonus with your second attack, if it's against a different target."
+        },
+        {
+            "name": "Double Melee Attack",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Once per battle, use Double Melee Attack after an odd attack roll."
+        },
+        {
+            "name": "Double Melee Attack",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Pop free of one enemy before a Double Melee Attack roll. Use your move action in between attacks."
+        },
+        {
+            "name": "Double Ranged Attack",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Gain a +2 bonus with your second attack, if it's against a different target."
+        },
+        {
+            "name": "Double Ranged Attack",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Once per battle, use Double Ranged Attack after an odd attack roll."
+        },
+        {
+            "name": "Double Ranged Attack",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Pop free of one enemy before a Double Ranged Attack roll. Use your move action in between attacks."
+        },
+        {
+            "name": "Favored Enemy",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Change your favored enemy during a full heal-up."
+        },
+        {
+            "name": "Favored Enemy",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Your crit range vs. favored enemies expands by 1."
+        },
+        {
+            "name": "Favored Enemy",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Choose a second non-humanoid type as favored enemy."
+        },
+        {
+            "name": "Fey Queen's Enchantments",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Choose which ability score to use for sorcerer spells you cast. "
+        },
+        {
+            "name": "Fey Queen's Enchantments",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "You can choose from sorcerer at-will spells."
+        },
+        {
+            "name": "Fey Queen's Enchantments",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Gain an additional sorcerer spell."
+        },
+        {
+            "name": "First Strike",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "The crit range of your First Strike attacks expands by 1."
+        },
+        {
+            "name": "First Strike",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Once per day, deal triple damage with a First Strike crit."
+        },
+        {
+            "name": "First Strike",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Whenever you hit with a First Strike attack, you can reroll damage and take the best result."
+        },
+        {
+            "name": "Lethal Hunter",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Your crit range of Lethal Hunter attacks expands by 1."
+        },
+        {
+            "name": "Lethal Hunter",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Once per day, use Lethal Hunter against two enemies."
+        },
+        {
+            "name": "Lethal Hunter",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "If the escalation die is 3+, your Lethal Hunter crits deal triple damage. "
+        },
+        {
+            "name": "Ranger ex Cathedral",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Cast the cleric class feature heal spell once per battle."
+        },
+        {
+            "name": "Ranger ex Cathedral",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "You can choose from cleric at-will spells."
+        },
+        {
+            "name": "Ranger ex Cathedral",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Gain an additional cleric spell."
+        },
+        {
+            "name": "Ranger’s Pet",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Your pet gains a third ability."
+        },
+        {
+            "name": "Ranger’s Pet",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Your pet gains a fourth ability."
+        },
+        {
+            "name": "Ranger’s Pet",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Your pet gains a fifth ability."
+        },
+        {
+            "name": "Tracker",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Use terrain stunt now in urban environments."
+        },
+        {
+            "name": "Tracker",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "You can now track equally well in urban areas."
+        },
+        {
+            "name": "Tracker",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "You can now track flying, teleporting, and other difficult to find creatures."
+        },
+        {
+            "name": "2-Weap Mastery",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Add your level to damage with missed melee attacks."
+        },
+        {
+            "name": "2-Weap Mastery",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Make an opportunity attack against an enemy who rolls a natural 1 against you with a melee attack."
+        },
+        {
+            "name": "2-Weap Mastery",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "One battle per day, add twice your level to damage with missed attacks."
+        },
+        {
+            "name": "Animal Comp",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Companion"
+            },
+            "tier": "adventurer",
+            "description": "Once per day, companion can attack twice in a round."
+        },
+        {
+            "name": "Animal Comp",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Companion"
+            },
+            "tier": "adventurer",
+            "description": "Once per day, companion can make an enemy disengage check fail."
+        },
+        {
+            "name": "Animal Comp",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Companion"
+            },
+            "tier": "adventurer",
+            "description": "Once per day, reroll a companion's missed attack."
+        },
+        {
+            "name": "Animal Comp",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Companion"
+            },
+            "tier": "adventurer",
+            "description": "Your companion adds the escalation die to its attacks."
+        },
+        {
+            "name": "Animal Comp",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Companion"
+            },
+            "tier": "champion",
+            "description": "Once per day, companion can force a reroll that hits it."
+        },
+        {
+            "name": "Animal Comp",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Companion"
+            },
+            "tier": "champion",
+            "description": "Your Lethal Hunter talent also applies to companion."
+        },
+        {
+            "name": "Animal Comp",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Companion"
+            },
+            "tier": "champion",
+            "description": "Increase companion's PD and MD by +1."
+        },
+        {
+            "name": "Animal Comp",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Companion"
+            },
+            "tier": "epic",
+            "description": "Increase companion's damage die by one size."
+        },
+        {
+            "name": "Animal Comp",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Companion"
+            },
+            "tier": "epic",
+            "description": "Increase companion's AC by +1."
+        },
+        {
+            "name": "Bear ",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Companion"
+            },
+            "tier": "champion",
+            "description": "Gains twice its level in temporary hp with each hit."
+        },
+        {
+            "name": "Snake",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Companion"
+            },
+            "tier": "champion",
+            "description": "Companion's ongoing damage increases to 3 x your level."
+        },
+        {
+            "name": "Snake",
+            "prereq": {
+                "class": "Ranger",
+                "type": "Companion"
+            },
+            "tier": "epic",
+            "description": "Companion's ongoing damage increases to 4 x your level."
+        },
+        {
+            "name": "Sneak Attack",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Class"
+            },
+            "tier": "adventurer",
+            "description": "Sneak Attack now works against lower initiative enemies in first round."
+        },
+        {
+            "name": "Sneak Attack",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Class"
+            },
+            "tier": "champion",
+            "description": "Sneak Attack now works against confused, dazed or weakened enemies."
+        },
+        {
+            "name": "Sneak Attack",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Class"
+            },
+            "tier": "epic",
+            "description": "Once per battle, replace normal miss damage with Sneak Attack damage."
+        },
+        {
+            "name": "Trap Sense",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Class"
+            },
+            "tier": "adventurer",
+            "description": "The attack reroll option can also apply to a nearby ally of the rogue."
+        },
+        {
+            "name": "Trap Sense",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Class"
+            },
+            "tier": "champion",
+            "description": "Gain a +3 bonus to skill check rerolls against traps."
+        },
+        {
+            "name": "Trap Sense",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Class"
+            },
+            "tier": "epic",
+            "description": "Take only half damage from trap attacks."
+        },
+        {
+            "name": "Cunning",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Gain a +1 bonus to MD."
+        },
+        {
+            "name": "Cunning",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Once per battle, reroll a save against an effect that hit you by overcoming your MD."
+        },
+        {
+            "name": "Cunning",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "As champion feat, but now reroll saves once per save."
+        },
+        {
+            "name": "Imp. Sneak Atk",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Once per day, you can use Sneak Attack vs. an invalid target."
+        },
+        {
+            "name": "Imp. Sneak Atk",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Once per day, roll d20s for your Sneak Attack damage instead of d8s."
+        },
+        {
+            "name": "Imp. Sneak Atk",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "One battle per day, ignore the once-per-round limitation for Sneak Attack damage."
+        },
+        {
+            "name": "Murderous",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Gain +2 attack bonus vs. staggered enemies."
+        },
+        {
+            "name": "Murderous",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Your crit range vs. staggered enemies expands by 2."
+        },
+        {
+            "name": "Murderous",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Staggered enemies that make melee attacks against you and miss are vulnerable to your attacks."
+        },
+        {
+            "name": "Shadow Walk",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "On a miss, you can still use your move action normally."
+        },
+        {
+            "name": "Shadow Walk",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Twice per day, reroll an attack following use of shadow walk."
+        },
+        {
+            "name": "Shadow Walk",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Twice per day, return from shadow walk somewhere you wouldn't have been able to reach."
+        },
+        {
+            "name": "Smooth Talk",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Add your Cha mod to your Smooth Talk save."
+        },
+        {
+            "name": "Smooth Talk",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Success with Smooth Talk yields a 3-point positive relationship now."
+        },
+        {
+            "name": "Smooth Talk",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "On failed Smooth Talk save, you a get 2-point conflicted relationship."
+        },
+        {
+            "name": "Thievery",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Gain thief's strike as a bonus power."
+        },
+        {
+            "name": "Thievery",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Once per day, deal full damage with a thief's strike attack instead of half damage."
+        },
+        {
+            "name": "Thievery",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Twice per level, steal with thief's strike things that can’t normally be stolen."
+        },
+        {
+            "name": "Tumble",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Ignore the penalty for disengaging from more than one enemy."
+        },
+        {
+            "name": "Tumble",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "One battle per day, succeed on first disengage check each turn."
+        },
+        {
+            "name": "Tumble",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Roll a hard save (16+) to tumble out of critical hits, taking damage equal to attacker' level instead."
+        },
+        {
+            "name": "Assassin’s Gambit",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "epic",
+            "description": "Once per turn, gain extra standard action with power if you drop a mook."
+        },
+        {
+            "name": "Bleeding Strike",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "adventurer",
+            "description": "Ongoing damage to large or huge targets is 1d6 per level instead. "
+        },
+        {
+            "name": "Bleeding Strike",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "champion",
+            "description": "A natural even miss deals ongoing damage equal to your level."
+        },
+        {
+            "name": "Bleeding Strike",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "epic",
+            "description": "Can use bleeding strike against enemies taking ongoing damage."
+        },
+        {
+            "name": "Deadly Thrust",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "adventurer",
+            "description": "Add your Str mod to miss damage."
+        },
+        {
+            "name": "Deadly Thrust",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "champion",
+            "description": "You can now target mooks with deadly thrust attacks."
+        },
+        {
+            "name": "Deadly Thrust",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "epic",
+            "description": "Add 5 x Strength mod to hit damage, if you don't include Sneak Attack."
+        },
+        {
+            "name": "Death’s Twin",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "epic",
+            "description": "If your first death’s twin attack is natural 18+, you can also target the same creature with your second attack."
+        },
+        {
+            "name": "Deflection",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "adventurer",
+            "description": "Also triggers on a ranged attack vs. AC."
+        },
+        {
+            "name": "Deflection",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "champion",
+            "description": "Deflected attack now deals full damage."
+        },
+        {
+            "name": "Deflection",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "epic",
+            "description": "Using the power no longer spends your momentum."
+        },
+        {
+            "name": "Evasive Strike",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "adventurer",
+            "description": "If you drop target, you can pop free from all foes."
+        },
+        {
+            "name": "Evasive Strike",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "champion",
+            "description": "On a natural even hit, +2 bonus to AC and PD against the next attack."
+        },
+        {
+            "name": "Evasive Strike",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "epic",
+            "description": "As champion feat, but now also +2 MD."
+        },
+        {
+            "name": "Flying Blade",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "adventurer",
+            "description": "On a crit, target is also dazed."
+        },
+        {
+            "name": "Flying Blade",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "champion",
+            "description": "Attack roll doesn't have to be even for Sneak Attack damage."
+        },
+        {
+            "name": "Flying Blade",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "epic",
+            "description": "Use flying blade with ranged weapons."
+        },
+        {
+            "name": "Roll With It",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "adventurer",
+            "description": "Also triggers on attack vs. PD."
+        },
+        {
+            "name": "Roll With It",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "champion",
+            "description": "Also triggers on a ranged attack."
+        },
+        {
+            "name": "Roll With It",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "epic",
+            "description": "Once per day, take damage equal to attacker's level instead of half damage."
+        },
+        {
+            "name": "Spiky Bastard",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "champion",
+            "description": "Spiky bastard damage now applies while you’re staggered."
+        },
+        {
+            "name": "Spiky Bastard",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "epic",
+            "description": "Spiky bastard damage is 15 instead of 10 when esc. die is 3+."
+        },
+        {
+            "name": "Sure Cut",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "champion",
+            "description": "Missing with sure cut doesn't count as a use of Sneak Attack damage."
+        },
+        {
+            "name": "Swift Dodge",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "champion",
+            "description": "Also triggers on attack vs. PD."
+        },
+        {
+            "name": "Swift Dodge",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "epic",
+            "description": "Rerolled attack takes a –2 penalty."
+        },
+        {
+            "name": "Swift Riposte",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "champion",
+            "description": "If your attack crits, the enemy misses."
+        },
+        {
+            "name": "Swift Riposte",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "epic",
+            "description": "Gain a +2 bonus with swift riposte attacks."
+        },
+        {
+            "name": "True Targeting",
+            "prereq": {
+                "class": "Rogue",
+                "type": "Power"
+            },
+            "tier": "epic",
+            "description": "Regain your momentum if the invisible enemy's attack misses."
+        },
+        {
+            "name": "Breath weapon",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Class"
+            },
+            "tier": "adventurer",
+            "description": "Failing a death save doesn’t cancel your breath weapon spells. "
+        },
+        {
+            "name": "Gather Power",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Class"
+            },
+            "tier": "adventurer",
+            "description": "Once per battle, you choose a chaotic benefit."
+        },
+        {
+            "name": "Gather Power",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Class"
+            },
+            "tier": "champion",
+            "description": "Once per battle, gather power as a quick action if escalation die is 4+."
+        },
+        {
+            "name": "Gather Power",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Class"
+            },
+            "tier": "epic",
+            "description": "Roll 2 chaotic benefits if escalation die is 2+."
+        },
+        {
+            "name": "Arcane Heritage",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Use Charisma as the attack ability for wizard spells."
+        },
+        {
+            "name": "Arcane Heritage",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Cast wizard spells empowered."
+        },
+        {
+            "name": "Blood Link",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Gain another relationship point with an icon in your heritage."
+        },
+        {
+            "name": "Chromatic Heritage",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Gain +2 attack bonus with empowered breath weapon spells."
+        },
+        {
+            "name": "Chromatic Heritage",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Once per day, turn a breath weapon re-use failure into a success."
+        },
+        {
+            "name": "Chromatic Heritage",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "One battle per day, gain resist dragon attack 16+."
+        },
+        {
+            "name": "Fey Heritage",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Use your Fey Heritage power twice per day now."
+        },
+        {
+            "name": "Fey Heritage",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Gain a +2 attack bonus vs. elves and creatures in elven sphere of influence."
+        },
+        {
+            "name": "Fey Heritage",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Once per battle, gain racial ability of an elf race when esc. die is 6+."
+        },
+        {
+            "name": "Infernal Heritage",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Gain resistance 12+ to fire and one other damage type."
+        },
+        {
+            "name": "Infernal Heritage",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Increase one of your resistances to 16+."
+        },
+        {
+            "name": "Infernal Heritage",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "You can enter a spell frenzy as free action for free if esc die is 5+."
+        },
+        {
+            "name": "Metallic Heritage",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Gain resist energy 12+ for rest of battle as quick action. You choose type."
+        },
+        {
+            "name": "Metallic Heritage",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "When your chaotic benefit increases your defenses, apply it to an ally."
+        },
+        {
+            "name": "Metallic Heritage",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "One battle per day, gain resist demon attack 16+ instead of resist energy."
+        },
+        {
+            "name": "Sorc’s Familiar",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Familiar gains another randomly changing ability."
+        },
+        {
+            "name": "Sorc’s Familiar",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Once per level, familiar can cast one of your expended spells."
+        },
+        {
+            "name": "Sorc’s Familiar",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Familiar gains another randomly changing ability."
+        },
+        {
+            "name": "Spell Fist",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "When you miss with spell vs. engaged enemy, add Cha mod to miss damage. Damage increases at each tier."
+        },
+        {
+            "name": "Spell Fist",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Once per battle, include an enemy engaged with you in a spell targeting other foes."
+        },
+        {
+            "name": "Spell Fist",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Once per day, include all enemies engaged with you as targets of an empowered spell."
+        },
+        {
+            "name": "Undead Heritage",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Decrease your total recoveries by 1; gain a +2 bonus to death saves."
+        },
+        {
+            "name": "Undead Heritage",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Increases your resistance to 16+ and attack bonus vs. undead by +1."
+        },
+        {
+            "name": "Undead Heritage",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Gain +1 attack bonus if you cut off hand and put out eye."
+        },
+        {
+            "name": "Breath of Black",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "On a miss, ongoing damage is now doubled."
+        },
+        {
+            "name": "Breath of Blue",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "The spell can now target a far away enemy."
+        },
+        {
+            "name": "Burning Hands",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Spell"
+            },
+            "tier": "adventurer",
+            "description": "On a miss, deal fire damage equal to any die that rolled max."
+        },
+        {
+            "name": "Burning Hands",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "Choose another target for spell when you roll a natural 18+."
+        },
+        {
+            "name": "Burning Hands",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "Can now target all enemies engaged with you in addition to normal targets."
+        },
+        {
+            "name": "Calling the Blood",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "Roll two d6s, then choose the roll you want."
+        },
+        {
+            "name": "Chaos Bolt",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Spell"
+            },
+            "tier": "adventurer",
+            "description": "No penalty for attacking a far away enemy."
+        },
+        {
+            "name": "Chaos Bolt",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "Roll on epic table for chaotic benefit, or choose it, depending on tier."
+        },
+        {
+            "name": "Echoing Thunder",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "Empowering echoing thunder doubles its aftershock damage."
+        },
+        {
+            "name": "Lightning Fork",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Spell"
+            },
+            "tier": "adventurer",
+            "description": "Once per battle, reroll a lightning fork attack."
+        },
+        {
+            "name": "Lightning Fork",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "Lightning fork not expended if you miss all targets."
+        },
+        {
+            "name": "Lightning Fork",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "Recharge roll is now 11+."
+        },
+        {
+            "name": "Resist Energy",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Spell"
+            },
+            "tier": "adventurer",
+            "description": "Add another target with the spell."
+        },
+        {
+            "name": "Scorching Ray",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Spell"
+            },
+            "tier": "adventurer",
+            "description": "You can now target far away enemies, but with a –2 penalty."
+        },
+        {
+            "name": "Scorching Ray",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "The spell attack can deal random energy damage instead of fire."
+        },
+        {
+            "name": "Scorching Ray",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "No penalty for attacking a far away enemy."
+        },
+        {
+            "name": "The Elven Shadows",
+            "prereq": {
+                "class": "Sorceror",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "Once per battle, you can instead teleport to a far away location you can see."
+        },
+        {
+            "name": "Ritual Magic",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Class"
+            },
+            "tier": "champion",
+            "description": "Can cast full rituals in 1d3 + 1 rounds."
+        },
+        {
+            "name": "Abjuration",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Bonus also applies to PD."
+        },
+        {
+            "name": "Abjuration",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Gain 2d12 temp hp when you cast a daily spell."
+        },
+        {
+            "name": "Abjuration",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Bonus also applies to MD."
+        },
+        {
+            "name": "Cantrip Mastery",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "You can now use cantrip-style versions of any spell you know."
+        },
+        {
+            "name": "Evocation",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "When you evoke, reroll one natural attack roll that is less than esc. die."
+        },
+        {
+            "name": "High Arcana",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "You can now cast counter-magic twice per battle."
+        },
+        {
+            "name": "High Arcana",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "You can cast counter-magic in reaction to any magical action."
+        },
+        {
+            "name": "Color Spray",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "adventurer",
+            "description": "The weakened effect hp threshold increases by 5 hp."
+        },
+        {
+            "name": "Color Spray",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "On a miss, deal damage equal to your level."
+        },
+        {
+            "name": "Color Spray",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "The spell now targets 1d3 + 1 creatures."
+        },
+        {
+            "name": "Confusion",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "adventurer",
+            "description": "You can choose a new miss effect that dazes all missed targets."
+        },
+        {
+            "name": "Confusion",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "Each failed save by the target deals 6d10 psychic damage to it."
+        },
+        {
+            "name": "Confusion",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "Confused effect now requires a difficult save (16+)."
+        },
+        {
+            "name": "Denial",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "The target of the spell is also hampered on a natural even miss."
+        },
+        {
+            "name": "Denial",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "The spell now targets 1d4 + 1 enemies."
+        },
+        {
+            "name": "Disintegrate",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "The spell now targets a far away creature."
+        },
+        {
+            "name": "Fireball",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "Target 1d4 enemies instead of 1d3 when you cast the spell recklessly."
+        },
+        {
+            "name": "Fireball",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "The spell now targets 1d3 + 1 enemies."
+        },
+        {
+            "name": "Force Salvo",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "adventurer",
+            "description": "You can now target one creature with bolts until you hit it once."
+        },
+        {
+            "name": "Force Salvo",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "On a miss, deal damage equal to level with a bolt."
+        },
+        {
+            "name": "Force Salvo",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "Increase the number of bolts by 1."
+        },
+        {
+            "name": "Hold Monster",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "adventurer",
+            "description": "Regain the spell if you miss all targets with it."
+        },
+        {
+            "name": "Hold Monster",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "The spell can now target 2 enemies under the hp limit."
+        },
+        {
+            "name": "Hold Monster",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "Increase the hp limit by +50 hp."
+        },
+        {
+            "name": "Lightning Bolt",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "Deal 10 ongoing lightning damage on a natural even hit."
+        },
+        {
+            "name": "Lightning Bolt",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "Deal 20 ongoing lightning damage (hard save) on a natural even hit."
+        },
+        {
+            "name": "Magic Missile",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "adventurer",
+            "description": "Now choose two targets for the spell, each getting half damage dice."
+        },
+        {
+            "name": "Magic Missile",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "Roll a d20 with the spell to see if you crit."
+        },
+        {
+            "name": "Magic Missile",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "Use d8s instead of d4s for damage dice at spell levels 7 and 9."
+        },
+        {
+            "name": "Meteor Swarm",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "Damage from each meteor is now 5d4 x 10."
+        },
+        {
+            "name": "Ray of Frost",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "adventurer",
+            "description": "On a natural even hit, daze the target if it’s staggered."
+        },
+        {
+            "name": "Ray of Frost",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "The spell’s target can now be far away."
+        },
+        {
+            "name": "Ray of Frost",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "You can have the spell deal lightning or negative energy damage."
+        },
+        {
+            "name": "Rebuke",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "adventurer",
+            "description": "Deal double your level psychic damage when you roll a natural even hit."
+        },
+        {
+            "name": "Rebuke",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "Also daze a target (save ends) you hit with the spell."
+        },
+        {
+            "name": "Rebuke",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "Daze a target for a round when you roll a natural even miss."
+        },
+        {
+            "name": "Shield",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "adventurer",
+            "description": "You choose which attack roll the attacker must use."
+        },
+        {
+            "name": "Shield",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "The spell’s recharge roll is now 6+."
+        },
+        {
+            "name": "Shield",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "Hit or miss, take only half damage from attack you use shield against."
+        },
+        {
+            "name": "Shocking Grasp",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "adventurer",
+            "description": "Cast the spell as a quick action now."
+        },
+        {
+            "name": "Shocking Grasp",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "Once per battle, you can also daze a target you hit with the spell."
+        },
+        {
+            "name": "Shocking Grasp",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "Use d8s instead of d6s for the spell’s damage dice."
+        },
+        {
+            "name": "Teleport",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "You can now cast the spell on nearby allies; if allies are close, you can teleport to a location known by an ally."
+        },
+        {
+            "name": "Teleport Shield",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "When your teleport shield attack misses, the attack isn’t expended that round."
+        },
+        {
+            "name": "Teleport Shield",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "epic",
+            "description": "You can now teleport an enemy to a location far away you can see."
+        },
+        {
+            "name": "Utility Spell",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "adventurer",
+            "description": "Each utility spell slot lets you cast two spells."
+        },
+        {
+            "name": "Utility Spell",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Spell"
+            },
+            "tier": "champion",
+            "description": "Each utility spell slot lets you cast three spells."
+        },
+        {
+            "name": "Wizard’s Familiar",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Talent"
+            },
+            "tier": "adventurer",
+            "description": "Familiar gains another ability."
+        },
+        {
+            "name": "Wizard’s Familiar",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Talent"
+            },
+            "tier": "champion",
+            "description": "Once per level, your familiar can cast one of your expended spells."
+        },
+        {
+            "name": "Wizard’s Familiar",
+            "prereq": {
+                "class": "Wizard",
+                "type": "Talent"
+            },
+            "tier": "epic",
+            "description": "Familiar gains another ability."
+        }
     ]
 }
