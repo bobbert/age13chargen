@@ -509,7 +509,7 @@
         {
             "name": "Cruel",
             "prereq": {
-                "race": "Dark Elf"
+                "race": "dark elf"
             },
             "tier": "champion",
             "description": "Once per day, use cruel to deal 5 ongoing damage per level against a target you miss or you roll a natural odd attack roll against (even a 1)."
@@ -517,7 +517,7 @@
         {
             "name": "Breath Weapon",
             "prereq": {
-                "race": "Dragonic"
+                "race": "dragonic"
             },
             "tier": "champion",
             "description": "Breath weapon now targets 1d3 enemies in a nearby group."
@@ -525,7 +525,7 @@
         {
             "name": "That's Your Best Shot?",
             "prereq": {
-                "race": "Dwarf"
+                "race": "dwarf"
             },
             "tier": "champion",
             "description": "If escalation die is 2+, the best shot recovery is free."
@@ -533,7 +533,7 @@
         {
             "name": "Heritage of the Sword",
             "prereq": {
-                "race": "Elf"
+                "race": "elf"
             },
             "tier": "adventurer",
             "description": "Use d6 and d8 swords without penalties; or if already able to use such swords without penalties, +2 melee damage."
@@ -541,7 +541,7 @@
         {
             "name": "Confounding",
             "prereq": {
-                "race": "Gnome"
+                "race": "gnome"
             },
             "tier": "champion",
             "description": "Target of confounding is weakened instead of dazed."
@@ -549,7 +549,7 @@
         {
             "name": "Surprising",
             "prereq": {
-                "race": "Half-Elf"
+                "race": "half-elf"
             },
             "tier": "champion",
             "description": "Use surprising an extra time, but only to change a nearby ally's d20 roll."
@@ -557,7 +557,7 @@
         {
             "name": "Evasive",
             "prereq": {
-                "race": "Halfling"
+                "race": "halfling"
             },
             "tier": "champion",
             "description": "The foe's reroll when you use evasive takes a –5 penalty."
@@ -565,7 +565,7 @@
         {
             "name": "Lethal",
             "prereq": {
-                "race": "Half-Orc"
+                "race": "half-orc"
             },
             "tier": "champion",
             "description": "If lethal attack reroll is 16+, use lethal again that battle."
@@ -573,7 +573,7 @@
         {
             "name": "Highblood Teleport",
             "prereq": {
-                "race": "High Elf"
+                "race": "high elf"
             },
             "tier": "champion",
             "description": "When you teleport, deal damage equal to twice your level to engaged enemy."
@@ -581,7 +581,7 @@
         {
             "name": "Halo",
             "prereq": {
-                "race": "Holy One"
+                "race": "holy one"
             },
             "tier": "champion",
             "description": "Halo now activates whenever you heal using a recovery."
@@ -589,7 +589,7 @@
         {
             "name": "Quick to Fight",
             "prereq": {
-                "race": "Human"
+                "race": "human"
             },
             "tier": "champion",
             "description": "Increase escalation die by +1 when you roll natural 19 or 20 for initiative."
@@ -597,7 +597,7 @@
         {
             "name": "Never Say Die",
             "prereq": {
-                "race": "Forgeborn"
+                "race": "forgeborn"
             },
             "tier": "champion",
             "description": "When you roll 16+ on your never say die save, take an extra standard action next turn."
@@ -605,7 +605,7 @@
         {
             "name": "Curse of Chaos",
             "prereq": {
-                "race": "Tiefling"
+                "race": "tiefling"
             },
             "tier": "champion",
             "description": "Use curse of chaos for free when a nearby enemy gets a natural 1 attack roll."
@@ -613,7 +613,7 @@
         {
             "name": "Elven Grace",
             "prereq": {
-                "race": "Wood Elf"
+                "race": "wood elf"
             },
             "tier": "champion",
             "description": "Start your elven grace rolls with a d4 instead of a d6."
@@ -621,7 +621,7 @@
         {
             "name": "Barbarian Rage",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Class"
             },
             "tier": "adventurer",
@@ -630,7 +630,7 @@
         {
             "name": "Barbarian Rage",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Class"
             },
             "tier": "champion",
@@ -639,7 +639,7 @@
         {
             "name": "Barbarian Rage",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Class"
             },
             "tier": "epic",
@@ -648,7 +648,7 @@
         {
             "name": "Anc.Warband",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -657,7 +657,7 @@
         {
             "name": "Barbaric Cleave",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -666,7 +666,7 @@
         {
             "name": "Barbaric Cleave",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -675,7 +675,7 @@
         {
             "name": "Barbaric Cleave",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -684,7 +684,7 @@
         {
             "name": "Building Frenzy",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -693,7 +693,7 @@
         {
             "name": "Building Frenzy",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -702,7 +702,7 @@
         {
             "name": "Building Frenzy",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -711,7 +711,7 @@
         {
             "name": "Natural Will",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -720,7 +720,7 @@
         {
             "name": "Natural Will",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -729,7 +729,7 @@
         {
             "name": "Natural Will",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -738,7 +738,7 @@
         {
             "name": "Relentless",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -747,7 +747,7 @@
         {
             "name": "Slayer",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -756,7 +756,7 @@
         {
             "name": "Slayer",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -765,7 +765,7 @@
         {
             "name": "Slayer",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -774,7 +774,7 @@
         {
             "name": "Strongheart",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -783,7 +783,7 @@
         {
             "name": "Strongheart",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -792,7 +792,7 @@
         {
             "name": "Strongheart",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -801,7 +801,7 @@
         {
             "name": "Unstoppable",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -810,7 +810,7 @@
         {
             "name": "Unstoppable",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -819,7 +819,7 @@
         {
             "name": "Unstoppable",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -828,7 +828,7 @@
         {
             "name": "Violence",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -837,7 +837,7 @@
         {
             "name": "Violence",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -846,7 +846,7 @@
         {
             "name": "Whirlwind",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -855,7 +855,7 @@
         {
             "name": "Whirlwind",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -864,7 +864,7 @@
         {
             "name": "Whirlwind",
             "prereq": {
-                "class": "Barbarian",
+                "class": "barbarian",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -873,7 +873,7 @@
         {
             "name": "Bardic Songs",
             "prereq": {
-                "class": "Bard",
+                "class": "bard",
                 "type": "Class"
             },
             "tier": "adventurer",
@@ -882,7 +882,7 @@
         {
             "name": "Battle Cries",
             "prereq": {
-                "class": "Bard",
+                "class": "bard",
                 "type": "Class"
             },
             "tier": "adventurer",
@@ -891,7 +891,7 @@
         {
             "name": "Balladeer",
             "prereq": {
-                "class": "Bard",
+                "class": "bard",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -900,7 +900,7 @@
         {
             "name": "Balladeer",
             "prereq": {
-                "class": "Bard",
+                "class": "bard",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -909,7 +909,7 @@
         {
             "name": "Balladeer",
             "prereq": {
-                "class": "Bard",
+                "class": "bard",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -918,7 +918,7 @@
         {
             "name": "Battle Skald",
             "prereq": {
-                "class": "Bard",
+                "class": "bard",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -927,7 +927,7 @@
         {
             "name": "Battle Skald",
             "prereq": {
-                "class": "Bard",
+                "class": "bard",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -936,7 +936,7 @@
         {
             "name": "Battle Skald",
             "prereq": {
-                "class": "Bard",
+                "class": "bard",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -945,7 +945,7 @@
         {
             "name": "Jack of Spells",
             "prereq": {
-                "class": "Bard",
+                "class": "bard",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -954,7 +954,7 @@
         {
             "name": "Jack of Spells",
             "prereq": {
-                "class": "Bard",
+                "class": "bard",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -963,7 +963,7 @@
         {
             "name": "Jack of Spells",
             "prereq": {
-                "class": "Bard",
+                "class": "bard",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -972,7 +972,8 @@
         {
             "name": "Hang Tough!",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "adventurer",
             "description": "If the ally is staggered, double hang tough temporary hp."
@@ -980,7 +981,8 @@
         {
             "name": "Hang Tough!",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "champion",
             "description": "Add your level to the temporary hp (before any doubling for being staggered)."
@@ -988,7 +990,8 @@
         {
             "name": "Hang Tough!",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "epic",
             "description": "You can be the target of hang tough."
@@ -996,7 +999,8 @@
         {
             "name": "It's All Yours!",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "adventurer",
             "description": "Your ally's attack also deals +1d6 damage."
@@ -1004,7 +1008,8 @@
         {
             "name": "It's All Yours!",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "champion",
             "description": "Damage bonus increases to +3d6."
@@ -1012,7 +1017,8 @@
         {
             "name": "It's All Yours!",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "epic",
             "description": "Damage bonus increases to +3d12."
@@ -1020,7 +1026,8 @@
         {
             "name": "Move It!",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "adventurer",
             "description": "Your allies gain a +2 bonus to move it disengage checks."
@@ -1028,7 +1035,8 @@
         {
             "name": "Move It!",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "champion",
             "description": "Bonus increases to +5."
@@ -1036,7 +1044,8 @@
         {
             "name": "Move It!",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "epic",
             "description": "Ally can pop free of one enemy automatically before rolling disengage. "
@@ -1044,7 +1053,8 @@
         {
             "name": "Pull It Together!",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "adventurer",
             "description": "Target ally also heals +1d4 hp per point of escalation die."
@@ -1052,7 +1062,8 @@
         {
             "name": "Pull It Together!",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "champion",
             "description": "Battle cry now triggers on any natural even roll; healing increases to +1d6 per point."
@@ -1060,7 +1071,8 @@
         {
             "name": "Pull It Together!",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "epic",
             "description": "Use the battle cry 3 times per battle; healing increases to +1d10 per point. "
@@ -1068,7 +1080,8 @@
         {
             "name": "Stay Strong!",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "adventurer",
             "description": "The AC bonus also applies to PD."
@@ -1076,7 +1089,8 @@
         {
             "name": "Stay Strong!",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "champion",
             "description": "The AC bonus also applies to MD."
@@ -1084,7 +1098,8 @@
         {
             "name": "Stay Strong!",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "epic",
             "description": "Bonus increases to +4. "
@@ -1092,7 +1107,8 @@
         {
             "name": "The Time Is Now",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "epic",
             "description": "The battle cry now triggers on a natural 18+ instead of 19+."
@@ -1100,7 +1116,8 @@
         {
             "name": "They Fall Before Us!",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "epic",
             "description": "The battle cry now triggers on a natural 19+ instead of 20+."
@@ -1108,7 +1125,8 @@
         {
             "name": "Victory is Ours!",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "champion",
             "description": "Trigger is now 3+ on the escalation die instead of 5+."
@@ -1116,7 +1134,8 @@
         {
             "name": "Victory is Ours!",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "epic",
             "description": "Allies' damage bonus is now +3d12."
@@ -1124,7 +1143,8 @@
         {
             "name": "We Need You!",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "adventurer",
             "description": "The battle cry save now gets a +1 bonus."
@@ -1132,7 +1152,8 @@
         {
             "name": "We Need You!",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "champion",
             "description": "Save bonus increases to +2."
@@ -1140,7 +1161,8 @@
         {
             "name": "We Need You!",
             "prereq": {
-                "battlecry": "Bard"
+                "class": "bard",
+                "type": "battlecry"
             },
             "tier": "epic",
             "description": "If escalation die is 3+, two allies can roll a save."
@@ -1148,7 +1170,8 @@
         {
             "name": "Arrow of Verse",
             "prereq": {
-                "bardsong_or_spell": "Bard"
+                "class": "bard",
+                "type": "bardsong_or_spell"
             },
             "tier": "champion",
             "description": "Recharge after battle is now 11+."
@@ -1156,7 +1179,8 @@
         {
             "name": "Arrow of Verse",
             "prereq": {
-                "bardsong_or_spell": "Bard"
+                "class": "bard",
+                "type": "bardsong_or_spell"
             },
             "tier": "epic",
             "description": "Bonus dice and miss dice are now d12s."
@@ -1164,7 +1188,8 @@
         {
             "name": "Battle Chant",
             "prereq": {
-                "bardsong_or_spell": "Bard"
+                "class": "bard",
+                "type": "bardsong_or_spell"
             },
             "tier": "adventurer",
             "description": "Use d6s instead of d4s for battle chant damage."
@@ -1172,7 +1197,8 @@
         {
             "name": "Battle Chant",
             "prereq": {
-                "bardsong_or_spell": "Bard"
+                "class": "bard",
+                "type": "bardsong_or_spell"
             },
             "tier": "champion",
             "description": "Once per day, expend a recovery to reroll a battle chant attack."
@@ -1180,7 +1206,8 @@
         {
             "name": "Battle Chant",
             "prereq": {
-                "bardsong_or_spell": "Bard"
+                "class": "bard",
+                "type": "bardsong_or_spell"
             },
             "tier": "epic",
             "description": "One battle per day, use d10s instead of d6s for battle chant damage."
@@ -1188,7 +1215,8 @@
         {
             "name": "Befuddle",
             "prereq": {
-                "bardsong_or_spell": "Bard"
+                "class": "bard",
+                "type": "bardsong_or_spell"
             },
             "tier": "adventurer",
             "description": "Recharge check for befuddle now 6+."
@@ -1196,7 +1224,8 @@
         {
             "name": "Befuddle",
             "prereq": {
-                "bardsong_or_spell": "Bard"
+                "class": "bard",
+                "type": "bardsong_or_spell"
             },
             "tier": "champion",
             "description": "Target of befuddle now only needs to be in sight."
@@ -1204,7 +1233,8 @@
         {
             "name": "Befuddle",
             "prereq": {
-                "bardsong_or_spell": "Bard"
+                "class": "bard",
+                "type": "bardsong_or_spell"
             },
             "tier": "epic",
             "description": "On a hit, the confusion effect is now save ends."
@@ -1212,7 +1242,8 @@
         {
             "name": "Overworld Two-Step",
             "prereq": {
-                "bardsong_or_spell": "Bard"
+                "class": "bard",
+                "type": "bardsong_or_spell"
             },
             "tier": "champion",
             "description": "Recharge check is 11+."
@@ -1220,7 +1251,8 @@
         {
             "name": "Overworld Two-Step",
             "prereq": {
-                "bardsong_or_spell": "Bard"
+                "class": "bard",
+                "type": "bardsong_or_spell"
             },
             "tier": "epic",
             "description": "Far away allies can now also have their positions swapped."
@@ -1228,7 +1260,8 @@
         {
             "name": "Song of Thunder",
             "prereq": {
-                "bardsong_or_spell": "Bard"
+                "class": "bard",
+                "type": "bardsong_or_spell"
             },
             "tier": "champion",
             "description": "Number of targets increases to 2d4."
@@ -1236,7 +1269,8 @@
         {
             "name": "Song of Thunder",
             "prereq": {
-                "bardsong_or_spell": "Bard"
+                "class": "bard",
+                "type": "bardsong_or_spell"
             },
             "tier": "epic",
             "description": "Two of the targets can now be far away."
@@ -1244,7 +1278,8 @@
         {
             "name": "Soundburst",
             "prereq": {
-                "bardsong_or_spell": "Bard"
+                "class": "bard",
+                "type": "bardsong_or_spell"
             },
             "tier": "adventurer",
             "description": "On a natural even hit, the dazed effect is now save ends."
@@ -1252,7 +1287,8 @@
         {
             "name": "Soundburst",
             "prereq": {
-                "bardsong_or_spell": "Bard"
+                "class": "bard",
+                "type": "bardsong_or_spell"
             },
             "tier": "champion",
             "description": "Spell is now recharge 16+ after battle."
@@ -1260,7 +1296,8 @@
         {
             "name": "Soundburst",
             "prereq": {
-                "bardsong_or_spell": "Bard"
+                "class": "bard",
+                "type": "bardsong_or_spell"
             },
             "tier": "epic",
             "description": "Spell now targets 1d4 + 1 enemies in a group."
@@ -1268,7 +1305,8 @@
         {
             "name": "Vicious Mockery",
             "prereq": {
-                "bardsong_or_spell": "Bard"
+                "class": "bard",
+                "type": "bardsong_or_spell"
             },
             "tier": "adventurer",
             "description": "Hit effect is now a save ends effect."
@@ -1276,7 +1314,8 @@
         {
             "name": "Vicious Mockery",
             "prereq": {
-                "bardsong_or_spell": "Bard"
+                "class": "bard",
+                "type": "bardsong_or_spell"
             },
             "tier": "champion",
             "description": "Recharge check for vicious mockery now 6+."
@@ -1284,7 +1323,8 @@
         {
             "name": "Vicious Mockery",
             "prereq": {
-                "bardsong_or_spell": "Bard"
+                "class": "bard",
+                "type": "bardsong_or_spell"
             },
             "tier": "epic",
             "description": "Natural even miss doesn't expend vicious mockery."
@@ -1292,7 +1332,8 @@
         {
             "name": "Wild Heal",
             "prereq": {
-                "bardsong_or_spell": "Bard"
+                "class": "bard",
+                "type": "bardsong_or_spell"
             },
             "tier": "adventurer",
             "description": "Wild heal is now recharge 16+ after battle. "
@@ -1300,7 +1341,8 @@
         {
             "name": "Wild Heal",
             "prereq": {
-                "bardsong_or_spell": "Bard"
+                "class": "bard",
+                "type": "bardsong_or_spell"
             },
             "tier": "champion",
             "description": "Add a third random target. "
@@ -1308,7 +1350,8 @@
         {
             "name": "Wild Heal",
             "prereq": {
-                "bardsong_or_spell": "Bard"
+                "class": "bard",
+                "type": "bardsong_or_spell"
             },
             "tier": "epic",
             "description": "Wild heal effect now provides free recoveries."
@@ -1316,7 +1359,7 @@
         {
             "name": "Heal",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Class"
             },
             "tier": "adventurer",
@@ -1325,7 +1368,7 @@
         {
             "name": "Heal",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Class"
             },
             "tier": "champion",
@@ -1334,7 +1377,7 @@
         {
             "name": "Heal",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Class"
             },
             "tier": "epic",
@@ -1343,7 +1386,7 @@
         {
             "name": "Domain: Healing",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -1352,7 +1395,7 @@
         {
             "name": "Domain: Healing",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -1361,7 +1404,7 @@
         {
             "name": "Domain: Healing",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -1370,7 +1413,7 @@
         {
             "name": "Domain: Justice OR Vengeance",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -1379,7 +1422,7 @@
         {
             "name": "Domain: Justice OR Vengeance",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -1388,7 +1431,7 @@
         {
             "name": "Domain: Justice OR Vengeance",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -1397,7 +1440,7 @@
         {
             "name": "Dom: Knowledge OR Lore",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -1406,7 +1449,7 @@
         {
             "name": "Dom: Knowledge OR Lore",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -1415,7 +1458,7 @@
         {
             "name": "Dom: Knowledge OR Lore",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -1424,7 +1467,7 @@
         {
             "name": "Domain: Life OR Death",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -1433,7 +1476,7 @@
         {
             "name": "Domain: Life OR Death",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -1442,7 +1485,7 @@
         {
             "name": "Domain: Life OR Death",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -1451,7 +1494,7 @@
         {
             "name": "Domain: Love OR Beauty",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -1460,7 +1503,7 @@
         {
             "name": "Dom: Protection OR Community",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -1469,7 +1512,7 @@
         {
             "name": "Domain: Strength",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -1478,7 +1521,7 @@
         {
             "name": "Domain: Strength",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -1487,7 +1530,7 @@
         {
             "name": "Domain: Strength",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -1496,7 +1539,7 @@
         {
             "name": "Domain: Sun or Anti-Undead",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -1505,7 +1548,7 @@
         {
             "name": "Domain: Sun or Anti-Undead",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -1514,7 +1557,7 @@
         {
             "name": "Domain: Sun or Anti-Undead",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -1523,7 +1566,7 @@
         {
             "name": "Domain: Trickery OR Illusion",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -1532,7 +1575,7 @@
         {
             "name": "Domain: Trickery OR Illusion",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -1541,7 +1584,7 @@
         {
             "name": "Domain: War OR Leadership",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -1550,7 +1593,7 @@
         {
             "name": "Domain: War OR Leadership",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -1559,7 +1602,7 @@
         {
             "name": "Domain: War OR Leadership",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -1568,7 +1611,7 @@
         {
             "name": "Circle of Prot",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -1577,7 +1620,7 @@
         {
             "name": "Combat Boon",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Spell"
             },
             "tier": "adventurer",
@@ -1586,7 +1629,7 @@
         {
             "name": "Combat Boon",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -1595,7 +1638,7 @@
         {
             "name": "Javelin of Faith",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Spell"
             },
             "tier": "adventurer",
@@ -1604,7 +1647,7 @@
         {
             "name": "Javelin of Faith",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -1613,7 +1656,7 @@
         {
             "name": "Javelin of Faith",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -1622,7 +1665,7 @@
         {
             "name": "Judgment",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -1631,7 +1674,7 @@
         {
             "name": "Judgment",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -1640,7 +1683,7 @@
         {
             "name": "Mighty Healing",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -1649,7 +1692,7 @@
         {
             "name": "Prayer for Readiness",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -1658,7 +1701,7 @@
         {
             "name": "Spirits of the Righteous",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -1667,7 +1710,7 @@
         {
             "name": "Turn Undead",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Spell"
             },
             "tier": "adventurer",
@@ -1676,7 +1719,7 @@
         {
             "name": "Turn Undead",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -1685,7 +1728,7 @@
         {
             "name": "Turn Undead",
             "prereq": {
-                "class": "Cleric",
+                "class": "cleric",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -1694,7 +1737,7 @@
         {
             "name": "Extra Tough",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Class"
             },
             "tier": "adventurer",
@@ -1703,7 +1746,7 @@
         {
             "name": "Threatening",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Class"
             },
             "tier": "adventurer",
@@ -1712,7 +1755,7 @@
         {
             "name": "Threatening",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Class"
             },
             "tier": "champion",
@@ -1721,7 +1764,7 @@
         {
             "name": "Cleave",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -1730,7 +1773,7 @@
         {
             "name": "Cleave",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -1739,7 +1782,7 @@
         {
             "name": "Cleave",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -1748,7 +1791,7 @@
         {
             "name": "Comeback Strike",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -1757,7 +1800,7 @@
         {
             "name": "Comeback Strike",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -1766,7 +1809,7 @@
         {
             "name": "Comeback Strike",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -1775,7 +1818,7 @@
         {
             "name": "Counter-Attack",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -1784,7 +1827,7 @@
         {
             "name": "Counter-Attack",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -1793,7 +1836,7 @@
         {
             "name": "Counter-Attack",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -1802,7 +1845,7 @@
         {
             "name": "Deadeye Archer",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -1811,7 +1854,7 @@
         {
             "name": "Deadeye Archer",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -1820,7 +1863,7 @@
         {
             "name": "Deadeye Archer",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -1829,7 +1872,7 @@
         {
             "name": "Heavy Warrior",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -1838,7 +1881,7 @@
         {
             "name": "Heavy Warrior",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -1847,7 +1890,7 @@
         {
             "name": "Heavy Warrior",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -1856,7 +1899,7 @@
         {
             "name": "Power Attack",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -1865,7 +1908,7 @@
         {
             "name": "Power Attack",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -1874,7 +1917,7 @@
         {
             "name": "Power Attack",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -1883,7 +1926,7 @@
         {
             "name": "Skilled Intercept",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -1892,7 +1935,7 @@
         {
             "name": "Skilled Intercept",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -1901,7 +1944,7 @@
         {
             "name": "Skilled Intercept",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -1910,7 +1953,7 @@
         {
             "name": "Tough as Iron",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -1919,7 +1962,7 @@
         {
             "name": "Tough as Iron",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -1928,7 +1971,7 @@
         {
             "name": "Tough as Iron",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -1937,7 +1980,7 @@
         {
             "name": "A Dozen Cuts",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "champion",
@@ -1946,7 +1989,7 @@
         {
             "name": "Brace for It",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "adventurer",
@@ -1955,7 +1998,7 @@
         {
             "name": "Brace for It",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "champion",
@@ -1964,7 +2007,7 @@
         {
             "name": "Carve an Opening",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "champion",
@@ -1973,7 +2016,7 @@
         {
             "name": "Combat Mastery",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "epic",
@@ -1982,7 +2025,7 @@
         {
             "name": "Deadly Assault",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "adventurer",
@@ -1991,7 +2034,7 @@
         {
             "name": "Deadly Assault",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "champion",
@@ -2000,7 +2043,7 @@
         {
             "name": "Defensive Fighting",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "adventurer",
@@ -2009,7 +2052,7 @@
         {
             "name": "Defensive Fighting",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "champion",
@@ -2018,7 +2061,7 @@
         {
             "name": "Defensive Fighting",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "epic",
@@ -2027,7 +2070,7 @@
         {
             "name": "Heavy Blows",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "champion",
@@ -2036,7 +2079,7 @@
         {
             "name": "Heavy Blows",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "epic",
@@ -2045,7 +2088,7 @@
         {
             "name": "Hero’s Skill",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "champion",
@@ -2054,7 +2097,7 @@
         {
             "name": "Hero’s Skill",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "epic",
@@ -2063,7 +2106,7 @@
         {
             "name": "Never Surrender",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "epic",
@@ -2072,7 +2115,7 @@
         {
             "name": "Precision Attack",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "adventurer",
@@ -2081,7 +2124,7 @@
         {
             "name": "Punish Them",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "adventurer",
@@ -2090,7 +2133,7 @@
         {
             "name": "Punish Them",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "champion",
@@ -2099,7 +2142,7 @@
         {
             "name": "Punish Them",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "epic",
@@ -2108,7 +2151,7 @@
         {
             "name": "Second Shot",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "champion",
@@ -2117,7 +2160,7 @@
         {
             "name": "Set 'em Up",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "epic",
@@ -2126,7 +2169,7 @@
         {
             "name": "Shield Bash",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "adventurer",
@@ -2135,7 +2178,7 @@
         {
             "name": "Shield Bash",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "champion",
@@ -2144,7 +2187,7 @@
         {
             "name": "Spinning Charge",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "epic",
@@ -2153,7 +2196,7 @@
         {
             "name": "Steady Now",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "champion",
@@ -2162,7 +2205,7 @@
         {
             "name": "Strong Guard",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "champion",
@@ -2171,7 +2214,7 @@
         {
             "name": "Strong Guard",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "epic",
@@ -2180,7 +2223,7 @@
         {
             "name": "Sword of Destiny",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "epic",
@@ -2189,7 +2232,7 @@
         {
             "name": "Two-Weapon Pressure",
             "prereq": {
-                "class": "Fighter",
+                "class": "fighter",
                 "type": "Maneuver"
             },
             "tier": "champion",
@@ -2198,7 +2241,7 @@
         {
             "name": "Smite Evil",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Class"
             },
             "tier": "adventurer",
@@ -2207,7 +2250,7 @@
         {
             "name": "Smite Evil",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Class"
             },
             "tier": "champion",
@@ -2216,7 +2259,7 @@
         {
             "name": "Smite Evil",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Class"
             },
             "tier": "epic",
@@ -2225,7 +2268,7 @@
         {
             "name": "Bastion",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2234,7 +2277,7 @@
         {
             "name": "Bastion",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2243,7 +2286,7 @@
         {
             "name": "Bastion",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2252,7 +2295,7 @@
         {
             "name": "Cleric Training",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2261,7 +2304,7 @@
         {
             "name": "Cleric Training",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2270,7 +2313,7 @@
         {
             "name": "Cleric Training",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2279,7 +2322,7 @@
         {
             "name": "Fearless",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2288,7 +2331,7 @@
         {
             "name": "Fearless",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2297,7 +2340,7 @@
         {
             "name": "Fearless",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2306,7 +2349,7 @@
         {
             "name": "Implacable",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2315,7 +2358,7 @@
         {
             "name": "Implacable",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2324,7 +2367,7 @@
         {
             "name": "Implacable",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2333,7 +2376,7 @@
         {
             "name": "Lay on Hands",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2342,7 +2385,7 @@
         {
             "name": "Lay on Hands",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2351,7 +2394,7 @@
         {
             "name": "Lay on Hands",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2360,7 +2403,7 @@
         {
             "name": "Paladin's Challenge",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2369,7 +2412,7 @@
         {
             "name": "Paladin's Challenge",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2378,7 +2421,7 @@
         {
             "name": "Paladin's Challenge",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2387,7 +2430,7 @@
         {
             "name": "Path of URE",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2396,7 +2439,7 @@
         {
             "name": "Path of URE",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2405,7 +2448,7 @@
         {
             "name": "Path of URE",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2414,7 +2457,7 @@
         {
             "name": "Way of Evil Bastards",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2423,7 +2466,7 @@
         {
             "name": "Way of Evil Bastards",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2432,7 +2475,7 @@
         {
             "name": "Way of Evil Bastards",
             "prereq": {
-                "class": "Paladin",
+                "class": "paladin",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2441,7 +2484,7 @@
         {
             "name": "Archery",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2450,7 +2493,7 @@
         {
             "name": "Archery",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2459,7 +2502,7 @@
         {
             "name": "Archery",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2468,7 +2511,7 @@
         {
             "name": "Double Melee Attack",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2477,7 +2520,7 @@
         {
             "name": "Double Melee Attack",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2486,7 +2529,7 @@
         {
             "name": "Double Melee Attack",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2495,7 +2538,7 @@
         {
             "name": "Double Ranged Attack",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2504,7 +2547,7 @@
         {
             "name": "Double Ranged Attack",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2513,7 +2556,7 @@
         {
             "name": "Double Ranged Attack",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2522,7 +2565,7 @@
         {
             "name": "Favored Enemy",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2531,7 +2574,7 @@
         {
             "name": "Favored Enemy",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2540,7 +2583,7 @@
         {
             "name": "Favored Enemy",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2549,7 +2592,7 @@
         {
             "name": "Fey Queen's Enchantments",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2558,7 +2601,7 @@
         {
             "name": "Fey Queen's Enchantments",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2567,7 +2610,7 @@
         {
             "name": "Fey Queen's Enchantments",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2576,7 +2619,7 @@
         {
             "name": "First Strike",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2585,7 +2628,7 @@
         {
             "name": "First Strike",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2594,7 +2637,7 @@
         {
             "name": "First Strike",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2603,7 +2646,7 @@
         {
             "name": "Lethal Hunter",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2612,7 +2655,7 @@
         {
             "name": "Lethal Hunter",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2621,7 +2664,7 @@
         {
             "name": "Lethal Hunter",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2630,7 +2673,7 @@
         {
             "name": "Ranger ex Cathedral",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2639,7 +2682,7 @@
         {
             "name": "Ranger ex Cathedral",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2648,7 +2691,7 @@
         {
             "name": "Ranger ex Cathedral",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2657,7 +2700,7 @@
         {
             "name": "Ranger’s Pet",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2666,7 +2709,7 @@
         {
             "name": "Ranger’s Pet",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2675,7 +2718,7 @@
         {
             "name": "Ranger’s Pet",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2684,7 +2727,7 @@
         {
             "name": "Tracker",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2693,7 +2736,7 @@
         {
             "name": "Tracker",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2702,7 +2745,7 @@
         {
             "name": "Tracker",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2711,7 +2754,7 @@
         {
             "name": "2-Weap Mastery",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2720,7 +2763,7 @@
         {
             "name": "2-Weap Mastery",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2729,7 +2772,7 @@
         {
             "name": "2-Weap Mastery",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2738,7 +2781,7 @@
         {
             "name": "Animal Comp",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Companion"
             },
             "tier": "adventurer",
@@ -2747,7 +2790,7 @@
         {
             "name": "Animal Comp",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Companion"
             },
             "tier": "adventurer",
@@ -2756,7 +2799,7 @@
         {
             "name": "Animal Comp",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Companion"
             },
             "tier": "adventurer",
@@ -2765,7 +2808,7 @@
         {
             "name": "Animal Comp",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Companion"
             },
             "tier": "adventurer",
@@ -2774,7 +2817,7 @@
         {
             "name": "Animal Comp",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Companion"
             },
             "tier": "champion",
@@ -2783,7 +2826,7 @@
         {
             "name": "Animal Comp",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Companion"
             },
             "tier": "champion",
@@ -2792,7 +2835,7 @@
         {
             "name": "Animal Comp",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Companion"
             },
             "tier": "champion",
@@ -2801,7 +2844,7 @@
         {
             "name": "Animal Comp",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Companion"
             },
             "tier": "epic",
@@ -2810,7 +2853,7 @@
         {
             "name": "Animal Comp",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Companion"
             },
             "tier": "epic",
@@ -2819,7 +2862,7 @@
         {
             "name": "Bear ",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Companion"
             },
             "tier": "champion",
@@ -2828,7 +2871,7 @@
         {
             "name": "Snake",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Companion"
             },
             "tier": "champion",
@@ -2837,7 +2880,7 @@
         {
             "name": "Snake",
             "prereq": {
-                "class": "Ranger",
+                "class": "ranger",
                 "type": "Companion"
             },
             "tier": "epic",
@@ -2846,7 +2889,7 @@
         {
             "name": "Sneak Attack",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Class"
             },
             "tier": "adventurer",
@@ -2855,7 +2898,7 @@
         {
             "name": "Sneak Attack",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Class"
             },
             "tier": "champion",
@@ -2864,7 +2907,7 @@
         {
             "name": "Sneak Attack",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Class"
             },
             "tier": "epic",
@@ -2873,7 +2916,7 @@
         {
             "name": "Trap Sense",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Class"
             },
             "tier": "adventurer",
@@ -2882,7 +2925,7 @@
         {
             "name": "Trap Sense",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Class"
             },
             "tier": "champion",
@@ -2891,7 +2934,7 @@
         {
             "name": "Trap Sense",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Class"
             },
             "tier": "epic",
@@ -2900,7 +2943,7 @@
         {
             "name": "Cunning",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2909,7 +2952,7 @@
         {
             "name": "Cunning",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2918,7 +2961,7 @@
         {
             "name": "Cunning",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2927,7 +2970,7 @@
         {
             "name": "Imp. Sneak Atk",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2936,7 +2979,7 @@
         {
             "name": "Imp. Sneak Atk",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2945,7 +2988,7 @@
         {
             "name": "Imp. Sneak Atk",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2954,7 +2997,7 @@
         {
             "name": "Murderous",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2963,7 +3006,7 @@
         {
             "name": "Murderous",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2972,7 +3015,7 @@
         {
             "name": "Murderous",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -2981,7 +3024,7 @@
         {
             "name": "Shadow Walk",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -2990,7 +3033,7 @@
         {
             "name": "Shadow Walk",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -2999,7 +3042,7 @@
         {
             "name": "Shadow Walk",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -3008,7 +3051,7 @@
         {
             "name": "Smooth Talk",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -3017,7 +3060,7 @@
         {
             "name": "Smooth Talk",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -3026,7 +3069,7 @@
         {
             "name": "Smooth Talk",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -3035,7 +3078,7 @@
         {
             "name": "Thievery",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -3044,7 +3087,7 @@
         {
             "name": "Thievery",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -3053,7 +3096,7 @@
         {
             "name": "Thievery",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -3062,7 +3105,7 @@
         {
             "name": "Tumble",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -3071,7 +3114,7 @@
         {
             "name": "Tumble",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -3080,7 +3123,7 @@
         {
             "name": "Tumble",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -3089,7 +3132,7 @@
         {
             "name": "Assassin’s Gambit",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "epic",
@@ -3098,7 +3141,7 @@
         {
             "name": "Bleeding Strike",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "adventurer",
@@ -3107,7 +3150,7 @@
         {
             "name": "Bleeding Strike",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "champion",
@@ -3116,7 +3159,7 @@
         {
             "name": "Bleeding Strike",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "epic",
@@ -3125,7 +3168,7 @@
         {
             "name": "Deadly Thrust",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "adventurer",
@@ -3134,7 +3177,7 @@
         {
             "name": "Deadly Thrust",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "champion",
@@ -3143,7 +3186,7 @@
         {
             "name": "Deadly Thrust",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "epic",
@@ -3152,7 +3195,7 @@
         {
             "name": "Death’s Twin",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "epic",
@@ -3161,7 +3204,7 @@
         {
             "name": "Deflection",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "adventurer",
@@ -3170,7 +3213,7 @@
         {
             "name": "Deflection",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "champion",
@@ -3179,7 +3222,7 @@
         {
             "name": "Deflection",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "epic",
@@ -3188,7 +3231,7 @@
         {
             "name": "Evasive Strike",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "adventurer",
@@ -3197,7 +3240,7 @@
         {
             "name": "Evasive Strike",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "champion",
@@ -3206,7 +3249,7 @@
         {
             "name": "Evasive Strike",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "epic",
@@ -3215,7 +3258,7 @@
         {
             "name": "Flying Blade",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "adventurer",
@@ -3224,7 +3267,7 @@
         {
             "name": "Flying Blade",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "champion",
@@ -3233,7 +3276,7 @@
         {
             "name": "Flying Blade",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "epic",
@@ -3242,7 +3285,7 @@
         {
             "name": "Roll With It",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "adventurer",
@@ -3251,7 +3294,7 @@
         {
             "name": "Roll With It",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "champion",
@@ -3260,7 +3303,7 @@
         {
             "name": "Roll With It",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "epic",
@@ -3269,7 +3312,7 @@
         {
             "name": "Spiky Bastard",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "champion",
@@ -3278,7 +3321,7 @@
         {
             "name": "Spiky Bastard",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "epic",
@@ -3287,7 +3330,7 @@
         {
             "name": "Sure Cut",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "champion",
@@ -3296,7 +3339,7 @@
         {
             "name": "Swift Dodge",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "champion",
@@ -3305,7 +3348,7 @@
         {
             "name": "Swift Dodge",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "epic",
@@ -3314,7 +3357,7 @@
         {
             "name": "Swift Riposte",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "champion",
@@ -3323,7 +3366,7 @@
         {
             "name": "Swift Riposte",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "epic",
@@ -3332,7 +3375,7 @@
         {
             "name": "True Targeting",
             "prereq": {
-                "class": "Rogue",
+                "class": "rogue",
                 "type": "Power"
             },
             "tier": "epic",
@@ -3341,7 +3384,7 @@
         {
             "name": "Breath weapon",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Class"
             },
             "tier": "adventurer",
@@ -3350,7 +3393,7 @@
         {
             "name": "Gather Power",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Class"
             },
             "tier": "adventurer",
@@ -3359,7 +3402,7 @@
         {
             "name": "Gather Power",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Class"
             },
             "tier": "champion",
@@ -3368,7 +3411,7 @@
         {
             "name": "Gather Power",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Class"
             },
             "tier": "epic",
@@ -3377,7 +3420,7 @@
         {
             "name": "Arcane Heritage",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -3386,7 +3429,7 @@
         {
             "name": "Arcane Heritage",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -3395,7 +3438,7 @@
         {
             "name": "Blood Link",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -3404,7 +3447,7 @@
         {
             "name": "Chromatic Heritage",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -3413,7 +3456,7 @@
         {
             "name": "Chromatic Heritage",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -3422,7 +3465,7 @@
         {
             "name": "Chromatic Heritage",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -3431,7 +3474,7 @@
         {
             "name": "Fey Heritage",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -3440,7 +3483,7 @@
         {
             "name": "Fey Heritage",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -3449,7 +3492,7 @@
         {
             "name": "Fey Heritage",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -3458,7 +3501,7 @@
         {
             "name": "Infernal Heritage",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -3467,7 +3510,7 @@
         {
             "name": "Infernal Heritage",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -3476,7 +3519,7 @@
         {
             "name": "Infernal Heritage",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -3485,7 +3528,7 @@
         {
             "name": "Metallic Heritage",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -3494,7 +3537,7 @@
         {
             "name": "Metallic Heritage",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -3503,7 +3546,7 @@
         {
             "name": "Metallic Heritage",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -3512,7 +3555,7 @@
         {
             "name": "Sorc’s Familiar",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -3521,7 +3564,7 @@
         {
             "name": "Sorc’s Familiar",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -3530,7 +3573,7 @@
         {
             "name": "Sorc’s Familiar",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -3539,7 +3582,7 @@
         {
             "name": "Spell Fist",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -3548,7 +3591,7 @@
         {
             "name": "Spell Fist",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -3557,7 +3600,7 @@
         {
             "name": "Spell Fist",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -3566,7 +3609,7 @@
         {
             "name": "Undead Heritage",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -3575,7 +3618,7 @@
         {
             "name": "Undead Heritage",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -3584,7 +3627,7 @@
         {
             "name": "Undead Heritage",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -3593,7 +3636,7 @@
         {
             "name": "Breath of Black",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -3602,7 +3645,7 @@
         {
             "name": "Breath of Blue",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -3611,7 +3654,7 @@
         {
             "name": "Burning Hands",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Spell"
             },
             "tier": "adventurer",
@@ -3620,7 +3663,7 @@
         {
             "name": "Burning Hands",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -3629,7 +3672,7 @@
         {
             "name": "Burning Hands",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -3638,7 +3681,7 @@
         {
             "name": "Calling the Blood",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -3647,7 +3690,7 @@
         {
             "name": "Chaos Bolt",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Spell"
             },
             "tier": "adventurer",
@@ -3656,7 +3699,7 @@
         {
             "name": "Chaos Bolt",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -3665,7 +3708,7 @@
         {
             "name": "Echoing Thunder",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -3674,7 +3717,7 @@
         {
             "name": "Lightning Fork",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Spell"
             },
             "tier": "adventurer",
@@ -3683,7 +3726,7 @@
         {
             "name": "Lightning Fork",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -3692,7 +3735,7 @@
         {
             "name": "Lightning Fork",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -3701,7 +3744,7 @@
         {
             "name": "Resist Energy",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Spell"
             },
             "tier": "adventurer",
@@ -3710,7 +3753,7 @@
         {
             "name": "Scorching Ray",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Spell"
             },
             "tier": "adventurer",
@@ -3719,7 +3762,7 @@
         {
             "name": "Scorching Ray",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -3728,7 +3771,7 @@
         {
             "name": "Scorching Ray",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -3737,7 +3780,7 @@
         {
             "name": "The Elven Shadows",
             "prereq": {
-                "class": "Sorceror",
+                "class": "sorcerer",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -3746,7 +3789,7 @@
         {
             "name": "Ritual Magic",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Class"
             },
             "tier": "champion",
@@ -3755,7 +3798,7 @@
         {
             "name": "Abjuration",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -3764,7 +3807,7 @@
         {
             "name": "Abjuration",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -3773,7 +3816,7 @@
         {
             "name": "Abjuration",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -3782,7 +3825,7 @@
         {
             "name": "Cantrip Mastery",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -3791,7 +3834,7 @@
         {
             "name": "Evocation",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -3800,7 +3843,7 @@
         {
             "name": "High Arcana",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -3809,7 +3852,7 @@
         {
             "name": "High Arcana",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Talent"
             },
             "tier": "epic",
@@ -3818,7 +3861,7 @@
         {
             "name": "Color Spray",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "adventurer",
@@ -3827,7 +3870,7 @@
         {
             "name": "Color Spray",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -3836,7 +3879,7 @@
         {
             "name": "Color Spray",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -3845,7 +3888,7 @@
         {
             "name": "Confusion",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "adventurer",
@@ -3854,7 +3897,7 @@
         {
             "name": "Confusion",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -3863,7 +3906,7 @@
         {
             "name": "Confusion",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -3872,7 +3915,7 @@
         {
             "name": "Denial",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -3881,7 +3924,7 @@
         {
             "name": "Denial",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -3890,7 +3933,7 @@
         {
             "name": "Disintegrate",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -3899,7 +3942,7 @@
         {
             "name": "Fireball",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -3908,7 +3951,7 @@
         {
             "name": "Fireball",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -3917,7 +3960,7 @@
         {
             "name": "Force Salvo",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "adventurer",
@@ -3926,7 +3969,7 @@
         {
             "name": "Force Salvo",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -3935,7 +3978,7 @@
         {
             "name": "Force Salvo",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -3944,7 +3987,7 @@
         {
             "name": "Hold Monster",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "adventurer",
@@ -3953,7 +3996,7 @@
         {
             "name": "Hold Monster",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -3962,7 +4005,7 @@
         {
             "name": "Hold Monster",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -3971,7 +4014,7 @@
         {
             "name": "Lightning Bolt",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -3980,7 +4023,7 @@
         {
             "name": "Lightning Bolt",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -3989,7 +4032,7 @@
         {
             "name": "Magic Missile",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "adventurer",
@@ -3998,7 +4041,7 @@
         {
             "name": "Magic Missile",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -4007,7 +4050,7 @@
         {
             "name": "Magic Missile",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -4016,7 +4059,7 @@
         {
             "name": "Meteor Swarm",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -4025,7 +4068,7 @@
         {
             "name": "Ray of Frost",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "adventurer",
@@ -4034,7 +4077,7 @@
         {
             "name": "Ray of Frost",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -4043,7 +4086,7 @@
         {
             "name": "Ray of Frost",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -4052,7 +4095,7 @@
         {
             "name": "Rebuke",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "adventurer",
@@ -4061,7 +4104,7 @@
         {
             "name": "Rebuke",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -4070,7 +4113,7 @@
         {
             "name": "Rebuke",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -4079,7 +4122,7 @@
         {
             "name": "Shield",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "adventurer",
@@ -4088,7 +4131,7 @@
         {
             "name": "Shield",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -4097,7 +4140,7 @@
         {
             "name": "Shield",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -4106,7 +4149,7 @@
         {
             "name": "Shocking Grasp",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "adventurer",
@@ -4115,7 +4158,7 @@
         {
             "name": "Shocking Grasp",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -4124,7 +4167,7 @@
         {
             "name": "Shocking Grasp",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -4133,7 +4176,7 @@
         {
             "name": "Teleport",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -4142,7 +4185,7 @@
         {
             "name": "Teleport Shield",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -4151,7 +4194,7 @@
         {
             "name": "Teleport Shield",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "epic",
@@ -4160,7 +4203,7 @@
         {
             "name": "Utility Spell",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "adventurer",
@@ -4169,7 +4212,7 @@
         {
             "name": "Utility Spell",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Spell"
             },
             "tier": "champion",
@@ -4178,7 +4221,7 @@
         {
             "name": "Wizard’s Familiar",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Talent"
             },
             "tier": "adventurer",
@@ -4187,7 +4230,7 @@
         {
             "name": "Wizard’s Familiar",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Talent"
             },
             "tier": "champion",
@@ -4196,7 +4239,7 @@
         {
             "name": "Wizard’s Familiar",
             "prereq": {
-                "class": "Wizard",
+                "class": "wizard",
                 "type": "Talent"
             },
             "tier": "epic",
