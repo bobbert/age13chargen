@@ -289,7 +289,33 @@
             "abilityBonus": [
                 "dexterity",
                 "charisma"
-            ]
+            ],
+            "powers": {
+                "Battlecry": {
+                    "1": {"1": 2},
+                    "2": {"1": 2},
+                    "3": {"3": 3},
+                    "4": {"3": 3},
+                    "5": {"5": 3},
+                    "6": {"5": 4},
+                    "7": {"7": 4},
+                    "8": {"7": 5},
+                    "9": {"9": 5},
+                    "10": {"9": 6}
+                },
+                "Song/Spell": {
+                    "1": {"1": 2},
+                    "2": {"1": 3},
+                    "3": {"1": 1, "3": 2},
+                    "4": {"3": 4},
+                    "5": {"3": 3, "5": 2},
+                    "6": {"5": 5},
+                    "7": {"5": 3, "7": 3},
+                    "8": {"7": 6},
+                    "9": {"7": 4, "9": 3},
+                    "10": {"9": 7}
+                }
+            }
         },
         {
             "name": "cleric",
@@ -310,7 +336,21 @@
             "abilityBonus": [
                 "strength",
                 "wisdom"
-            ]
+            ],
+            "powers": {
+                "Spell": {
+                    "1": {"1": 4},
+                    "2": {"1": 5},
+                    "3": {"1": 2, "3": 3},
+                    "4": {"1": 1, "3": 5},
+                    "5": {"3": 2, "5": 4},
+                    "6": {"3": 1, "5": 6},
+                    "7": {"5": 2, "7": 5},
+                    "8": {"5": 1, "7": 7},
+                    "9": {"7": 2, "9": 6},
+                    "10": {"7": 1, "9": 8}
+                }
+            }
         },
         {
             "name": "fighter",
@@ -331,7 +371,21 @@
             "abilityBonus": [
                 "strength",
                 "constitution"
-            ]
+            ],
+            "powers": {
+                "Maneuver": {
+                    "1": {"1": 3},
+                    "2": {"1": 4},
+                    "3": {"3": 4},
+                    "4": {"3": 5},
+                    "5": {"5": 5},
+                    "6": {"5": 6},
+                    "7": {"7": 6},
+                    "8": {"7": 7},
+                    "9": {"9": 7},
+                    "10": {"9": 8}
+                }
+            }
         },
         {
             "name": "paladin",
@@ -395,7 +449,21 @@
             "abilityBonus": [
                 "dexterity",
                 "charisma"
-            ]
+            ],
+            "powers": {
+                "Power": {
+                    "1": {"1": 4},
+                    "2": {"1": 5},
+                    "3": {"3": 5},
+                    "4": {"3": 6},
+                    "5": {"5": 6},
+                    "6": {"5": 7},
+                    "7": {"7": 7},
+                    "8": {"7": 8},
+                    "9": {"9": 8},
+                    "10": {"9": 9}
+                }
+            }
         },
         {
             "name": "sorcerer",
@@ -416,7 +484,21 @@
             "abilityBonus": [
                 "constitution",
                 "charisma"
-            ]
+            ],
+            "powers": {
+                "Spell": {
+                    "1": {"1": 4},
+                    "2": {"1": 5},
+                    "3": {"1": 3, "3": 3},
+                    "4": {"3": 6},
+                    "5": {"3": 3, "5": 4},
+                    "6": {"5": 7},
+                    "7": {"5": 3, "7": 5},
+                    "8": {"7": 8},
+                    "9": {"7": 3, "9": 6},
+                    "10": {"9": 9}
+                }
+            }
         },
         {
             "name": "wizard",
@@ -437,7 +519,21 @@
             "abilityBonus": [
                 "intelligence",
                 "wisdom"
-            ]
+            ],
+            "powers": {
+                "Spell": {
+                    "1": {"1": 5},
+                    "2": {"1": 6},
+                    "3": {"1": 3, "3": 4},
+                    "4": {"1": 2, "3": 6},
+                    "5": {"1": 1, "3": 4, "5": 4},
+                    "6": {"3": 2, "5": 8},
+                    "7": {"3": 1, "5": 4, "7": 5},
+                    "8": {"5": 3, "7": 8},
+                    "9": {"5": 1, "7": 5, "9": 6},
+                    "10": {"7": 3, "9": 9}
+                }
+            }
         }
     ],
     "talents": [
@@ -1669,7 +1765,7 @@
             "name": "Hang Tough!",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "adventurer",
             "description": "If the ally is staggered, double hang tough temporary hp."
@@ -1678,7 +1774,7 @@
             "name": "Hang Tough!",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "champion",
             "description": "Add your level to the temporary hp (before any doubling for being staggered)."
@@ -1687,7 +1783,7 @@
             "name": "Hang Tough!",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "epic",
             "description": "You can be the target of hang tough."
@@ -1696,7 +1792,7 @@
             "name": "It's All Yours!",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "adventurer",
             "description": "Your ally's attack also deals +1d6 damage."
@@ -1705,7 +1801,7 @@
             "name": "It's All Yours!",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "champion",
             "description": "Damage bonus increases to +3d6."
@@ -1714,7 +1810,7 @@
             "name": "It's All Yours!",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "epic",
             "description": "Damage bonus increases to +3d12."
@@ -1723,7 +1819,7 @@
             "name": "Move It!",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "adventurer",
             "description": "Your allies gain a +2 bonus to move it disengage checks."
@@ -1732,7 +1828,7 @@
             "name": "Move It!",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "champion",
             "description": "Bonus increases to +5."
@@ -1741,7 +1837,7 @@
             "name": "Move It!",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "epic",
             "description": "Ally can pop free of one enemy automatically before rolling disengage. "
@@ -1750,7 +1846,7 @@
             "name": "Pull It Together!",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "adventurer",
             "description": "Target ally also heals +1d4 hp per point of escalation die."
@@ -1759,7 +1855,7 @@
             "name": "Pull It Together!",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "champion",
             "description": "Battle cry now triggers on any natural even roll; healing increases to +1d6 per point."
@@ -1768,7 +1864,7 @@
             "name": "Pull It Together!",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "epic",
             "description": "Use the battle cry 3 times per battle; healing increases to +1d10 per point. "
@@ -1777,7 +1873,7 @@
             "name": "Stay Strong!",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "adventurer",
             "description": "The AC bonus also applies to PD."
@@ -1786,7 +1882,7 @@
             "name": "Stay Strong!",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "champion",
             "description": "The AC bonus also applies to MD."
@@ -1795,7 +1891,7 @@
             "name": "Stay Strong!",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "epic",
             "description": "Bonus increases to +4. "
@@ -1804,7 +1900,7 @@
             "name": "The Time Is Now",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "epic",
             "description": "The battle cry now triggers on a natural 18+ instead of 19+."
@@ -1813,7 +1909,7 @@
             "name": "They Fall Before Us!",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "epic",
             "description": "The battle cry now triggers on a natural 19+ instead of 20+."
@@ -1822,7 +1918,7 @@
             "name": "Victory is Ours!",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "champion",
             "description": "Trigger is now 3+ on the escalation die instead of 5+."
@@ -1831,7 +1927,7 @@
             "name": "Victory is Ours!",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "epic",
             "description": "Allies' damage bonus is now +3d12."
@@ -1840,7 +1936,7 @@
             "name": "We Need You!",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "adventurer",
             "description": "The battle cry save now gets a +1 bonus."
@@ -1849,7 +1945,7 @@
             "name": "We Need You!",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "champion",
             "description": "Save bonus increases to +2."
@@ -1858,7 +1954,7 @@
             "name": "We Need You!",
             "prereq": {
                 "class": "bard",
-                "type": "battlecry"
+                "type": "Battlecry"
             },
             "tier": "epic",
             "description": "If escalation die is 3+, two allies can roll a save."
@@ -1867,7 +1963,7 @@
             "name": "Arrow of Verse",
             "prereq": {
                 "class": "bard",
-                "type": "bardsong_or_spell"
+                "type": "Song/Spell"
             },
             "tier": "champion",
             "description": "Recharge after battle is now 11+."
@@ -1876,7 +1972,7 @@
             "name": "Arrow of Verse",
             "prereq": {
                 "class": "bard",
-                "type": "bardsong_or_spell"
+                "type": "Song/Spell"
             },
             "tier": "epic",
             "description": "Bonus dice and miss dice are now d12s."
@@ -1885,7 +1981,7 @@
             "name": "Battle Chant",
             "prereq": {
                 "class": "bard",
-                "type": "bardsong_or_spell"
+                "type": "Song/Spell"
             },
             "tier": "adventurer",
             "description": "Use d6s instead of d4s for battle chant damage."
@@ -1894,7 +1990,7 @@
             "name": "Battle Chant",
             "prereq": {
                 "class": "bard",
-                "type": "bardsong_or_spell"
+                "type": "Song/Spell"
             },
             "tier": "champion",
             "description": "Once per day, expend a recovery to reroll a battle chant attack."
@@ -1903,7 +1999,7 @@
             "name": "Battle Chant",
             "prereq": {
                 "class": "bard",
-                "type": "bardsong_or_spell"
+                "type": "Song/Spell"
             },
             "tier": "epic",
             "description": "One battle per day, use d10s instead of d6s for battle chant damage."
@@ -1912,7 +2008,7 @@
             "name": "Befuddle",
             "prereq": {
                 "class": "bard",
-                "type": "bardsong_or_spell"
+                "type": "Song/Spell"
             },
             "tier": "adventurer",
             "description": "Recharge check for befuddle now 6+."
@@ -1921,7 +2017,7 @@
             "name": "Befuddle",
             "prereq": {
                 "class": "bard",
-                "type": "bardsong_or_spell"
+                "type": "Song/Spell"
             },
             "tier": "champion",
             "description": "Target of befuddle now only needs to be in sight."
@@ -1930,7 +2026,7 @@
             "name": "Befuddle",
             "prereq": {
                 "class": "bard",
-                "type": "bardsong_or_spell"
+                "type": "Song/Spell"
             },
             "tier": "epic",
             "description": "On a hit, the confusion effect is now save ends."
@@ -1939,7 +2035,7 @@
             "name": "Overworld Two-Step",
             "prereq": {
                 "class": "bard",
-                "type": "bardsong_or_spell"
+                "type": "Song/Spell"
             },
             "tier": "champion",
             "description": "Recharge check is 11+."
@@ -1948,7 +2044,7 @@
             "name": "Overworld Two-Step",
             "prereq": {
                 "class": "bard",
-                "type": "bardsong_or_spell"
+                "type": "Song/Spell"
             },
             "tier": "epic",
             "description": "Far away allies can now also have their positions swapped."
@@ -1957,7 +2053,7 @@
             "name": "Song of Thunder",
             "prereq": {
                 "class": "bard",
-                "type": "bardsong_or_spell"
+                "type": "Song/Spell"
             },
             "tier": "champion",
             "description": "Number of targets increases to 2d4."
@@ -1966,7 +2062,7 @@
             "name": "Song of Thunder",
             "prereq": {
                 "class": "bard",
-                "type": "bardsong_or_spell"
+                "type": "Song/Spell"
             },
             "tier": "epic",
             "description": "Two of the targets can now be far away."
@@ -1975,7 +2071,7 @@
             "name": "Soundburst",
             "prereq": {
                 "class": "bard",
-                "type": "bardsong_or_spell"
+                "type": "Song/Spell"
             },
             "tier": "adventurer",
             "description": "On a natural even hit, the dazed effect is now save ends."
@@ -1984,7 +2080,7 @@
             "name": "Soundburst",
             "prereq": {
                 "class": "bard",
-                "type": "bardsong_or_spell"
+                "type": "Song/Spell"
             },
             "tier": "champion",
             "description": "Spell is now recharge 16+ after battle."
@@ -1993,7 +2089,7 @@
             "name": "Soundburst",
             "prereq": {
                 "class": "bard",
-                "type": "bardsong_or_spell"
+                "type": "Song/Spell"
             },
             "tier": "epic",
             "description": "Spell now targets 1d4 + 1 enemies in a group."
@@ -2002,7 +2098,7 @@
             "name": "Vicious Mockery",
             "prereq": {
                 "class": "bard",
-                "type": "bardsong_or_spell"
+                "type": "Song/Spell"
             },
             "tier": "adventurer",
             "description": "Hit effect is now a save ends effect."
@@ -2011,7 +2107,7 @@
             "name": "Vicious Mockery",
             "prereq": {
                 "class": "bard",
-                "type": "bardsong_or_spell"
+                "type": "Song/Spell"
             },
             "tier": "champion",
             "description": "Recharge check for vicious mockery now 6+."
@@ -2020,7 +2116,7 @@
             "name": "Vicious Mockery",
             "prereq": {
                 "class": "bard",
-                "type": "bardsong_or_spell"
+                "type": "Song/Spell"
             },
             "tier": "epic",
             "description": "Natural even miss doesn't expend vicious mockery."
@@ -2029,7 +2125,7 @@
             "name": "Wild Heal",
             "prereq": {
                 "class": "bard",
-                "type": "bardsong_or_spell"
+                "type": "Song/Spell"
             },
             "tier": "adventurer",
             "description": "Wild heal is now recharge 16+ after battle. "
@@ -2038,7 +2134,7 @@
             "name": "Wild Heal",
             "prereq": {
                 "class": "bard",
-                "type": "bardsong_or_spell"
+                "type": "Song/Spell"
             },
             "tier": "champion",
             "description": "Add a third random target. "
@@ -2047,7 +2143,7 @@
             "name": "Wild Heal",
             "prereq": {
                 "class": "bard",
-                "type": "bardsong_or_spell"
+                "type": "Song/Spell"
             },
             "tier": "epic",
             "description": "Wild heal effect now provides free recoveries."
