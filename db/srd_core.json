@@ -440,6 +440,702 @@
             ]
         }
     ],
+    "talents": [
+        {
+            "name": "Barbarian Rage",
+            "class": "barbarian",
+            "type": "Class",
+            "tier": "adventurer",
+            "description": "Once per day, use a quick action to start raging. A rage lasts until the end of battle, or about 5 minutes.  While raging, you roll 2d20 to hit with your barbarian melee and thrown weapon attacks instead of 1d20. Use the higher roll for the attack. If you roll a natural 11+ with both dice and your highest attack roll is a hit, the attack is a critical hit!  (Recharge 16+): After a battle in which you rage, roll a d20 and add your Constitution modifier. On a 16+, you can use Barbarian Rage again later in the day."
+        },
+        {
+            "name": "Barbaric Cleave",
+            "class": "barbarian",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Once per battle, as a free action, you can make a standard melee attack after having dropped any enemy to 0 hp with a standard melee attack. Mooks do not count for this, unless the mook you dropped was the last of its mook mob."
+        },
+        {
+            "name": "Building Frenzy",
+            "class": "barbarian",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "One battle per day, as a free action after you have missed an attack, gain +1d4 damage to each successful melee attack until the end of the battle. For each missed attack following this, add another +1d4 damage, up to a maximum of +4d4 damage."
+        },
+        {
+            "name": "Slayer",
+            "class": "barbarian",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "During your turn, when you attack a staggered enemy you were not engaged with at the start of your turn, deal +1d6 damage per level to that creature if you hit."
+        },
+        {
+            "name": "Strongheart",
+            "class": "barbarian",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Your recovery dice are d12s instead of d10s."
+        },
+        {
+            "name": "Unstoppable",
+            "class": "barbarian",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Once per battle, declare you’re using Unstoppable before making a barbarian melee attack. If your attack hits at least one target, you can heal using a recovery."
+        },
+        {
+            "name": "Whirlwind",
+            "class": "barbarian",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "You can make a Whirlwind attack as the first action of your turn when you are engaged by two or more enemies.  You take a –4 penalty to your AC and PD until the start of your next turn. Then roll a separate melee attack against each enemy you are engaged with. You deal no miss damage with these attacks."
+        },
+        {
+            "name": "Natural Will",
+            "class": "barbarian",
+            "type": "Talent",
+            "tier": "champion",
+            "description": "One battle per day as a quick action, you gain a +2 bonus to your Mental Defense until the end of the battle."
+        },
+        {
+            "name": "Violence",
+            "class": "barbarian",
+            "type": "Talent",
+            "tier": "champion",
+            "description": "Once per battle, add a +1d4 bonus to a barbarian melee attack roll after finding out whether you hit or missed."
+        },
+        {
+            "name": "Ancestral Warband",
+            "class": "barbarian",
+            "type": "Talent",
+            "tier": "epic",
+            "description": "One battle per day as a quick action, you can call the spirits of your ancestors to fight alongside you. Your ancestors can’t be hurt or affected by the creatures of this world.  At the end of each of your turns, if you are conscious, roll a d6. If you roll less than or equal to the escalation die, a member of your spirit warband strikes from the spirit realm into the world. Make a melee attack against a nearby enemy as if you were making the attack yourself, using any talents, feats, or magic items as you see fit. This attack doesn’t take any of your actions."
+        },
+        {
+            "name": "Relentless",
+            "class": "barbarian",
+            "type": "Talent",
+            "tier": "epic",
+            "description": "While raging, you have resist damage 12+ (when an attack targets you, the attacker must roll a natural 12 or higher on the attack roll or it only deals half damage)."
+        },
+        {
+            "name": "Balladeer",
+            "class": "bard",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "At each level, including 1st level, you may learn a great ballad of your choice. Each day you can sing one of these songs to give you a positive relationship with an icon that you would not ordinarily have…as well as increasing a negative relationship with another icon.  Song choices for the great ballad are up to the role-player. "
+        },
+        {
+            "name": "Battle Skald",
+            "class": "bard",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "You cannot take this talent if you have taken the Spellsinger talent.  Increase the number of battle cries you know by one. The bonus battle cry can be from your highest possible level."
+        },
+        {
+            "name": "Jack of Spells",
+            "class": "bard",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Choose another spell-casting character class. You can choose one spell from the spell list (but not the talent list) of that class, of your own level or lower, as an extra spell you know how to cast. You can even take its feats up to your tier, if it has any. You may only choose from the spell list—not from talents.  This spell is a bonus spell, not included in your bard class count. "
+        },
+        {
+            "name": "Loremaster",
+            "class": "bard",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Choose two of the following three bonuses: (1.) Your bardic skills and magic are now based on your Intelligence rather than Charisma. Any time an element of the bard class refers to Charisma, you can replace that element with a reference to Intelligence. (2.) Take two additional points of backgrounds. You can use these additional points to raise a background that has something to do with history, bardic lore, or magical knowledge up to the usually impossible rating of +6. (3.) Take a single point of relationship with an icon. Add the point to a relationship you already have up to your normal maximum, or start a new one—positive, conflicted, or negative."
+        },
+        {
+            "name": "Mythkenner",
+            "class": "bard",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Choose two of the following three bonuses: (1.) Your bardic skills and magic are now based on your Wisdom rather than Charisma. Any time an element of the bard class refers to Charisma, you can replace that element with a reference to Wisdom. (2.) Take two additional points of backgrounds; you can use these additional points to raise a background that has something to do with religion, mythology, or history up to the usually impossible rating of +6. (3.) Take a single point of relationship with an icon. Add the point to a relationship you already have up to your normal maximum, or start a new one—positive, conflicted, or negative."
+        },
+        {
+            "name": "Songmaster",
+            "class": "bard",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "When you attempt to maintain a bardic song, if you describe it in a fashion that entertains the GM, or at least a couple of the players, you get a bonus of +1 to +3 to maintain the song."
+        },
+        {
+            "name": "Spellsinger",
+            "class": "bard",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "You cannot take this talent if you have taken the Battle Skald talent.  You can choose an extra bardic song or bard spell at the highest level you know."
+        },
+        {
+            "name": "Storyteller",
+            "class": "bard",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Once per scene when one of your allies rolls relationship dice for an icon, you can roleplay a one or two sentence story (usually related to the icon, but perhaps otherwise pivotal) that allows them to reroll the relationship check if they don’t like the first result."
+        },
+        {
+            "name": "Ritual Magic",
+            "class": "cleric",
+            "type": "Class",
+            "tier": "adventurer",
+            "description": "Clerics can cast their spells as rituals. (See Rituals.)"
+        },
+        {
+            "name": "Heal",
+            "class": "cleric",
+            "type": "Class",
+            "tier": "adventurer",
+            "description": "Clerics can cast Heal for free twice a battle."
+        },
+        {
+            "name": "Domain: Healing",
+            "class": "cleric",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "When you cast a spell that lets you or an ally heal using a recovery, the target also adds hit points equal to double your level to the recovery.  Invocation of Healing: This battle, you gain an additional use of the heal spell (see Class Features, left). The first heal spell you cast after using this invocation allows the target to heal using a free recovery instead of spending a recovery."
+        },
+        {
+            "name": "Domain: Justice/Vengeance",
+            "class": "cleric",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Once per turn when an enemy scores a critical hit against you or a nearby ally, or drops you or a nearby ally to 0 hp or below, you gain an attack-reroll blessing. Immediately choose a nearby ally and give them the blessing as a free action.  An ally with this blessing can use it to reroll an attack as a free action this battle. An ally can only have one such blessing on them at a time.  Invocation of Justice/Vengeance: This battle, add double your level to the miss damage of your attacks and the attacks of your nearby allies. (For example, your basic melee attack as a cleric will deal triple your level as miss damage while this invocation is active.)"
+        },
+        {
+            "name": "Domain: Knowledge/Lore",
+            "class": "cleric",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "You gain 4 additional background points that must be used somehow in relation to knowledge or lore.  Invocation of Knowledge/Lore: You must use this invocation during your first round of a battle. When you do, you get a quick glimpse of the battle’s future. Roll a d6; as a free action at any point after the escalation die equals the number you rolled, you can allow one of your allies to reroll a single attack roll with a +2 bonus thanks to your vision of this future."
+        },
+        {
+            "name": "Domain: Life/Death",
+            "class": "cleric",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "You and your nearby allies gain a +1 bonus to death saves.  Invocation of Life/Death: This battle, you and each of your allies can each separately add the escalation die to a single save made by that character. In addition, you and your allies do not die from hit point damage when your negative hit points equal half your normal hit points. Instead, you die when your negative hit points equal your full hit points."
+        },
+        {
+            "name": "Domain: Love/Beauty",
+            "class": "cleric",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Once per level, you can generate a one-point conflicted relationship with a heroic or ambiguous icon you do not already have a relationship with. The relationship point remains with you until you gain a level, and then it’s time for another one-level relationship.  Invocation of Love/Beauty: As a free action, at some dramatic moment, you or an ally of your choice can roll for one icon relationship that might have an effect on the battle. Rolls of 5 and 6 are beneficial as usual, though the GM will have to improvise what that means in the middle of combat. The invocation’s advantage does not occur the moment you roll initiative; wait for a dramatic moment instead."
+        },
+        {
+            "name": "Domain: Protection/Community",
+            "class": "cleric",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Once per battle, you can affect two additional allies when you cast a spell for broad effect.  Invocation of Protection/Community: This battle, critical hits against you and your nearby allies deal normal damage instead of critical damage."
+        },
+        {
+            "name": "Domain: Strength",
+            "class": "cleric",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "You can wield heavy/martial weapons without an attack penalty.  Invocation of Strength: This battle, you and your nearby allies deal triple damage instead of double damage on critical hits with melee attacks."
+        },
+        {
+            "name": "Domain: Sun/Anti-Undead",
+            "class": "cleric",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Every attack you make deals holy damage instead of other types of damage unless you choose otherwise for a specific attack.  Invocation of Sun/Anti-Undead: When you cast a daily cleric spell this battle, roll a d6. If you roll less than or equal to the escalation die, you regain the use of that daily spell after the battle."
+        },
+        {
+            "name": "Domain: Trickery/Illusion",
+            "class": "cleric",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Once per battle, as a quick action when you are engaged with an enemy, roll a d20 (your “trick die”).  As a free action before the start of your next turn, give your trick die to a nearby ally or enemy who is about to make an attack roll. The trick die result becomes the natural result of their roll instead.  Invocation of Trickery/Illusion: This battle, attacks against you by enemies that moved to engage you during their turn miss on natural odd rolls."
+        },
+        {
+            "name": "Domain: War/Leadership",
+            "class": "cleric",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Once per turn when you make a melee attack against an enemy, hit or miss, your allies gain a +1 attack bonus against that enemy until the start of your next turn.  Invocation of War/Leadership: Increase the escalation die by 1."
+        },
+        {
+            "name": "Extra Tough",
+            "class": "fighter",
+            "type": "Class",
+            "tier": "adventurer",
+            "description": "You start with nine recoveries instead of the usual eight."
+        },
+        {
+            "name": "Threatening",
+            "class": "fighter",
+            "type": "Class",
+            "tier": "adventurer",
+            "description": "Whenever an enemy attempts to disengage from you, it takes a penalty to its check equal to your Dexterity or Constitution modifier, whichever is higher.  The penalty doesn’t apply if you are stunned, grabbed, or otherwise incapable of making an opportunity attack."
+        },
+        {
+            "name": "Cleave",
+            "class": "fighter",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Once per battle, make a fighter melee attack as a free action after one of your melee attacks drops an enemy to 0 hp."
+        },
+        {
+            "name": "Comeback Strike",
+            "class": "fighter",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Once per battle as a free action, make another attack with a –2 penalty after your first fighter attack during your turn misses."
+        },
+        {
+            "name": "Counter-Attack",
+            "class": "fighter",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Once per round when the escalation die is even and an enemy misses you with a natural odd melee attack roll, you can make a basic melee attack dealing half damage against that enemy as a free action. (The attack can’t use any limited abilities or flexible attack maneuvers.)"
+        },
+        {
+            "name": "Deadeye Archer",
+            "class": "fighter",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Your attacks with d8 ranged weapons (heavy crossbow, longbow) now deal d10 damage per level. Your attacks with d6 ranged weapons (light crossbow, shortbow) now deal d8 damage per level. In addition, your misses with basic ranged attacks deal damage equal to your level."
+        },
+        {
+            "name": "Heavy Warrior",
+            "class": "fighter",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Once per battle while wearing heavy armor, when you are hit by an attack that targets AC, as a free action, you can take half damage from that attack instead."
+        },
+        {
+            "name": "Power Attack",
+            "class": "fighter",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Once per battle before you roll an attack, you can declare you’re using Power Attack to deal additional damage with that attack roll. If the attack hits, you deal 1d4 additional damage per level if you are using a one-handed weapon, or 1d6 additional damage per level if you are using a two-handed weapon."
+        },
+        {
+            "name": "Skilled Intercept",
+            "class": "fighter",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Once per round as a free action, roll a normal save (11+) to intercept an enemy who is moving to attack one of your nearby allies. You can pop free from one enemy to move and intercept the attack. If you are engaged with more than one enemy, the others can take opportunity attacks against you."
+        },
+        {
+            "name": "Tough as Iron",
+            "class": "fighter",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Once per battle, you can rally using a quick action instead of a standard action."
+        },
+        {
+            "name": "Smite Evil",
+            "class": "paladin",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "You can use this talent once per battle, plus an additional number of times per day equal to your Charisma modifier.  As a free action before you make a paladin melee attack roll, you can declare that you’re using a Smite Evil attack. Add +1d12 to the damage roll AND deal half damage with the attack if it misses."
+        },
+        {
+            "name": "Bastion",
+            "class": "paladin",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "You gain +1 AC.  In addition, once per battle when a nearby ally is hit by an attack, you can choose to lose hit points equal to half of that damage, and have your ally take only half of the damage instead. The damage you lose can come from temporary hit points, but isn’t affected by damage resistance and other tricks to avoid the damage."
+        },
+        {
+            "name": "Cleric Training",
+            "class": "paladin",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Choose one cleric spell of your level or lower. That spell is now part of your powers. (You can change out the spell normally.)"
+        },
+        {
+            "name": "Divine Domain",
+            "class": "paladin",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Special: You can choose Divine Domain a second time, if you wish, at 5th level or at 8th level.  Choose one of the domains listed in the cleric’s class talent list. You gain all the domain’s advantages, including the ability to use the domain’s invocation once per day.  If the domain you choose is designed to help cleric spells and attacks, reinterpret the talent to help your paladin powers. You can use the domain’s feats if you wish; reinterpret them similarly if necessary."
+        },
+        {
+            "name": "Fearless",
+            "class": "paladin",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "You are immune to fear abilities and to any non-damage effects of attacks named or described as fear attacks.  In addition, you gain a +1 melee attack bonus against enemies that are not engaged by any of your allies. The bonus increases to +2 against enemies with fear abilities."
+        },
+        {
+            "name": "Implacable",
+            "class": "paladin",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "You can roll saves at the start of your turn instead of at the end of your turn. A successful save against ongoing damage, for example, means that you will not take the ongoing damage that turn."
+        },
+        {
+            "name": "Lay on Hands",
+            "class": "paladin",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Twice per day as a quick action, you can heal yourself or an ally next to you with a touch. You spend the recovery while the recipient heals as if they had spent the recovery."
+        },
+        {
+            "name": "Paladin’s Challenge",
+            "class": "paladin",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "When you hit an enemy with a melee attack, you can choose to challenge that enemy as a free action. Until the end of the battle, provided that both you and the enemy you’ve challenged are conscious and capable of making an attack, you each take a –4 attack penalty against all other creatures and a –4 penalty to disengage checks from each other. "
+        },
+        {
+            "name": "Path of Universal Righteous Endeavor",
+            "class": "paladin",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Special: You can’t take this talent if you take the Way of Evil Bastards talent.  Your nearby allies gain a +1 bonus to all saves."
+        },
+        {
+            "name": "Way of Evil Bastards",
+            "class": "paladin",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Special: You can’t take this talent if you take the Path of Universal Righteous Endeavor talent.  When one of your Smite Evil attacks drops a non-mook enemy to 0 hp, that use of Smite Evil is not expended."
+        },
+        {
+            "name": "Animal Companion",
+            "class": "ranger",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Special: Unlike most class talents, this talent takes up two ranger class talent slots.  You have a normal-sized animal companion that fights alongside you in battle. See Animal Companion Rules."
+        },
+        {
+            "name": "Archery",
+            "class": "ranger",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Once per battle, reroll one of your missed ranged attacks."
+        },
+        {
+            "name": "Double Melee Attack",
+            "class": "ranger",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "When fighting with two one-handed melee weapons, your default option is to make a double melee attack.  Your weapon damage die drops one notch, usually from d8s to d6s. If your first attack is a natural even roll (hit or miss), you can make a second attack as a free action."
+        },
+        {
+            "name": "Double Ranged Attack",
+            "class": "ranger",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "When you attack with a ranged weapon that does not need to be reloaded, your default option is to make a double ranged attack.  Your weapon damage die drops one notch, usually from d8s to d6s. If your first attack is a natural even roll (hit or miss), you can make a second attack as a free action."
+        },
+        {
+            "name": "Favored Enemy",
+            "class": "ranger",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Choose a specific monster type (e.g. aberration, beast, construct, demon, dragon, giant, humanoid*, ooze, plant, or undead). The crit range of your ranger attacks against that type of enemy expands by 2.  *Choosing humanoid: Unlike other favored enemies, choosing humanoid as your favored enemy takes up two ranger class talent slots."
+        },
+        {
+            "name": "Fey Queen’s Enchantments",
+            "class": "ranger",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Choose one daily or recharge spell of your level or lower from the sorcerer class. You can cast this spell as if you were a sorcerer (though you can’t gather power). "
+        },
+        {
+            "name": "First Strike",
+            "class": "ranger",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "The first time you attack an enemy during a battle, your crit range for that attack expands by 2 (usually to 18+). A mob of mooks counts as a single enemy."
+        },
+        {
+            "name": "Lethal Hunter",
+            "class": "ranger",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Once per battle as a free action, choose an enemy. The crit range of your attacks against that enemy expands by 2 for the rest of the battle. A mob of mooks counts as a single enemy."
+        },
+        {
+            "name": "Ranger ex Cathedral",
+            "class": "ranger",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Choose one daily or recharge spell of your level or lower from the cleric class. You can cast this spell as if you were a cleric. You can change your chosen spell each time you take a full heal-up."
+        },
+        {
+            "name": "Ranger’s Pet",
+            "class": "ranger",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "You have a small animal or beast that accompanies you on your adventures. Use the rules from the Wizard’s Familiar talent with the following differences:  (1.) The creature is your pet or friend instead of your familiar. (2.) Your pet is fully natural rather than partially magical. (3.) Your pet can end up with more abilities, if you choose."
+        },
+        {
+            "name": "Tracker",
+            "class": "ranger",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "You have the Tracker background at its full possible bonus of +5, without having to spend your normal background points on it. You are an expert wilderness tracker, capable of reading clues from the environment that others can’t perceive. Tracking doesn’t work well, however, in heavily traveled urban environments.  In addition, you have the terrain stunt power."
+        },
+        {
+            "name": "Two-Weapon Mastery",
+            "class": "ranger",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "You gain a +1 attack bonus when fighting with a one-handed melee weapon in each hand."
+        },
+        {
+            "name": "Momentum",
+            "class": "rogue",
+            "type": "Class",
+            "tier": "adventurer",
+            "description": "Many of the rogue’s powers function only when the rogue has momentum.  You gain momentum by hitting an enemy with an attack.  You lose momentum when you are hit by an attack."
+        },
+        {
+            "name": "Sneak Attack",
+            "class": "rogue",
+            "type": "Class",
+            "tier": "adventurer",
+            "description": "Once per round when you make a rogue melee weapon attack against an enemy engaged with one or more of your allies, you can deal extra damage if your attack hits: lv 1: +1d4, lv 2-3: +1d6, lv 4-5: +2d6, lv 6-7: +3d6, lv 8-9: +5d6, lv 10: +7d6"
+        },
+        {
+            "name": "Trap Sense",
+            "class": "rogue",
+            "type": "Class",
+            "tier": "adventurer",
+            "description": "Even rogues whose backgrounds don’t have anything to do with noticing, avoiding, or disarming traps have a unique knack for dealing with traps.  If a rogue’s skill check involving a trap is a natural even failure, the rogue can reroll the skill check once. If a trap’s attack roll against a rogue is a natural odd roll, the rogue can force the trap to reroll the attack once."
+        },
+        {
+            "name": "Cunning",
+            "class": "rogue",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "You can use your Intelligence in place of your Charisma for any rogue attacks, talents, or powers that use Charisma (e.g. shadow walk and slick feint). You also gain two extra points of backgrounds to spend on knowledge-related backgrounds and gain a +2 bonus to skill checks involving traps."
+        },
+        {
+            "name": "Improved Sneak Attack",
+            "class": "rogue",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Your Sneak Attack damage is better than other rogues. Use the following Sneak Attack bonus damage progression instead: lv 1: +1d6, lv 2-3: +1d8, lv 4-5: +2d8, lv 6-7: +3d8, lv 8-9: +5d8, lv 10: +7d8"
+        },
+        {
+            "name": "Murderous",
+            "class": "rogue",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Against staggered enemies, your crit range with rogue attacks expands by 2."
+        },
+        {
+            "name": "Shadow Walk",
+            "class": "rogue",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "You gain the shadow walk at-will power: As a move action before you have used your standard action this turn, if you are not engaged, you can make the following “attack” against all nearby enemies, targeting the enemy among them with the highest Mental Defense. Attack: Charisma + Level vs. MD Hit: Remove yourself from play. At the start of your next turn, return anywhere nearby that you could have moved to normally during your turn, and deal double damage with your first rogue attack that turn. Miss: No effect. You can’t attempt to shadow walk again until your next turn, but you still have your standard action this turn."
+        },
+        {
+            "name": "Smooth Talk",
+            "class": "rogue",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Once per day, convince your GM with an amazing line of patter while you are using social skills to speak or interact with NPCs associated with a particular icon. If the GM is convinced by your patter, roll a normal save (11+). If you succeed, for the rest of the day you can function as if you have a 2-point positive relationship with the icon who seems to be in play. Thanks to your amazing gift of gab, for a short time, it’s more or less true. (Note that these points replace any points you normally have with the icon rather than adding to them.)"
+        },
+        {
+            "name": "Swashbuckle",
+            "class": "rogue",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Once per battle as a quick action, you can spend your momentum to pull off a daring stunt the likes of which others could scarcely conceive. You may make an attack as part of the stunt, but you’ll need to roll normally for the attack. This is an improvisational talent.  As a swashbuckler, you do not need a difficult skill check to pull the stunt off."
+        },
+        {
+            "name": "Thievery",
+            "class": "rogue",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "You have the Thief background at its full possible bonus of +5, without having to spend your normal background points on it."
+        },
+        {
+            "name": "Tumble",
+            "class": "rogue",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "You gain a +5 bonus to disengage checks. In addition, while you are moving, if an enemy moves to intercept you, you can make one disengage roll per intercepting enemy as a free action to avoid that enemy, but you must stop the first time you fail any of those disengage checks."
+        },
+        {
+            "name": "Access to Wizardry",
+            "class": "sorcerer",
+            "type": "Class",
+            "tier": "adventurer",
+            "description": "Starting at 3rd level, you can take a wizard spell in place of a sorcerer spell. The wizard spell must be two levels lower than the sorcerer spell."
+        },
+        {
+            "name": "Breath Weapon",
+            "class": "sorcerer",
+            "type": "Class",
+            "tier": "adventurer",
+            "description": "Spells with the breath weapon keyword have a chance to be re-used during battle. Each breath weapon spell lists the chance of re-using it (usually 16+). At the start of each round after you’ve cast the breath weapon spell, make the re-use roll. Success indicates that you may re-use that spell as a standard action, but for that round only. If you fail the re-use roll, you don’t have the option to re-use the spell, but you get another chance at the beginning of the next round.   The breath weapon power lasts for a single battle only."
+        },
+        {
+            "name": "Chain",
+            "class": "sorcerer",
+            "type": "Class",
+            "tier": "adventurer",
+            "description": "When you attack with a chain spell and get a natural even roll, you can roll another attack against a different enemy within range. Keep on rolling attacks as long as you get even rolls and don’t run out of new targets. Each enemy can be targeted only once."
+        },
+        {
+            "name": "Dancing Lights",
+            "class": "sorcerer",
+            "type": "Class",
+            "tier": "adventurer",
+            "description": "All sorcerers can cast the dancing lights spell as a standard action. Unlike the wizard’s light cantrip, the sorcerer’s dancing lights spell produces a number of varicolored light globes that bloom within 5 to 30 feet of the sorcerer every two to five seconds. The sorcerer has very little control over the exact location or illumination provided by the lights, meaning that they can occasionally be used for dramatic plot purposes."
+        },
+        {
+            "name": "Gather Power",
+            "class": "sorcerer",
+            "type": "Class",
+            "tier": "adventurer",
+            "description": "Once initiative has been rolled and a battle is underway, a sorcerer can spend a standard action to gather magical power, preparing themselves for casting a double-strength spell with their next standard action. Gathering power is loud and very noticeable."
+        },
+        {
+            "name": "Random Energy",
+            "class": "sorcerer",
+            "type": "Class",
+            "tier": "adventurer",
+            "description": "Some sorcerer spells deal damage of a random type. If it matters for the situation, use a d4 to determine which type of damage the spell deals."
+        },
+        {
+            "name": "Arcane Heritage",
+            "class": "sorcerer",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Although magic is in the blood of every sorcerer, you have a greater understanding of magic than most sorcerers and even some wizards.  You gain a +2 bonus to a background that involves or suggests magical knowledge or talent, up to your normal maximum background point limit.  You can also use one of your sorcerer spell choices to choose any wizard spell of the same level. You get only one such equal-level wizard spell at a time; all others have to be purchased using the 2-level penalty in the Access to Wizardry class feature described above."
+        },
+        {
+            "name": "Blood Link",
+            "class": "sorcerer",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Choose one of your sorcerous heritage talents. You gain 1 relationship point with the icon associated with that heritage; you choose whether the point is positive, conflicted, or negative. This point can add to your normal relationship points but you can’t exceed the normal relationship maximums with it. (Remember that positive relationships with villainous icons are limited to 1 point.)"
+        },
+        {
+            "name": "Chromatic Destroyer Heritage ",
+            "class": "sorcerer",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "You can have multiple breath weapon spells active at the same time. You don’t gain extra actions, so if you succeed with multiple breath weapon spells, you’ll generally have to choose which one to use."
+        },
+        {
+            "name": "Fey Heritage ",
+            "class": "sorcerer",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "One battle per day, when you roll initiative, you can choose to invoke your Fey Heritage and gain the racial power of one the elven races in addition to your own racial power. Roll on the table below. If you roll your own race’s power, you gain the half-elf’s surprising racial power instead."
+        },
+        {
+            "name": "Infernal Heritage",
+            "class": "sorcerer",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Once per day, as a quick action when the escalation die is 1+, you can enter a spell frenzy until the end of the battle.  While in a spell frenzy, you roll 2d20 for each of your sorcerer spell attacks. Use the highest die as your attack roll, but track whether the other die hits.  For each die that misses, you take damage equal to double the level of the target of your attack."
+        },
+        {
+            "name": "Metallic Protector Heritage ",
+            "class": "sorcerer",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Your rolls to re-use breath weapon spells during a fight gain a +2 bonus."
+        },
+        {
+            "name": "Sorcerer’s Familiar",
+            "class": "sorcerer",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "You have a familiar much like a wizard’s familiar, but more changeable. Unlike the wizard, you don’t choose two abilities for your familiar. Instead you choose one permanent ability that suits your familiar’s nature; the only limitation is that you can’t choose tough as the permanent ability. Each time you get a full heal-up, randomly determine two other abilities your familiar will possess until your next full heal-up."
+        },
+        {
+            "name": "Spell Fist",
+            "class": "sorcerer",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Your style of sorcery emphasizes close-range fighting. There are two advantages and one possible drawback to your style.  You gain a +2 bonus to AC.  You can use ranged spells while engaged with enemies without taking opportunity attacks.  You use your Constitution modifier instead of your Charisma modifier to determine the damage you add to all your sorcerer spells."
+        },
+        {
+            "name": "Undead Remnant Heritage ",
+            "class": "sorcerer",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "You have resist negative energy 12+ and gain a +1 attack bonus against undead. You can also include negative energy damage on your personal random energy damage type table, swapping out an energy type you don’t want to access randomly."
+        },
+        {
+            "name": "Cantrips ",
+            "class": "wizard",
+            "type": "Class",
+            "tier": "adventurer",
+            "description": "Every wizard can cast a handful of cantrips each day. You don’t have to memorize or choose them beforehand, you just cast them on the fly.  Wizards can cast a number of cantrips equal to their Intelligence modifier each battle. Each cantrip takes a standard action to cast as a ranged spell. Outside of battle, a wizard can cast about three to six cantrips every five minutes. The Cantrip Mastery talent speeds up cantrip casting."
+        },
+        {
+            "name": "Cyclic Spells ",
+            "class": "wizard",
+            "type": "Class",
+            "tier": "adventurer",
+            "description": "Spells that have a cyclic usage can always be cast at least once per battle, and are only expended in that battle if they are cast when the escalation die is 0 or odd. In other words, if you cast a cyclic spell like color spray or rebuke when the escalation die is even, the spell is not expended and can still be cast later in the battle."
+        },
+        {
+            "name": "Overworld Advantage ",
+            "class": "wizard",
+            "type": "Class",
+            "tier": "adventurer",
+            "description": "Wizardly magic taps into the power of the overworld. While a wizard is in the overworld, their daily spells become recharge 16+ after battle."
+        },
+        {
+            "name": "Ritual Magic ",
+            "class": "wizard",
+            "type": "Class",
+            "tier": "adventurer",
+            "description": "Wizards can cast their spells as rituals."
+        },
+        {
+            "name": "Abjuration ",
+            "class": "wizard",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Whenever you cast a daily wizard spell, you gain a +4 AC bonus until the end of your next turn."
+        },
+        {
+            "name": "Cantrip Mastery ",
+            "class": "wizard",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Cantrips are at-will spells for you.  Unlike normal wizards, who use a standard action to cast a cantrip, you can cast a cantrip as a quick action."
+        },
+        {
+            "name": "Evocation ",
+            "class": "wizard",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Once per battle, when you cast a spell that targets Physical Defense, before rolling for the number of targets or making the spell’s attack roll, you can expend your quick action to evoke the spell. Hit or miss, you'll max out the spell’s damage dice (except on a natural one, which deals no damage to the target and likely damages the caster in some manner)."
+        },
+        {
+            "name": "High Arcana ",
+            "class": "wizard",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Your study of the highest orders of magic gives you options that lesser wizards cannot match: Memorization and a bonus spell: counter-magic.  Memorization: When you pick your spells, you can choose any daily wizard spell twice (instead of once).  Counter-magic: Close-quarters spell, Once per battle, Free action to cast, Trigger: A nearby creature you can see casts a spell., Target: The nearby creature casting a spell., Attack: Intelligence + Level vs. MD, Hit: The target’s spell is canceled, and the caster loses the action they were using for the spell. If the spell had a limited use, that use is expended if your natural attack roll is even."
+        },
+        {
+            "name": "Polysyllabic Verbalizations ",
+            "class": "wizard",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Rename each of your daily and recharge spells. Think up the most over-the-top and extravagant names you can muster. Since these alternate spells are so lengthy, they take an additional quick action to cast. While the regular effects of the spells are the same as the more common versions, they have a small bonus effect appropriate to the situation.  The bonus effect is determined by the GM, or by a collaboration between the GM and the player. It should add to the storytelling power of the situation."
+        },
+        {
+            "name": "Wizard’s Familiar ",
+            "class": "wizard",
+            "type": "Talent",
+            "tier": "adventurer",
+            "description": "Your familiar is a tiny or small animal or creature that aids your magic and provides companionship. It also provides opportunities for improvisation between you and the GM.  Your familiar is as intelligent as a normal person. It can communicate with you and will stay close you unless you’ve chosen abilities that let it roam. Your familiar is on your side but it’s not perfectly in your control."
+        }
+    ],
+
     "feats": [
         {
             "name": "Further Backgrounding",
@@ -2428,7 +3124,7 @@
             "description": "Enemies you challenge are vulnerable to your attacks."
         },
         {
-            "name": "Path of URE",
+            "name": "Path of Universal Righteous Endeavor",
             "prereq": {
                 "class": "paladin",
                 "type": "Talent"
@@ -2437,7 +3133,7 @@
             "description": "Once per day, reroll relationship dice with a good or ambiguous icon."
         },
         {
-            "name": "Path of URE",
+            "name": "Path of Universal Righteous Endeavor",
             "prereq": {
                 "class": "paladin",
                 "type": "Talent"
@@ -2446,7 +3142,7 @@
             "description": "Your melee and ranged attacks deal holy damage."
         },
         {
-            "name": "Path of URE",
+            "name": "Path of Universal Righteous Endeavor",
             "prereq": {
                 "class": "paladin",
                 "type": "Talent"
