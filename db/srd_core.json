@@ -536,6 +536,1313 @@
             }
         }
     ],
+    "powers": [
+        {
+            "name": "Move It!",
+            "type": "Battlecry",
+            "class": "Bard",
+            "level": 1,
+            "attacktype": "Flexible melee attack",
+            "usage": "Triggering Roll: Natural even roll",
+            "description": "Effect: Choose either... * One of your unengaged allies can move as a free action * One of your engaged allies can make a disengage check as a free action."
+        },
+        {
+            "name": "Pull It Together!",
+            "type": "Battlecry",
+            "class": "Bard",
+            "level": 1,
+            "attacktype": "Flexible melee attack",
+            "usage": "Triggering Roll: Natural 11+; use only twice per battle",
+            "description": "Effect: One nearby ally can heal using a recovery."
+        },
+        {
+            "name": "Stay Strong!",
+            "type": "Battlecry",
+            "class": "Bard",
+            "level": 1,
+            "attacktype": "Flexible melee attack",
+            "usage": "Triggering Roll: Natural 16+",
+            "description": "Effect: Give a nearby ally a +2 bonus to AC until the start of your next turn."
+        },
+        {
+            "name": "We Need You!",
+            "type": "Battlecry",
+            "class": "Bard",
+            "level": 1,
+            "attacktype": "Flexible melee attack",
+            "usage": "Triggering Roll: Natural even hit",
+            "description": "Effect: A nearby conscious ally can roll a save against a save ends effect."
+        },
+        {
+            "name": "Song of Heroes",
+            "type": "Song/Spell",
+            "class": "Bard",
+            "level": 1,
+            "attacktype": "Bardic song",
+            "usage": "Recharge 11+ after battle",
+            "description": "Quick action each turn; 11+ to sustain Opening & Sustained Effect: You and your nearby allies gain a +1 attack bonus until the start of your next turn. Final Verse: The effect ends immediately, but one ally of your choice gains a +2 bonus to their next attack roll this battle. 3rd level song: The effect also provides a +1 bonus to saves. 5th level song: Sustain the song on a 9+. 7th level song: Recharge check is now 6+. 9th level song: The effect also provides a +1 bonus to Mental Defense."
+        },
+        {
+            "name": "Song of Spilt Blood",
+            "type": "Song/Spell",
+            "class": "Bard",
+            "level": 1,
+            "attacktype": "Bardic song",
+            "usage": "Daily",
+            "description": "Quick action each turn; 6+ to sustain Opening & Sustained Effect: Any attack against you takes a penalty equal to the number of your allies in the battle who have more hit points than you. Final Verse: The effect ends immediately, and you or one ally of your choice can heal using a recovery. 3rd level song: Sustain the song on a 4+. 5th level song: Add +5 hp to the recovery. 7th level song: Add +10 hp to the recovery. 9th level song: Add +15 hp to the recovery."
+        },
+        {
+            "name": "Battle Chant",
+            "type": "Song/Spell",
+            "class": "Bard",
+            "level": 1,
+            "attacktype": "Ranged spell",
+            "usage": "At-Will",
+            "description": "Special: When you use battle chant, you can choose any battle cry effect you know as if you were making a basic melee attack, with the battle chant attack roll taking the place of the basic melee attack roll. Target: One nearby enemy Attack: Charisma + Level vs. MD Hit: 1d4 + Charisma thunder damage. 3rd level spell: 2d4 damage. 5th level spell: 4d4 damage. 7th level spell: 6d4 damage. 9th level spell: 10d4 damage."
+        },
+        {
+            "name": "Befuddle",
+            "type": "Song/Spell",
+            "class": "Bard",
+            "level": 1,
+            "attacktype": "Ranged spell",
+            "usage": "Recharge 11+ after battle",
+            "description": "Target: One nearby creature with 40 hp or fewer Attack: Charisma + Level vs. MD Hit: The target is confused until the end of your next turn. Natural Even Miss: The target is dazed until the end of your next turn. 3rd level spell: Target with 64 hp or fewer. 5th level spell: Target with 96 hp or fewer. 7th level spell: Target with 160 hp or fewer. 9th level spell: Target with 266 hp or fewer."
+        },
+        {
+            "name": "Charm Person",
+            "type": "Song/Spell",
+            "class": "Bard",
+            "level": 1,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Target: One nearby creature with 40 hp or fewer Special: This spell cannot be cast during combat or on a target that has rolled initiative to fight. Attack: Charisma + Level vs. MD Hit: The target believes you are their friend until you or your allies take hostile action against them. (Attacking their normal allies is okay.) If you or your allies attack the target or order the target to attack its normal allies, the target can roll a normal save to break the charm effect during its turn each round. Special: On a miss, the spell is not detectible by most others unless you miss by 4+ or roll a natural 1, in which case the target and its allies knows what you tried to do and will usually be angry about it. 3rd level spell: Target with 64 hp or fewer. 5th level spell: Target with 96 hp or fewer. 7th level spell: Target with 160 hp or fewer. 9th level spell: Target with 266 hp or fewer."
+        },
+        {
+            "name": "Soundburst",
+            "type": "Song/Spell",
+            "class": "Bard",
+            "level": 1,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Target: 1d4 nearby enemies in a group Attack: Charisma + Level vs. PD Hit: 5d6 + Charisma thunder damage, and the target is dazed until end of your next turn. Miss: Half damage, and deal thunder damage equal to your level to each of your allies engaged with the target. 3rd level spell: 6d8 damage. 5th level spell: 8d10 damage. 7th level spell: 2d6 x 10 damage. 9th level spell: 3d6 x 10 damage."
+        },
+        {
+            "name": "Hang Tough!",
+            "type": "Battlecry",
+            "class": "Bard",
+            "level": 3,
+            "attacktype": "Flexible melee attack",
+            "usage": "Triggering Roll: Natural odd roll",
+            "description": "Effect: Give a nearby ally temporary hit points equal to your Charisma modifier."
+        },
+        {
+            "name": "It’s All Yours!",
+            "type": "Battlecry",
+            "class": "Bard",
+            "level": 3,
+            "attacktype": "Flexible melee attack",
+            "usage": "Triggering Roll: Natural even miss",
+            "description": "Effect: This battle, your next ally to attack the target you missed gains a +2 attack bonus with that attack."
+        },
+        {
+            "name": "Take Heart!",
+            "type": "Battlecry",
+            "class": "Bard",
+            "level": 3,
+            "attacktype": "Flexible melee attack",
+            "usage": "Triggering Roll: Any hit",
+            "description": "Effect: Choose a nearby ally. That ally can either roll a save against a save ends effect or roll a normal save against a condition that has a duration that lasts until the end or beginning of a turn."
+        },
+        {
+            "name": "Song of Aid",
+            "type": "Song/Spell",
+            "class": "Bard",
+            "level": 3,
+            "attacktype": "Bardic song",
+            "usage": "Daily",
+            "description": "Quick action each turn; 11+ to sustain Opening & Sustained Effect: You or a nearby ally gains 3d6 temporary hit points. Final Verse: One target that gained temporary hit points can also heal using a recovery. 5th level song: 5d6 temporary hit points; sustain the song on a 9+. 7th level song: 7d6 temporary hit points, and the recovery from the final verse is free. 9th level song: 9d8 temporary hit points; sustain the song on a 7+."
+        },
+        {
+            "name": "Song of Thunder",
+            "type": "Song/Spell",
+            "class": "Bard",
+            "level": 3,
+            "attacktype": "Bardic song",
+            "usage": "Daily",
+            "description": "Standard action each turn; 11+ to sustain Opening & Sustained Effect: Make the following attack against 1d4 + 1 nearby enemies. Attack: Charisma + Level vs. PD Hit: 5d6 + Charisma thunder damage. Miss: — Final Verse: Make the attack again, but this time it deals half damage on a miss. 5th level song: 7d6 damage. 7th level song: 9d8 damage. 9th level song: 10d12 damage."
+        },
+        {
+            "name": "Vicious Mockery",
+            "type": "Song/Spell",
+            "class": "Bard",
+            "level": 3,
+            "attacktype": "Ranged spell",
+            "usage": "Recharge 11+ after battle",
+            "description": "Target: One nearby enemy Attack: Charisma + Level vs. MD Hit: 6d6 + Charisma psychic damage, and until the end of your next turn, when the target misses with one of its attacks, it takes half the damage its attack would have dealt. Miss: Damage equal to your level. 5th level spell: 9d6 damage. 7th level spell: 10d8 damage. 9th level spell: 2d8 x 10 damage."
+        },
+        {
+            "name": "Wild Heal",
+            "type": "Song/Spell",
+            "class": "Bard",
+            "level": 3,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Targets: Two random nearby allies. Choose the targets randomly from all nearby allies (including you) who are damaged. Effect: Each target can heal using a recovery. 5th level spell: Add +5 hp to the recovery. 7th level spell: Add +15 hp to the recovery. 9th level spell: Add +25 hp to the recovery."
+        },
+        {
+            "name": "Stay True!",
+            "type": "Battlecry",
+            "class": "Bard",
+            "level": 5,
+            "attacktype": "Flexible melee attack",
+            "usage": "Triggering Roll: Natural 16+ if the escalation die is 3+; otherwise natural 20",
+            "description": "Effect: A nearby ally regains the use of a once-per-battle racial ability that was expended this battle."
+        },
+        {
+            "name": "Victory Is Ours!",
+            "type": "Battlecry",
+            "class": "Bard",
+            "level": 5,
+            "attacktype": "Flexible melee attack",
+            "usage": "Triggering Roll: Natural 16+ if the escalation die is 5+; otherwise natural 20",
+            "description": "Effect: A nearby ally can heal using a recovery, and three nearby allies gain a +3d6 damage bonus to their next damage roll this battle."
+        },
+        {
+            "name": "Song of Magic",
+            "type": "Song/Spell",
+            "class": "Bard",
+            "level": 5,
+            "attacktype": "Bardic song",
+            "usage": "Daily",
+            "description": "Quick action each turn; 16+ to sustain Opening & Sustained Effect: Until the start of your next turn, you and your nearby allies who cast spells that are normally expended by being cast can roll a d20 after casting the spell. On a 16+, the spell is not expended. Final Verse: All spells you and your allies cast before the start of your next turn gain a +2 attack bonus. 7th level song: Gain a bonus to song of magic’s sustain check equal to the escalation die. 9th level song: Rolls to retain expended spells gain a bonus equal to the escalation die."
+        },
+        {
+            "name": "Arrow of Verse",
+            "type": "Song/Spell",
+            "class": "Bard",
+            "level": 5,
+            "attacktype": "Ranged spell",
+            "usage": "Recharge 16+ after battle",
+            "description": "Target: One nearby enemy Attack: Charisma + Level vs. MD Hit: 8d8 + Charisma psychic damage + Xd6 bonus damage, where X = escalation die. Miss: Xd6 psychic damage, where X = escalation die. 7th level spell: 10d10 damage. 9th level spell: 2d10 x 10 damage."
+        },
+        {
+            "name": "Discombobulate",
+            "type": "Song/Spell",
+            "class": "Bard",
+            "level": 5,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Target: One nearby creature with 100 hp or fewer Attack: Charisma + Level vs. MD Hit: The target is confused until it rolls two successful saves. Miss: The target is dazed until the end of your next turn. 7th level spell: Target with 140 hp or fewer. 9th level spell: Target with 240 hp or fewer."
+        },
+        {
+            "name": "They Fall Before Us!",
+            "type": "Battlecry",
+            "class": "Bard",
+            "level": 7,
+            "attacktype": "Flexible melee attack",
+            "usage": "Special: You can use this battle cry only on your turn.",
+            "description": "Triggering Roll: Natural 20 Effect: A nearby ally can make a basic attack as a free action."
+        },
+        {
+            "name": "Song of Blood & Legends",
+            "type": "Song/Spell",
+            "class": "Bard",
+            "level": 7,
+            "attacktype": "Bardic song",
+            "usage": "Daily",
+            "description": "Standard action each turn; 16+ to sustain Opening & Sustained Effect: Each nearby ally who hits at least one enemy with an attack during their turn can heal using a recovery. Final Verse: One nearby ally can make a basic attack as a free action and heal using a recovery if the attack hits at least one target. 9th level song: The recovery granted by the final verse attack is free."
+        },
+        {
+            "name": "Song of Victory",
+            "type": "Song/Spell",
+            "class": "Bard",
+            "level": 7,
+            "attacktype": "Bardic song",
+            "usage": "Daily",
+            "description": "Quick action each turn; 16+ to sustain Opening & Sustained Effect: Each nearby enemy that has fewer hit points than you is dazed until the end of your next turn. Final Verse: Each nearby enemy takes 5d6 + Charisma psychic damage. 9th level song: 7d6 damage."
+        },
+        {
+            "name": "The Overworld Two-Step",
+            "type": "Song/Spell",
+            "class": "Bard",
+            "level": 7,
+            "attacktype": "Close-quarters spell",
+            "usage": "Quick action to cast",
+            "description": "Recharge 16+ after battle Effect: You can swap your position and the positions of all your nearby allies, even if you can’t see them when you cast the spell. Each position presently occupied by you or an ally must end up occupied after the swap, but otherwise you can swap freely."
+        },
+        {
+            "name": "The Time Is Now!",
+            "type": "Battlecry",
+            "class": "Bard",
+            "level": 9,
+            "attacktype": "Flexible melee attack",
+            "usage": "Triggering Roll: Natural 19+",
+            "description": "Effect: Choose one nearby ally. That ally can expend a recovery to regain a daily power or spell."
+        },
+        {
+            "name": "Song of Destinies",
+            "type": "Song/Spell",
+            "class": "Bard",
+            "level": 9,
+            "attacktype": "Bardic song",
+            "usage": "Daily",
+            "description": "Quick action each turn; 11+ to sustain Opening & Sustained Effect: Later this turn, you can add 1 to the natural result of one ally’s d20 roll. Then, afterwards, you can subtract 1 from the natural result of an enemy’s d20 roll. Final Verse: The GM chooses an icon relevant to the situation; you choose the PC who will make an icon relationship check. That player makes the check and joins the GM in a duet of improvisation as to how the icon relationship roll has some impact on the current battle."
+        },
+        {
+            "name": "Inspire Legends",
+            "type": "Song/Spell",
+            "class": "Bard",
+            "level": 9,
+            "attacktype": "Close-quarters spell",
+            "usage": "Special: Escalation die must be 4+.",
+            "description": "Daily Targets: You and all nearby allies Effect: Each target can roll a d20 for each of its expended daily, recharge, and per battle powers and spells other than inspire legends. If the roll is 11+, the character regains the use of that power or spell."
+        },
+        {
+            "name": "Bless",
+            "type": "Spell",
+            "class": "Cleric",
+            "level": 1,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Quick action to cast Effect: You can cast this spell for power or for broad effect. Cast for power: One nearby ally gains a +2 attack bonus until the end of the battle. Cast for broad Effect: Choose up to three nearby creatures (including you); each target gains a +1 attack bonus until the end of the battle. 3rd level spell: Each target also gains 1d10 temporary hit points per point of the attack bonus. 5th level spell: Each target also gains 2d10 temporary hit points instead of 1d10 per point of the attack bonus. 7th level spell: All attack bonuses granted by the spell increase by +1. 9th level spell: Each target also gains 3d10 temporary hit points instead of 2d10 per point of the attack bonus."
+        },
+        {
+            "name": "Cure Wounds",
+            "type": "Spell",
+            "class": "Cleric",
+            "level": 1,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Quick action to cast Effect: You or a nearby ally can heal using a free recovery. 3rd level spell: The target can also roll a save against each save ends effect. 5th level spell: This spell is now recharge 16+ after battle instead of daily. 7th level spell: The target can heal using two free recoveries instead of one. 9th level spell: This spell is now recharge 11+ instead."
+        },
+        {
+            "name": "Hammer of Faith",
+            "type": "Spell",
+            "class": "Cleric",
+            "level": 1,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Effect: Until the end of the battle, your basic melee attacks use d12s as their base weapon damage dice. 3rd level spell: The spell now requires only a quick action to cast. 5th level spell: You deal half damage on misses with basic melee attacks this battle. 7th level spell: Once during the battle, you can reroll a basic melee attack. 9th level spell: For the rest of the battle, change any of your basic melee attack damage dice rolls that are less than the escalation die to the escalation die value."
+        },
+        {
+            "name": "Javelin of Faith",
+            "type": "Spell",
+            "class": "Cleric",
+            "level": 1,
+            "attacktype": "Ranged spell",
+            "usage": "At-Will",
+            "description": "Target: One nearby enemy Attack: Wisdom + Level vs. PD Hit: 1d6 + Wisdom holy damage. Miss: Damage equal to your level. 3rd level spell: 3d6 damage. 5th level spell: 6d6 damage. 7th level spell: 6d10 damage. 9th level spell: 8d10 damage."
+        },
+        {
+            "name": "Shield of Faith",
+            "type": "Spell",
+            "class": "Cleric",
+            "level": 1,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Quick action to cast Effect: You can cast this spell for power or for broad effect. Cast for power: One nearby ally gains a +2 bonus to AC this battle. Cast for broad Effect: Choose up to three nearby creatures (including you); each target gains a +1 bonus to AC this battle. 3rd level spell: The bonus also applies to PD. 5th level spell: The bonus increases by +1 while the target is staggered. 7th level spell: The bonus also applies to MD. 9th level spell: The bonus when cast for power increases to +4. The bonus when cast for broad effect increases to +2."
+        },
+        {
+            "name": "Spirits of the Righteous",
+            "type": "Spell",
+            "class": "Cleric",
+            "level": 1,
+            "attacktype": "Ranged spell",
+            "usage": "Once per battle",
+            "description": "Target: One nearby enemy Attack: Wisdom + Level vs. MD Hit: 4d6 + Wisdom holy damage, and your nearby ally with the fewest hit points gains a +4 bonus to AC until the end of your next turn. Miss: Your nearby ally with the fewest hit points gains a +2 bonus to AC until the end of your next turn. 3rd level spell: 7d6 damage. 5th level spell: 7d10 damage. 7th level spell: 10d12 damage. 9th level spell: 2d8 x 10 damage."
+        },
+        {
+            "name": "Turn Undead",
+            "type": "Spell",
+            "class": "Cleric",
+            "level": 1,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Target: 1d4 nearby undead creatures, each with 55 hp or fewer. Attack: Wisdom + Charisma + Level vs. MD Hit: The target is dazed until end of your next turn. Hit by 4+: 1d10 x your level holy damage, and the target is dazed until end of your next turn. Hit by 8+: Against non-mooks, holy damage equal to half the target’s maximum hit points, and the target is dazed (save ends). Against mooks, the +8 result now deals 4d10 x your level holy damage. Hit by 12+ or Natural 20: Against non-mooks, the target is destroyed. Against mooks, the +12 result now deals 4d20 x your level holy damage 3rd level spell: Target with 90 hp or fewer. 5th level spell: Target with 150 hp or fewer. 7th level spell: Target with 240 hp or fewer. 9th level spell: Target with 400 hp or fewer."
+        },
+        {
+            "name": "Cause Fear",
+            "type": "Spell",
+            "class": "Cleric",
+            "level": 3,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Target: One nearby enemy with 75 hp or fewer  Attack: Wisdom + Level vs. MD Hit: The target is weakened until the end of its next turn. On its next turn, if it’s unengaged, it does not attack and moves away from you. If it’s engaged, the target attempts to disengage as its first action, and moves away if it succeeds. If it fails, it moves away as its second action (drawing opportunity attacks). In either case, it will not attack unless it has no options for escape. Miss: The target hates you for having tried to scare it, and it wants to hurt you most of all, but it won’t be any stupider than usual in pursuing that goal. 5th level spell: Target with 120 hp or fewer. 7th level spell: Target with 190 hp or fewer. 9th level spell: Target with 300 hp or fewer."
+        },
+        {
+            "name": "Combat Boon",
+            "type": "Spell",
+            "class": "Cleric",
+            "level": 3,
+            "attacktype": "Close-quarters spell",
+            "usage": "At-Will",
+            "description": "Effect: Make a basic melee attack. If the attack hits, you or one conscious nearby ally can roll a save against a save ends effect. 5th level spell: The save gains a +1 bonus. 7th level spell: If the attack hits, you and your nearby conscious allies can roll a total of two saves (one per character). 9th level spell: The save bonus increases to +2."
+        },
+        {
+            "name": "Divine Endurance",
+            "type": "Spell",
+            "class": "Cleric",
+            "level": 3,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Quick action to cast Effect: You can cast this spell for power or for broad effect. Cast for power: One nearby ally gains 40 temporary hit points. Cast for broad Effect: Choose up to three nearby creatures (including you); each target gains 20 temporary hit points. 5th level spell: Temporary hp = 60/30. 7th level spell: Temporary hp = 80/40. 9th level spell: Temporary hp = 100/50."
+        },
+        {
+            "name": "Judgment",
+            "type": "Spell",
+            "class": "Cleric",
+            "level": 3,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Targets: All nearby staggered enemies Attack: Wisdom + Level vs. MD Hit: 5d10 + Wisdom holy damage. Miss: Holy damage equal to your level. 5th level spell: 8d10 damage. 7th level spell: 2d6 x 10 damage. 9th level spell: 2d10 x 10 damage."
+        },
+        {
+            "name": "Mighty Healing",
+            "type": "Spell",
+            "class": "Cleric",
+            "level": 3,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Effect: You can cast this spell for power or for broad effect. Cast for power: One nearby ally can heal using a single recovery and regain double the usual number of hit points. Cast for broad Effect: Choose up to three nearby creatures (including you); each target can heal using a recovery. 5th level spell: The spell can now target far away allies. 7th level spell: Power equals triple the usual hp for one recovery; broad equals 150% the usual hp per recovery. 9th level spell: Recoveries provided by the spell are now free."
+        },
+        {
+            "name": "Strength of the Gods",
+            "type": "Spell",
+            "class": "Cleric",
+            "level": 3,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Quick action to cast Effect: You can cast this spell for power or for broad effect. Cast for power: One nearby ally deals +2d8 damage with melee attacks this battle. Cast for broad Effect: Choose up to three nearby creatures (including you); each target deals +1d8 damage with melee attacks this battle. 5th level spell: Power +4d6, Broad +2d6. 7th level spell: Power +4d10, Broad +2d10. 9th level spell: Power +6d10, Broad +3d10."
+        },
+        {
+            "name": "Crisis of Faith",
+            "type": "Spell",
+            "class": "Cleric",
+            "level": 5,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Quick action to cast Effect: For the rest of this battle, all enemies near you with 100 hp or fewer take a penalty to their Mental Defense equal to your Charisma modifier. Whenever one of those enemies misses with an attack roll, it takes holy damage equal to double your level. 7th level spell: 160 hp or fewer. 9th level spell: 250 hp or fewer."
+        },
+        {
+            "name": "Sanctuary",
+            "type": "Spell",
+            "class": "Cleric",
+            "level": 5,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Effect: Choose yourself or a nearby ally. Enemies with 100 hp or fewer cannot attack the chosen target until that creature attacks or the escalation die reaches 6+. 7th level spell: 160 hp or fewer. 9th level spell: 250 hp or fewer."
+        },
+        {
+            "name": "Sphere of Radiance",
+            "type": "Spell",
+            "class": "Cleric",
+            "level": 5,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Effect: You or one nearby ally can heal using a free recovery. Then make the following attack. Target: Up to two nearby enemies Attack: Wisdom + Level vs. MD Hit: 7d8 + Charisma holy damage. Miss: Half damage. 7th level spell: 8d12 damage. 9th level spell: 2d8 x 10 damage."
+        },
+        {
+            "name": "Circle of Protection",
+            "type": "Spell",
+            "class": "Cleric",
+            "level": 7,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Quick action to cast Effect: Choose a defense: AC, PD, or MD. For the rest of the battle while you are conscious, you and each ally near you gains a +1 bonus to that defense. Each enemy that misses you or one of your nearby allies with an attack against the defense you chose is hampered until the end of its next turn. 9th level spell: Attacks against the chosen defense cannot score critical hits."
+        },
+        {
+            "name": "Resurrection",
+            "type": "Spell",
+            "class": "Cleric",
+            "level": 7,
+            "attacktype": "Ranged spell",
+            "usage": "Special: You can cast this spell only once per level, and a limited number of times in your life. You must have most of the corpse available to cast the spell. There’s no time limit on resurrecting a dead PC, so long as you have the corpse.",
+            "description": "Effect: You can bring a creature back to life in more or less normal condition, with varying levels of recovery. Limited Casting: The first time in your life that you use the spell, you can cast it with a single standard action. Using the spell removes one of your spell slots until you gain a level. (You get one less spell per full heal-up.) The person you are resurrecting comes back at roughly half strength, e.g. expending half their recoveries, being dazed (save ends), and, for each ability, having a 50% chance that it is expended. The second time in your life you cast the spell, it takes at least three or four rounds and costs you roughly half your hit points and daily powers/spells. The person you are resurrecting comes back at something like one-quarter strength. The third time you cast the spell it has to be as a ritual. The spell chews you up and leaves you with only a few hit points, then gnaws at the person you have resurrected, who takes days to recover well enough to qualify as an adventurer or combatant. The fourth time you cast the spell it nearly kills you. The resurrection succeeds but the person you’ve resurrected is going to be a mess for a month or more, regardless of any other magic you use. The fifth time you resurrect someone, that’s the end of your story and you die. There’s only a 50% chance that the resurrection spell works on the target. You’ve used up your quota of resurrection magic. You’re not coming back via this spell, either. Limited Resurrection: If the target of your resurrection spell has been resurrected more times than you have cast the spell, there is a 50% chance that the experience will play out using their higher number of resurrections instead of the number of times you have cast the spell. 9th level spell: You no longer need to have most of the corpse to perform this spell."
+        },
+        {
+            "name": "Overworld Travel",
+            "type": "Spell",
+            "class": "Cleric",
+            "level": 9,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Special: You must cast this spell outdoors. It enables you and a group of nearby allies to travel to most any location in the world that you can name. Travel takes between an hour and a day, depending on distance and the amount of effort the exerted. The destination can be in the overworld or in the land. It can’t be in the underworld."
+        },
+        {
+            "name": "Prayer for Readiness",
+            "type": "Spell",
+            "class": "Cleric",
+            "level": 9,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Targets: Up to 5 allies Effect: You utter a powerful prayer upon your comrades, giving each a special blessing. At any point later this battle, each blessed ally can acknowledge the blessing by saying “thank you” to your god, gods, or pantheon as a free action to reroll a d20 roll. That ally must take the reroll result. Note that you are giving the blessing and don’t receive it yourself."
+        },
+        {
+            "name": "Brace for It",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 1,
+            "attacktype": "Flexible melee attack",
+            "usage": "Triggering Roll: Any miss",
+            "description": "Effect: Until the end of your next turn, the first critical hit you take from a melee attack becomes a normal hit instead."
+        },
+        {
+            "name": "Carve an Opening",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 1,
+            "attacktype": "Flexible melee attack",
+            "usage": "Triggering Roll: Any natural odd roll",
+            "description": "Effect: Your crit range with melee attacks expands by a cumulative +1 this battle until you score a melee critical hit. When you score a melee critical hit, your crit range drops back to normal."
+        },
+        {
+            "name": "Deadly Assault",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 1,
+            "attacktype": "Flexible melee or ranged attack",
+            "usage": "Triggering Roll: Any natural even hit",
+            "description": "Effect: Reroll any 1s from your damage roll. You’re stuck with the rerolls."
+        },
+        {
+            "name": "Defensive Fighting",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 1,
+            "attacktype": "Flexible melee attack",
+            "usage": "Triggering Roll: Natural 16+; if you fight with a shield, also any natural even roll",
+            "description": "Effect: Gain a +2 bonus to AC until the end of your next turn."
+        },
+        {
+            "name": "Grim Intent",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 1,
+            "attacktype": "Flexible melee attack",
+            "usage": "Triggering Roll: Any natural even miss",
+            "description": "Effect: The next time you would deal miss damage with a melee attack, add a WEAPON die to that damage. At 5th level, instead add 2 total WEAPON dice; at 8th level, instead add 3 total WEAPON dice."
+        },
+        {
+            "name": "Heavy Blows",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 1,
+            "attacktype": "Flexible melee attack",
+            "usage": "Triggering Roll: Any natural even miss",
+            "description": "Effect: You gain a bonus to your miss damage with that attack equal to the escalation die."
+        },
+        {
+            "name": "Precision Attack",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 1,
+            "attacktype": "Flexible melee attack",
+            "usage": "Triggering Roll: Any hit with a natural 16+",
+            "description": "Effect: You gain a bonus to the damage roll equal to your Dexterity modifier. At 5th level, the damage bonus increases to double your Dexterity modifier; at 8th level the damage bonus increases to triple it."
+        },
+        {
+            "name": "Second Shot",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 1,
+            "attacktype": "Flexible ranged attack",
+            "usage": "Triggering Roll: Natural 16+",
+            "description": "Effect: After this attack, you can make a basic ranged attack with the same weapon (as long as it’s not a weapon that takes a quick action to reload or draw) with a –4 attack penalty. You can’t use any maneuvers with the second attack."
+        },
+        {
+            "name": "Shield Bash",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 1,
+            "attacktype": "Flexible melee attack",
+            "usage": "Special: You must be using a shield.",
+            "description": "Triggering Roll: Any natural even roll Effect: The target pops free from you after the attack (does not allow opportunity attacks)."
+        },
+        {
+            "name": "Two-Weapon Pressure",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 1,
+            "attacktype": "Flexible melee attack",
+            "usage": "Special: You must be using a weapon in each hand.",
+            "description": "Triggering Roll: Any miss Effect: Until the end of your next turn, you gain a +2 melee attack bonus against the target."
+        },
+        {
+            "name": "Hack & Slash",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 3,
+            "attacktype": "Flexible melee attack",
+            "usage": "Special: You can use this maneuver only once per round.",
+            "description": "Triggering Roll: Any natural even roll, when the escalation die is 2+ Effect: Make another melee weapon attack against a different target."
+        },
+        {
+            "name": "Make ’em Flinch",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 3,
+            "attacktype": "Flexible ranged attack",
+            "usage": "Triggering Roll: Any natural even miss",
+            "description": "Effect: Add the higher modifier from your Strength or Dexterity to the miss damage. At 5th level the damage bonus increases to double your chosen modifier; at 8th level the damage bonus increases to triple it."
+        },
+        {
+            "name": "Punish Them",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 3,
+            "attacktype": "Flexible melee attack",
+            "usage": "Special: You can use this maneuver only when you make an opportunity attack.",
+            "description": "Triggering Roll: Any hit with a natural 16+ Effect: The target is dazed until the end of its turn."
+        },
+        {
+            "name": "Steady Now",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 3,
+            "attacktype": "Flexible melee attack",
+            "usage": "Triggering Roll: Any natural even miss",
+            "description": "Effect: You gain temporary hit points equal to your Constitution modifier."
+        },
+        {
+            "name": "Strong Guard",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 3,
+            "attacktype": "Flexible melee attack",
+            "usage": "Special: You must be using a shield.",
+            "description": "Triggering Roll: Any miss Effect: One ally next to you (including an ally engaged with the same enemy as you) gains a +2 AC bonus until the start of your next turn or until you are no longer next to them."
+        },
+        {
+            "name": "A Dozen Cuts",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 5,
+            "attacktype": "Flexible melee attack",
+            "usage": "Triggering Roll: Any natural even hit",
+            "description": "Effect: The target also takes ongoing damage equal to double your Dexterity modifier, or triple it at 8th level."
+        },
+        {
+            "name": "Hero’s Skill",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 5,
+            "attacktype": "Flexible melee or ranged attack",
+            "usage": "Triggering Roll: Any natural even miss",
+            "description": "Effect: Add +2 to the attack roll, then halve any damage dealt by the attack if it hits."
+        },
+        {
+            "name": "Sword Master’s Anticipation",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 5,
+            "attacktype": "Flexible melee attack",
+            "usage": "Special: You must have the Skilled Intercept talent to use this maneuver.",
+            "description": "Triggering Roll: Any natural even roll Effect: The next time you use Skilled Intercept this battle, your Skilled Intercept save automatically succeeds."
+        },
+        {
+            "name": "Never Surrender",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 7,
+            "attacktype": "Flexible melee attack",
+            "usage": "Triggering Roll: Any natural even roll",
+            "description": "Effect: You can roll a save against a save ends effect."
+        },
+        {
+            "name": "Spinning Charge",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 7,
+            "attacktype": "Flexible melee attack",
+            "usage": "Special: You must have moved before the attack.",
+            "description": "Triggering Roll: Any natural even hit Effect: After dealing damage, you can pop free from the target, move to a different nearby enemy, and make a basic melee attack against that enemy. You can’t use any maneuvers with the second attack, and it deals only half damage."
+        },
+        {
+            "name": "Sword of Destiny",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 7,
+            "attacktype": "Flexible melee attack",
+            "usage": "Triggering Roll: Natural 20",
+            "description": "Effect: You can heal using a free recovery."
+        },
+        {
+            "name": "Combat Mastery",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 9,
+            "attacktype": "Flexible melee attack",
+            "usage": "Special: You can use this maneuver only once per battle.",
+            "description": "Triggering Roll: Natural 16+ Effect: Increase the escalation die by 1."
+        },
+        {
+            "name": "Set ’em Up",
+            "type": "Maneuver",
+            "class": "Fighter",
+            "level": 9,
+            "attacktype": "Flexible melee attack",
+            "usage": "Triggering Roll: Any hit with a natural 16+",
+            "description": "Effect: The crit range of your attacks against the target expands by 3 (generally 17+) until the end of the battle (cumulative)."
+        },
+        {
+            "name": "Evasive Strike",
+            "type": "Power",
+            "class": "Rogue",
+            "level": 1,
+            "attacktype": "Melee attack",
+            "usage": "At-Will",
+            "description": "Target: One enemy Attack: Dexterity + Level vs. AC Hit: WEAPON + Dexterity damage, and you can pop free from the target. Miss: Damage equal to your level."
+        },
+        {
+            "name": "Deadly Thrust",
+            "type": "Power",
+            "class": "Rogue",
+            "level": 1,
+            "attacktype": "Melee attack",
+            "usage": "At-Will",
+            "description": "Target: One staggered non-mook enemy Attack: Dexterity + Strength + Level vs. AC Hit: WEAPON + Dexterity damage. Miss: Damage equal to your level."
+        },
+        {
+            "name": "Flying Blade",
+            "type": "Power",
+            "class": "Rogue",
+            "level": 1,
+            "attacktype": "Ranged attack",
+            "usage": "At-Will",
+            "description": "Special: You must use a small bladed weapon with this attack. Target: One nearby creature Attack: Dexterity + Level vs. AC Hit: WEAPON + Dexterity damage, and if your natural attack roll is even and one of your allies is engaged with the target, you can use your Sneak Attack damage for the round. Miss: Damage equal to your level."
+        },
+        {
+            "name": "Roll With It",
+            "type": "Power",
+            "class": "Rogue",
+            "level": 1,
+            "attacktype": "Momentum power",
+            "usage": "At-Will (once per round)",
+            "description": "Interrupt action; requires momentum Trigger: A melee attack that targets AC hits you. Effect: You take half damage from that attack."
+        },
+        {
+            "name": "Sure Cut",
+            "type": "Power",
+            "class": "Rogue",
+            "level": 1,
+            "attacktype": "Melee attack",
+            "usage": "At-Will",
+            "description": "Special: You must have momentum and be able to deal your Sneak Attack damage to the target if you hit. Target: One enemy Attack: Dexterity + Level vs. AC Hit: WEAPON + Dexterity damage. Miss: Deal your Sneak Attack damage + damage equal to your level."
+        },
+        {
+            "name": "Tumbling Strike",
+            "type": "Power",
+            "class": "Rogue",
+            "level": 1,
+            "attacktype": "Melee attack",
+            "usage": "At-Will",
+            "description": "Always: You gain a +5 bonus to all disengage checks you attempt this turn. You can also move to engage an enemy, make this attack against it, and then use a quick action to attempt to disengage from it (the quick action disengage lets you move again if you succeed). Attack: Dexterity + Level vs. AC Hit: WEAPON + Dexterity damage. Miss: Damage equal to your level."
+        },
+        {
+            "name": "Bleeding Strike",
+            "type": "Power",
+            "class": "Rogue",
+            "level": 3,
+            "attacktype": "Melee attack",
+            "usage": "At-Will",
+            "description": "Target: One enemy who is not taking ongoing damage Attack: Dexterity + Level vs. AC Hit: WEAPON + Dexterity damage, and if your natural attack roll was even, the target takes ongoing damage equal to 1d4 times your level. Miss: Damage equal to your level."
+        },
+        {
+            "name": "Deflection",
+            "type": "Power",
+            "class": "Rogue",
+            "level": 3,
+            "attacktype": "Momentum power",
+            "usage": "At-Will (once per round)",
+            "description": "Interrupt action; you must spend your momentum Trigger: A melee attack misses you. Effect: The attack hits a different enemy you are engaged with instead, but deals only half damage."
+        },
+        {
+            "name": "Slick Feint",
+            "type": "Power",
+            "class": "Rogue",
+            "level": 3,
+            "attacktype": "Melee attack",
+            "usage": "At-Will",
+            "description": "First Target: One enemy engaged with you Attack: Charisma + Level vs. MD Hit: The target is dazed until the end of your next turn, and you can make an improved attack against a second target. Miss (First Target): Your attack action is over; the feint was a screw-up. Second Target: A different enemy from the first target that is engaged with you Attack: Dexterity + Level +2 vs. AC Hit: WEAPON + Dexterity damage. Miss (Second Target): Damage equal to your level."
+        },
+        {
+            "name": "Thief’s Strike",
+            "type": "Power",
+            "class": "Rogue",
+            "level": 3,
+            "attacktype": "Note: This is a bonus 3rd-level power for rogues with the Thievery talent. Other rogues can choose it if they like.",
+            "usage": "Melee attack",
+            "description": "At-Will Target: One enemy Attack: Dexterity + Level vs. PD Hit: Half of WEAPON + Dexterity damage (including Sneak Attack damage if any), and roll a normal save. If you succeed, you can pickpocket an item from the target that they are not holding. (If you roll 16+, the target doesn’t realize you pickpocketed them.) Miss: —"
+        },
+        {
+            "name": "Harmless Misdirection",
+            "type": "Power",
+            "class": "Rogue",
+            "level": 5,
+            "attacktype": "Momentum power",
+            "usage": "At-Will (once per round)",
+            "description": "Interrupt action; requires momentum Trigger: You miss with a melee attack while an ally is engaged with the target. Effect: You can pop free from the target, and the target can’t attack you during its next turn as long as your ally remains engaged with it."
+        },
+        {
+            "name": "Spiky Bastard",
+            "type": "Power",
+            "class": "Rogue",
+            "level": 5,
+            "attacktype": "Daily",
+            "usage": "Quick action",
+            "description": "Effect: You go all-out to hurt anyone who tries to get a piece of you. For the rest of the battle, while you're conscious, using at least one bladed weapon, and are not staggered or stunned, you deal 10 damage to each enemy that makes a melee attack against you and rolls a natural odd attack roll. The damage hits the enemy before their attack damages you."
+        },
+        {
+            "name": "Swift Dodge",
+            "type": "Power",
+            "class": "Rogue",
+            "level": 5,
+            "attacktype": "Momentum power",
+            "usage": "At-Will (once per round)",
+            "description": "Interrupt action; requires momentum Trigger: You are hit by an attack against AC. Effect: The attacker must reroll the attack."
+        },
+        {
+            "name": "Assassin’s Gambit",
+            "type": "Power",
+            "class": "Rogue",
+            "level": 7,
+            "attacktype": "Melee attack",
+            "usage": "At-Will",
+            "description": "Target: One enemy Attack: Dexterity + Level vs. AC Hit: Half of WEAPON + Dexterity damage (including Sneak Attack damage if any), and if you drop a non-mook target to 0 hp, you can take another standard action this turn. Miss: Damage equal to your level."
+        },
+        {
+            "name": "Swift Riposte",
+            "type": "Power",
+            "class": "Rogue",
+            "level": 7,
+            "attacktype": "Momentum power",
+            "usage": "At-Will (once per round)",
+            "description": "Interrupt action; you must spend your momentum Trigger: An enemy targets you with a melee attack. Effect: You can make a basic attack against your attacker. If your natural attack roll equals or beats your attacker’s roll, resolve your basic attack against that enemy first. If your attack roll is lower, your attack has no effect, regardless of whether it hits or misses. Special: You can’t gain momentum from hitting with swift riposte."
+        },
+        {
+            "name": "Death’s Twin",
+            "type": "Power",
+            "class": "Rogue",
+            "level": 9,
+            "attacktype": "Momentum power",
+            "usage": "At-Will",
+            "description": "Standard action on your turn; you must spend your momentum Effect: You can make two basic attacks at any point during your turn, each against a different target. You only regain momentum if your second attack hits."
+        },
+        {
+            "name": "True Targeting",
+            "type": "Power",
+            "class": "Rogue",
+            "level": 9,
+            "attacktype": "Momentum power",
+            "usage": "At-Will",
+            "description": "Interrupt action OR free action on your turn; you must spend your momentum Trigger: An invisible or otherwise hidden enemy attacks you, or you try to attack an invisible or hidden enemy. Effect: The attacker’s invisibility isn’t going to work on you. It might work against your allies, but you see through it and can tell where the creature is well enough to target it normally or be aware of its imminent attack."
+        },
+        {
+            "name": "Breath of the White",
+            "type": "Spell",
+            "class": "sorcerer",
+            "level": 1,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Target: 1d2 nearby enemies in a group; breath weapon Attack: Charisma + Level vs. PD Hit: 3d6 + Charisma cold damage. Miss: Half damage. 3rd level spell: 5d6 damage. 5th level spell: 4d10 damage. 7th level spell: 6d12 damage. 9th level spell: 10d12 damage. Breath Weapon: For the rest of the battle, roll a d20 at the start of each of your turns. On a 16+, you can use breath of the white dragon that turn if you wish."
+        },
+        {
+            "name": "Burning Hands",
+            "type": "Spell",
+            "class": "sorcerer",
+            "level": 1,
+            "attacktype": "Close-quarters spell",
+            "usage": "At-Will",
+            "description": "Targets: Up to two nearby enemies in a group Attack: Charisma + Level vs. PD Hit: 1d6 + Charisma fire damage. 3rd level spell: 1d8 damage. 5th level spell: 2d8 damage. 7th level spell: 3d8 damage. 9th level spell: 5d8 damage."
+        },
+        {
+            "name": "Chaos Bolt",
+            "type": "Spell",
+            "class": "sorcerer",
+            "level": 1,
+            "attacktype": "Ranged spell",
+            "usage": "At-Will",
+            "description": "Special: The first time you use chaos bolt each battle, determine a random energy type. The spell deals that type of damage each time you use it that battle. Target: Either a single nearby enemy or a single far away enemy with a –2 attack penalty Attack: Charisma + Level vs. PD Hit: 1d8 + Charisma random energy damage, and if the natural attack roll was even, you gain a chaotic benefit as if you had gathered power. Miss: Damage equal to your level. 3rd level spell: 3d8 damage. 5th level spell: 5d8 damage. 7th level spell: 7d8 damage. 9th level spell: 9d8 damage."
+        },
+        {
+            "name": "Lightning Fork",
+            "type": "Spell",
+            "class": "sorcerer",
+            "level": 1,
+            "attacktype": "Ranged spell",
+            "usage": "Recharge 16+ after battle",
+            "description": "Target: One nearby enemy; chain spell Attack: Charisma + Level vs. PD Hit: 3d6 + Charisma lightning damage. Miss: Half damage. 3rd level spell: 7d6 damage. 5th level spell: 6d10 damage. 7th level spell: 10d10 damage. 9th level spell: 2d8 x 10 damage. Chain Spell: Each time you make a natural even attack roll, you can attack a different target with the spell."
+        },
+        {
+            "name": "Resist Energy",
+            "type": "Spell",
+            "class": "sorcerer",
+            "level": 1,
+            "attacktype": "Ranged spell",
+            "usage": "Recharge 16+ after battle",
+            "description": "Target: You or one nearby ally Effect: Until the end of the battle, the target gains resist damage 12+ to the following energy type of your choice: cold, fire, lightning, thunder. 3rd level spell: Choose two types of energy the target gains resistance to. 5th level spell: Resistance is now 16+. 7th level spell: The spell now affects two targets. 9th level spell: Recharge roll is now 11+."
+        },
+        {
+            "name": "Scorching Ray",
+            "type": "Spell",
+            "class": "sorcerer",
+            "level": 1,
+            "attacktype": "Ranged spell",
+            "usage": "At-Will",
+            "description": "Target: One nearby enemy Attack: Charisma + Level vs. PD Hit: 1d6 + Charisma fire damage, and if the natural attack roll is even, the target also takes 1d8 ongoing fire damage. Miss: Damage equal to your level. 3rd level spell: 3d6 damage; 2d4 ongoing. 5th level spell: 4d6 damage; 2d6 ongoing. 7th level spell: 6d6 damage; 3d6 ongoing. 9th level spell: 10d6 damage; 5d6 ongoing."
+        },
+        {
+            "name": "Breath of the Green",
+            "type": "Spell",
+            "class": "sorcerer",
+            "level": 3,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Target: 1d4 nearby enemies in a group; breath weapon Attack: Charisma + Level vs. PD Hit: 15 + Charisma ongoing poison damage. Miss: 5 ongoing poison damage. 5th level spell: 25 + Charisma ongoing poison damage; 10 ongoing on a miss. 7th level spell: 35 + Charisma ongoing poison damage; 15 ongoing on a miss. 9th level spell: 50 + Charisma ongoing poison damage; 25 ongoing on a miss. Breath Weapon: For the rest of the battle, roll a d20 at the start of each of your turns; on a 16+, you can use breath of the green that turn if you wish."
+        },
+        {
+            "name": "Chaos Pulse",
+            "type": "Spell",
+            "class": "sorcerer",
+            "level": 3,
+            "attacktype": "Ranged spell",
+            "usage": "At-Will",
+            "description": "Target: One random nearby enemy Attack: Charisma + Level vs. PD Hit: 3d10 + Charisma random energy damage. Even Miss: Half damage. Odd Miss: Damage equal to your level. 5th level spell: 5d10 damage. 7th level spell: 7d10 damage. 9th level spell: 9d10 damage."
+        },
+        {
+            "name": "Dragon’s Leap",
+            "type": "Spell",
+            "class": "sorcerer",
+            "level": 3,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Quick action to cast Target: You; breath weapon Effect: You can fly at the rate you normally move until the end of your turn. (So if you don’t land or find someplace to hang from, you’ll fall.) 5th level spell: You can now fly until the end of your next turn. 7th level spell: You can now fly twice as fast as you normally move on the ground. You also gain a +5 bonus to disengage checks. 9th level spell: The spell is now recharge 16+ after battle instead of daily. Breath Weapon: For the rest of the battle, roll a d20 at the start of each of your turns; on a 16+, you can use dragon’s leap this turn if you wish. (Yeah, we know it’s not actually a breath weapon, but it works as part of the draconic sorcerer package.)"
+        },
+        {
+            "name": "Echoing Thunder",
+            "type": "Spell",
+            "class": "sorcerer",
+            "level": 3,
+            "attacktype": "Ranged spell",
+            "usage": "At-Will",
+            "description": "Target: One nearby enemy Attack: Charisma + Level vs. PD Hit: 3d6 + Charisma thunder damage, and the first enemy that hits you with a melee attack before the start of your next turn takes 2d6 thunder damage. (An empowered spell does not double this aftershock damage.) Miss: Damage equal to your level. 5th level spell: 5d6 damage; 2d6 aftershock damage. 7th level spell: 7d6 damage; 3d6 aftershock damage. 9th level spell: 9d6 damage; 4d6 aftershock damage."
+        },
+        {
+            "name": "Breath of the Black",
+            "type": "Spell",
+            "class": "sorcerer",
+            "level": 5,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Target: One nearby enemy; breath weapon Attack: Charisma + Level vs. MD Hit: 10d6 + Charisma acid damage, and 20 ongoing acid damage. Miss: 10 ongoing acid damage. 7th level spell: 10d10 damage, and 40 ongoing damage; 20 ongoing on a miss. 9th level spell: 2d6 x 10 damage, and 60 ongoing damage; 30 ongoing on a miss. Breath Weapon: For the rest of the battle, roll a d20 at the start of each of your turns; on a 16+, you can use breath of the black that turn if you wish."
+        },
+        {
+            "name": "The Elven Shadows",
+            "type": "Spell",
+            "class": "sorcerer",
+            "level": 5,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Special: Once you cast this spell in a battle, you can cast it at-will for the rest of that battle. Target: One nearby enemy Attack: Charisma + Level vs. MD Hit: 8d6 + Charisma psychic damage, and if the natural attack roll is even, you can teleport to a nearby location you can see. Miss: Damage equal to your level. 7th level spell: 9d10 damage. 9th level spell: 10d12 damage."
+        },
+        {
+            "name": "Three Dooms",
+            "type": "Spell",
+            "class": "sorcerer",
+            "level": 5,
+            "attacktype": "Ranged spell",
+            "usage": "Recharge 16+ after battle",
+            "description": "Target: One nearby enemy; chain spell Attack: Charisma + Level vs. PD Hit: 2d4 x 10 random energy damage, and you take damage of the same type equal to the unmodified dice roll (2d4, 2d8, or 2d12). (Note that there’s no Charisma bonus to damage.) Miss: Half damage, and you still take random energy damage equal to the unmodified dice roll. 7th level spell: 2d8 x 10 damage. 9th level spell: 2d12 x 10 damage. Chain Spell: Each time you make a natural even attack roll, you can attack a different target with the spell."
+        },
+        {
+            "name": "Unearthly Glamour",
+            "type": "Spell",
+            "class": "sorcerer",
+            "level": 5,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Effect: You gain a +5 bonus to all Charisma skill checks for the next five minutes. If you fail a Charisma skill check during this time, however, anyone you were attempting to convince or influence with the check is freaked out or disgusted by the supernatural glamour attached to you and has extremely negative reactions to you. 7th level spell: The effect lasts for 1 hour. 9th level spell: The effect lasts for 2 hours."
+        },
+        {
+            "name": "Breath of the Blue",
+            "type": "Spell",
+            "class": "sorcerer",
+            "level": 7,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Target: One nearby enemy; breath spell Attack: Charisma + Level vs. PD Hit: 10d12 + Charisma lightning damage, and at the start of the target’s next turn, 1d6 of its nearby allies take 20 lightning damage. Miss: Half damage, and no damage to target’s allies. 9th level spell: 2d10 x 10 damage; 25 lightning damage to nearby allies. Breath Spell: For the rest of the battle, roll a d20 at the start of each of your turns; on a 16+, you can use breath of the blue this turn if you wish."
+        },
+        {
+            "name": "Stolen Faces",
+            "type": "Spell",
+            "class": "sorcerer",
+            "level": 7,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Free action to cast, before initiative is rolled Targets: 1d4 + 1 nearby allies Effect: You steal the once-per-battle racial powers of your allies this battle, but you don’t get the advantage of your allies’ feats or items that improve those powers. Each ally you steal a racial power from can roll an easy save (6+). Success means they get to use their power also this battle. Failure means they can’t; you took it fully. You can’t steal racial powers you already possess. 9th level spell: You get to use your allies’ powers as if you also had any of their feats that improve those powers."
+        },
+        {
+            "name": "Touch of Evil",
+            "type": "Spell",
+            "class": "sorcerer",
+            "level": 7,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Quick action to cast Special: If you are fighting one or more demons, roll an easy save (6+) at the start of each of your turns. Failure means that you are confused that turn. Target: You Effect: You gain a random demon-style power for the rest of the battle, similar to the abilities demons possess but not identical. Roll a d8 to see which power you gain: Roll (d8) Power Description 1 Resist energy 16+ When an attack that deals energy damage targets you, the attacker must roll a natural 16+ on the attack roll or it only deals half damage. 2 Infernal battery Until the end of the battle, you can use a quick action once each round to make recharge rolls for your expended recharge spells. Each time you do so, you take damage equal to half the natural result of your recharge roll. 3 Backlash The first time you are staggered this battle, the enemy who staggered you becomes confused (save ends). 4 Spell frenzy You enter a spell frenzy (see Infernal Heritage talent). If you were already in a spell frenzy, you now roll 3d20 for each attack and take damage equal to triple the target’s level for each roll that misses. 5 Fear aura Enemies engaged with you that have fewer hit points than double your current hit points are dazed. They cannot use the escalation die. 6 Teleport 1d3 + 1 times this battle As a move action, you can teleport anywhere you can see nearby. 7 Demonic speed You can take an extra standard action each turn that the escalation die is even. You lose 2d10 hit points each time you use the extra action. 8 Eye of the demon Choose any two features you want. For the rest of this day, all your icon relationships disappear and are replaced by an identical number of conflicted points with a villainous icon (preferably one that is demonic)."
+        },
+        {
+            "name": "Breath of the Void",
+            "type": "Spell",
+            "class": "sorcerer",
+            "level": 9,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Target: One nearby enemy; breath spell Attack: Charisma + Level vs. MD Hit: 2d12 x 10 + Charisma negative energy damage, and the target moves down 2d6 points in initiative order, to a minimum of 1. Miss: Half damage. Breath Spell: For the rest of the battle, roll a d20 at the start of each of your turns; on a 16+, you can use breath of the void this turn if you wish."
+        },
+        {
+            "name": "Calling the Blood",
+            "type": "Spell",
+            "class": "sorcerer",
+            "level": 9,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Effect: Randomly select an icon (preferably a sorcerous one). You gain some surprising or bizarre magical effect associated with the power of that icon to assist you. The effect is entirely up to the GM, though the immediate impact of the spell should always be favorable for you. The long-term consequences of randomly invoking the power of an icon that may be an enemy might not be favorable for you, and should be played for narrative interest by the GM, particularly if the impact of the spell was huge for you. Since this is a daily spell, sizeable impact is fine, but don’t award any extra effect for empowered casting, especially since the spell can be cast effectively out of combat. Silver Flame Close-quarters spell Daily Quick action to cast Effect: Roll your relationship dice that you have with a sorcerous heroic icon. For each 6 you roll, you gain one 7th level or lower spell from any spellcasting class that you can cast this battle. For each 5 you roll, you gain one 5th level or lower spell from any spellcasting class that you can cast this battle. If the escalation die is 5+, you can swap the escalation die for one or your rolls. If you get no successes, you regain the spell after this battle. You can acquire one of the new spells the same round you cast this spell. Then select and acquire any other gained spells at the start of your next turn. You can use your Charisma as the ability score that provides the acquired spells’ attack bonuses and damage bonuses (if any). Other ability score references remain unchanged. As you might expect, each 5 you roll also invokes an icon-related complication or obligation in the tradition of rolling 5s on relationship checks."
+        },
+        {
+            "name": "1st Level Utility: Disguise Self",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 1,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Effect: This spell provides you with an effective magical disguise that lasts about ten minutes, making the skill check to avoid unmasking one step easier: easy if it would have been a normal task, normal if it would have been a hard task, and hard if it would have been a ridiculously hard task. The spell only affects your general appearance, not your size. It can be used to hide your features behind the generic features of another person or race. Using it to impersonate a specific creature makes it less effective as a disguise (-2 to -5 penalty). 3rd level spell: The spell lasts for 1 hour. 5th level spell: The spell also provides smell; +2 bonus to any checks. 7th level spell: The spell also handles correct-sounding vocal patterns and rough mannerisms; +4 bonus to any checks. 9th level spell: You can now target an ally with the spell; you can also now use it on up to two creatures at once."
+        },
+        {
+            "name": "1st Level Utility: Feather Fall",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 1,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Free action to cast Effect: When you cast this spell, it arrests your fall, letting you glide down the ground over a round or two. 3rd level spell: You can now target a nearby ally with the spell. 5th level spell: You can now target up to two nearby creatures with the spell. 7th level spell: You can now target up to five nearby creatures with the spell. 9th level spell: You gain some control over where a target falls, like a quickly gliding feather."
+        },
+        {
+            "name": "1st Level Utility: Hold Portal",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 1,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Effect: You cast this spell on a door. For ten minutes, adventurer-tier creatures can’t get through the door. Champion-tier creatures can batter it down; each attempt requires a DC 20 Intelligence skill check (including an applicable background) by the caster to resist the battering and keep the spell going. Epic-tier creatures can walk right through. 3rd level spell: The spell now lasts for an hour. Adventurer-tier creatures are stymied. Champion-tier creatures can batter the door down or destroy it after three failed DC 20 skill checks by the spellcaster. Epic creatures notice that the now-busted door had magic on it. 5th level spell: Champion-tier creatures take a few minutes to force the door open. Epic creatures can force it open after one failed DC 25 skill check by the spellcaster. 7th level spell: Champion-tier creatures are stymied for up to an hour by the door. Epic tier creatures get through after three failed DC 25 skill checks by the spellcaster. 9th level spell: Champion-tier creatures can’t enter. Epic-tier creatures can’t get through for an hour."
+        },
+        {
+            "name": "3rd Level Utility: Levitate",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 3,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Effect: Until the end of the battle, you can use a move action to rise straight up into the air or descend straight down. The spell itself won’t move you horizontally. The up-or-down movement is about half as fast as your normal movement. While levitating, you take a –2 penalty to your attacks and are vulnerable to attacks against you. 5th level spell: You can now cast the spell on a nearby willing ally instead of yourself. 7th level spell: You can now cast the spell as a quick action, and the spell can now affect two targets. 9th level spell: The spell can now affect five targets."
+        },
+        {
+            "name": "3rd Level Utility: Message",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 3,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Quick action to cast Effect: You send a one to two sentence message to another person you know and have touched in the last week. Sending a message to a person you can see is always easy. Sending a message to a person you can’t see requires a skill check using Intelligence against the highest-tier environment that you or the sender are occupying. The maximum distance you can send a message depends on the spell’s level. 3rd level spell: Across half a city, at most. 5th level spell: Across the entire city and a bit into the countryside. 7th level spell: Between cities near to each other. 9th level spell: From any city to any other city, or across a sea."
+        },
+        {
+            "name": "3rd Level Utility: Speak with Item",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 3,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Quick action to cast Effect: Speak briefly, mind-to-mind, with a magic item you are touching that is owned by you or one of your allies. The item’s owner gets a free power recharge roll if that item’s power has been expended. 5th level spell: You no longer need to be touching the item; it only has to be nearby. 7th level spell: The item’s owner gains a +2 bonus to the item recharge roll. 9th level spell: If the item recharge roll fails, you keep this spell, but the item won’t talk to you until after your next full heal-up."
+        },
+        {
+            "name": "5th Level Utility: Water Breathing",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 5,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Quick action to cast Effect: You can breathe underwater for the rest of the battle (or about five minutes). You become aware a couple of rounds ahead of when the magic of the spell is about to end. 7th level spell: You and 1d4 + 2 nearby allies can breathe underwater this battle. 9th level spell: The spell affects you and 1d6 + 2 nearby allies for 4d6 hours."
+        },
+        {
+            "name": "7th Level Utility: Scrying",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 7,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Effect: You can use this spell to get information you shouldn’t be able to get, peering in on other people’s lives for a short period of time, usually no more than ten minutes at a time. Some areas may be warded at the GM’s discretion. You must have touched the person you wish to spy on in the last month, or, at 9th level, within the last a year. Scrying as a single standard action won’t yield much. Concentrating on the spell for a while with props like a scrying pool or a crystal ball will work better."
+        },
+        {
+            "name": "Acid Arrow",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 1,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Target: One nearby or far away creature Attack: Intelligence + Level vs. PD Hit: 4d10 acid damage, and 5 ongoing acid damage. Miss: 5 ongoing acid damage, and you regain the spell during your next quick rest. 3rd level spell: 5d10 damage, and 10 ongoing damage; 10 ongoing on a miss. 5th level spell: 8d10 damage, and 15 ongoing damage; 15 ongoing on a miss. 7th level spell: 3d4 x 10 damage, and 25 ongoing damage; 25 ongoing on a miss. 9th level spell: 5d4 x 10 damage, and 40 ongoing damage; 40 ongoing on a miss."
+        },
+        {
+            "name": "Blur",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 1,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Target: You or one nearby ally Effect: For the rest of the battle (or for five minutes), attacks against the target miss 20% of the time. 3rd level spell: The spell is now a quick action to cast. 5th level spell: Miss 25% of the time. 7th level spell: Miss 30% of the time, and you can now target 1d2 creatures with the spell. 9th level spell: Miss 30% of the time, and you can now target two creatures with the spell."
+        },
+        {
+            "name": "Charm Person",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 1,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Target: One nearby creature with 40 hp or fewer Special: This spell cannot be cast during combat or on a target that has rolled initiative to fight. Attack: Intelligence + Level vs. MD Hit: The target believes you are their friend until you or your allies take hostile action against them. (Attacking their normal allies is okay.) If you or your allies attack the target or order the target to attack its normal allies, the target can roll a normal save to break the charm effect during its turn each round. Special: On a miss, the spell is not detectible by most others unless you miss by 4+ or roll a natural 1, in which case the target and its allies knows what you tried to do and will usually be angry about it. 3rd level spell: Target with 64 hp or fewer. 5th level spell: Target with 96 hp or fewer. 7th level spell: Target with 160 hp or fewer. 9th level spell: Target with 266 hp or fewer."
+        },
+        {
+            "name": "Color Spray",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 1,
+            "attacktype": "Close-quarters spell",
+            "usage": "Cyclic (cast once per battle OR at-will when the escalation die is even)",
+            "description": "Target: 1d4 nearby enemies in a group Attack: Intelligence + Level vs. MD Hit: 2d8 psychic damage, and if the target has 10 hp or fewer after the damage, it is weakened until the end of your next turn. 3rd level spell: 4d6 damage, 20 hp or fewer. 5th level spell: 6d8 damage, 30 hp or fewer. 7th level spell: 10d6 damage, 40 hp or fewer. 9th level spell: 10d12 damage, 60 hp or fewer."
+        },
+        {
+            "name": "Magic Missile",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 1,
+            "attacktype": "Ranged spell",
+            "usage": "At-Will",
+            "description": "Target: One nearby or far away enemy. Attack: Automatic hit Effect: 2d4 force damage. 3rd level spell: 2d8 damage. 5th level spell: 4d6 damage. 7th level spell: 6d6 damage. 9th level spell: 10d6 damage."
+        },
+        {
+            "name": "Ray of Frost",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 1,
+            "attacktype": "Ranged spell",
+            "usage": "At-Will",
+            "description": "Target: One nearby enemy Attack: Intelligence + Level vs. PD Hit: 3d6 cold damage Miss: Damage equal to your level. 3rd level spell: 4d8 damage. 5th level spell: 6d8 damage. 7th level spell: 7d10 damage. 9th level spell: 10d12 damage."
+        },
+        {
+            "name": "Shield",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 1,
+            "attacktype": "Close-quarters spell",
+            "usage": "Recharge 11+ after battle",
+            "description": "Free action to cast, when an attack hits your AC. Effect: The attacker must reroll the attack. You must accept the new result. 3rd level spell: You gain a +2 AC bonus against the rerolled attack. 5th level spell: You can also use the spell against attacks that target your Physical Defense; replace references to AC with PD. 7th level spell: The bonus to AC/PD on the rerolled attack increases to +4. 9th level spell: The bonus to AC/PD on the rerolled attack increases to +6."
+        },
+        {
+            "name": "Shocking Grasp",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 1,
+            "attacktype": "Close-quarters spell",
+            "usage": "At-Will",
+            "description": "Target: One creature engaged with you Attack: Intelligence + Level vs. PD Hit: 1d4 lightning damage, and the target pops free from you. Miss: You take damage equal to the target’s level from botched feedback. 3rd level spell: 1d6 damage. 5th level spell: 2d6 damage. 7th level spell: 3d6 damage. 9th level spell: 4d6 damage."
+        },
+        {
+            "name": "Confusion",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 3,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Target: One nearby enemy with 100 hp or fewer Attack: Intelligence + Level vs. MD Hit: The target is confused (save ends). Miss: If you miss all targets, you regain this spell during your next quick rest. 5th level spell: Target with 160 hp or fewer, and the target can be far away. 7th level spell: Target with 250 hp or fewer, or two targets each with 125 hp or fewer. 9th level spell: Target with 500 hp or fewer, or two targets each with 250 hp or fewer."
+        },
+        {
+            "name": "Crescendo",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 3,
+            "attacktype": "Close-quarters spell",
+            "usage": "At-Will",
+            "description": "Target: One or more enemies engaged with you (but see below) Special: You can choose more than one target for this spell, but you take a –2 penalty when attacking two targets, a –3 penalty for three targets, and so on. Attack: Intelligence + Level vs. PD Hit: 4d6 thunder damage, and the target pops free from you. Miss: Damage equal to your level. 5th level spell: 4d12 damage. 7th level spell: 7d10 damage. 9th level spell: 10d12 damage."
+        },
+        {
+            "name": "Force Salvo",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 3,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Targets: One or more nearby or far away enemies (see below) Special: The spell creates a number of force bolts equal to 1 + your Intelligence modifier. You must target a different creature with each bolt; any extras can’t be used. Attack: Intelligence + Level vs. PD Hit: 4d10 force damage. 5th level spell: 7d10 damage. 7th level spell: 10d12 damage. 9th level spell: 3d6 x 10 damage."
+        },
+        {
+            "name": "Hold Monster",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 3,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Target: One nearby enemy with 60 hp or fewer Attack: Intelligence + Level vs. MD Hit: The target cannot move or use move actions (hard save ends, 16+). Miss: The target is dazed until the end of your next turn. 5th level spell: Target with 100 hp or fewer. 7th level spell: Target with 160 hp or fewer. 9th level spell: Target with 250 hp or fewer."
+        },
+        {
+            "name": "Lightning Bolt",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 3,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Targets: 1d3 + 1 nearby enemies in a group or in a (rough) line Attack: Intelligence + Level vs. PD Hit: 7d8 lightning damage. Miss: Half damage. 5th level spell: 10d10 damage. 7th level spell: 2d8 x 10 damage. 9th level spell: 3d8 x 10 damage."
+        },
+        {
+            "name": "Rebuke",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 3,
+            "attacktype": "Ranged spell",
+            "usage": "Cyclic (once per battle OR at-will when the escalation die is even)",
+            "description": "Target: One nearby enemy with 100 hp or fewer Attack: Intelligence + Level vs. MD Hit: The target is hampered (only makes basic attacks) until the end of your next turn. 5th level spell: Target with 160 hp or fewer. 7th level spell: Target with 266 hp or fewer. 9th level spell: Target with 400 hp or fewer."
+        },
+        {
+            "name": "Sleep",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 3,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Target: Before making the attack, roll 3d20 + 45 to determine the maximum number of hit points of enemies you can target with the spell. The spell can affect multiple enemies. You must target nearby enemies with the current lowest hit points first, and you don’t get to choose the exact targets (except in the case of ties). If adding a creature would exceed the spell’s hit point maximum, that enemy can’t be a target. Attack: Intelligence + Level vs. MD Hit: The target falls unconscious (hard save ends, 16+; it also ends if the target takes 10+ damage). Miss: The target is dazed until the end of your next turn. 5th level spell: Targets 5d20 +50 max hp. 7th level spell: Targets 7d20 + 100 max hp. 9th level spell: Targets 9d20 + 200 max hp."
+        },
+        {
+            "name": "Teleport Shield",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 3,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Always: For the rest of the battle, once per round when an enemy moves to engage you, you can make the following attack against it as a free action before it has the chance to attack in melee. Attack: Intelligence + Level vs. PD Hit: Teleport the enemy somewhere nearby you can see. You can place them in combat with one of your allies, but you can’t place them in a dangerous location. (It’s a defensive tool). 5th level spell: The teleported enemy also takes 4d10 damage. 7th level spell: 6d10 damage. 9th level spell: 10d10 damage."
+        },
+        {
+            "name": "Denial",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 5,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Target: 1d4 nearby enemies in a group Attack: Intelligence + Level vs. MD Hit: 9d10 psychic damage, and the target is hampered until the end of your next turn. Miss: Half damage. 7th level spell: 3d4 x 10 damage. 9th level spell: 3d6 x 10 damage."
+        },
+        {
+            "name": "Dimension Door",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 5,
+            "attacktype": "Close-quarters spell",
+            "usage": "Move action to cast",
+            "description": "Daily Target: You Effect: You teleport somewhere nearby that you can see. 7th level spell: Your destination can now be far away, but not so far that it is out of range of enemy attacks that can hit far away targets. 9th level spell: You can take one ally who is next to you along with you as you teleport."
+        },
+        {
+            "name": "Fireball",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 5,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Special: When you cast this spell, you can choose to cast it recklessly. Target: 1d3 nearby enemies in a group. If you cast recklessly, you can target 1d3 additional enemies, but then your allies engaged with the target may also take damage (see below). Attack: Intelligence + Level vs. PD Hit: 10d10 fire damage. Miss: Half damage. Reckless miss: Your allies engaged with the target take one-fourth damage. 7th level spell 12d10 damage. 9th level spell 20d10 damage."
+        },
+        {
+            "name": "Invisibility",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 5,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Target: You or one nearby ally Effect: Until the end of the battle (or for five minutes out of combat), the target becomes invisible until it attacks or uses some ridiculously flashy action. High Arcana: The duration out of combat is 1 hour instead. 7th level spell: You can now target 1d3 nearby allies (including you) with the spell. 9th level spell: Creatures made invisible by the spell have a 25% chance of remaining invisible the first time (and first time only) they attack or get flashy."
+        },
+        {
+            "name": "Blink",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 7,
+            "attacktype": "Close-quarters spell",
+            "usage": "Daily",
+            "description": "Target: You or one nearby ally Effect: For the rest of the battle (or for five minutes), the target gains resist damage 16+. Enemies who can see invisible creatures ignore this resistance. Whenever the target uses a move action, there is a 50% chance that it can teleport somewhere nearby instead of physically moving. 9th level spell: 75% chance."
+        },
+        {
+            "name": "Flight",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 7,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Target: You or one nearby ally Effect: The target can fly until the end of the battle (or for five minutes). Your speed doesn’t increase appreciably but you can move in three-dimensions. 9th level spell: When you cast the spell, you can choose one: the effect lasts for an hour OR you can target 1d4 + 1 creatures for the normal duration."
+        },
+        {
+            "name": "Haste",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 7,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Target: You or one nearby ally Effect: On the target’s next turn (not this one, if you cast it on yourself), the target gains an additional standard action. In addition, at the start of each of the target’s turns this battle, if the escalation die is even, roll a d20 and add the escalation die; on a 16+, the target gains an additional standard action that turn. 9th level spell: The roll for additional standard actions is now 11+ instead of 16+."
+        },
+        {
+            "name": "Invisibility Purge",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 7,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Targets: Any nearby enemies who are invisible, whether you know they are there or not Attack: Intelligence + Level vs. MD, rolled by GM Hit: The target turns visible and cannot become invisible again this battle. Miss: If there are one or more invisible creatures nearby, you become aware of their presence. Not where they are, or who they are, but that there are invisible creatures present. 9th level spell: The spell also affects far away targets that you could normally see."
+        },
+        {
+            "name": "Overcome Resistance",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 7,
+            "attacktype": "Ranged spell",
+            "usage": "Recharge 16+ after battle",
+            "description": "Target: 1d3 nearby allies (including yourself, if you wish) Effect: Until the end of the battle, the target ignores the resistance power of any creature it targets with an attack. 9th level spell: You can now target 1d4 nearby allies with the spell."
+        },
+        {
+            "name": "Transfer Enchantment",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 7,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Special: You or an ally you are next to must be suffering from a condition caused by an enemy for you to cast this spell. Target: One nearby enemy Attack: Intelligence + Level vs. MD Hit: 2d6 x 10 psychic damage, and you can transfer one condition caused by your enemies from you or the ally you are next to over to the target. If timing is required, interpret the transferred condition as if you had caused it with this spell. Miss: Half damage. 9th level spell: 2d10 x 10 damage; if the spell misses, you regain it during your next quick rest."
+        },
+        {
+            "name": "Disintegrate",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 9,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Target: One nearby enemy Attack: Intelligence + Level vs. PD Hit: 4d8 x 10 damage, and the target is vulnerable (hard save ends, 16+). In addition, if the target drops to 0 hp from this attack, or drops to 0 hp before it saves against the vulnerable effect of this attack, it is gone, dusted, nothing remaining. Miss: Half damage."
+        },
+        {
+            "name": "Meteor Swarm",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 9,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Special: You summon a meteor swarm. If you’re underground, you get the ur-dark stalactite equivalent! Nothing more happens this round, but roll 1d3 + 1 to determine how many meteors you have summoned. At the start of your next turn, even if you are unconscious or dead or have left the area, the meteors arrive one per turn at the start of each of your turns and slam into the combat area. Target: You can make an attack with each meteor against 1d4 enemies in a group. Alternatively, use the spell to level an area with high impact property damage. Attack: Intelligence + Level vs. PD Hit: 4d4 x 10 damage of the energy type of your choice (cold, fire, lightning). Any allies engaged with the enemies you are targeting take one-fourth damage from each meteor that impacts the area. Miss: Half damage."
+        },
+        {
+            "name": "Teleport",
+            "type": "Spell",
+            "class": "wizard",
+            "level": 9,
+            "attacktype": "Ranged spell",
+            "usage": "Daily",
+            "description": "Effect: You and up to 4 allies next to you can teleport to any location in the world, underworld, or overworld that you have previously visited. When you teleport, roll a d20. If you roll a 1, you miss your desired location and arrive somewhere else altogether. Otherwise, you and your allies arrive at the desired location at the start of your next turn. Any effects of spells or items cast before teleporting are dispelled and no longer function on arrival."
+        }
+    ],
     "talents": [
         {
             "name": "Barbarian Rage",
