@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+srd_path = Dir.glob(Rails.root.to_s + "/db/srd_core.json").first
+srd = JSON.parse(open(srd_path).read)
