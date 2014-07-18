@@ -15,4 +15,7 @@ class CharacterClass
   field :shieldPenalty, type: Integer
   field :meleeMissDmg, type: Mongoid::Boolean
   field :rangedMissDmg, type: Mongoid::Boolean
+
+  accepts_nested_attributes_for :powers, as: :power_by_level
+  embeds_many :powers
 end
