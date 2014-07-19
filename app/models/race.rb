@@ -3,5 +3,5 @@ class Race
   field :name, type: String
   field :alternateName, type: String
 
-  embeds_many :feat
+  embeds_many :feats
 end

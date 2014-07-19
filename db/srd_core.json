@@ -1,5 +1,5 @@
 {
-    "tier": [
+    "tiers": [
         {
             "name": "adventurer",
             "multiplier": 1
@@ -13,7 +13,7 @@
             "multiplier": 3
         }
     ],
-    "ability_score": [
+    "ability_scores": [
         {
             "name": "strength",
             "abbrev": "str"
@@ -39,7 +39,7 @@
             "abbrev": "cha"
         }
     ],
-    "point_buy": [
+    "point_buys": [
         {
             "ability_score": 18,
             "cost": 16
@@ -85,7 +85,7 @@
             "cost": 0
         }
     ],
-    "level": [
+    "levels": [
         {
             "level": 1,
             "tier": "adventurer",
@@ -147,7 +147,7 @@
             "abilityBonuses": 3
         }
     ],
-    "race": [
+    "races": [
         {
             "name": "human",
             "abilityBonus": [
@@ -248,7 +248,7 @@
             ]
         }
     ],
-    "character_class": [
+    "character_classes": [
         {
             "name": "barbarian",
             "baseHp": 7,

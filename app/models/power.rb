@@ -6,7 +6,7 @@ class Power
   field :usage, type: String
   field :description, type: String
 
-  embeds_many :feat
+  embeds_many :feats
   embeds_one :tier
   embeds_one :level
 

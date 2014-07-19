@@ -6,4 +6,5 @@ class Tier
   embedded_in :feat
   embedded_in :level
   embedded_in :power
+  embedded_in :talent
 end

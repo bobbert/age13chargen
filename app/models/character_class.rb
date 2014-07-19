@@ -18,4 +18,6 @@ class CharacterClass
 
   accepts_nested_attributes_for :powers, as: :power_by_level
   embeds_many :powers
+  embeds_many :talents
+
 end
