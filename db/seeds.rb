@@ -9,6 +9,21 @@
 srd_path = Dir.glob(Rails.root.to_s + "/db/srd_core.json").first
 srd = JSON.parse(open(srd_path).read, :symbolize_names=>true)
 srd_lookup = {}
+reverse_lookup = {}
+
+fields = {
+  tiers: [:name, :multiplier], 
+  ability_scores: [:name, :abbrev], 
+  point_buys: [:ability_score, :cost], 
+  levels: [:level, :hpMultiplier, :abilityBonuses], 
+  races: [:name, :alternateName, :abilityBonuses], 
+  character_classes: [:name, :baseHp, :recoveryDie, :basePd, :baseMd, :defaultAc, :numTalents, 
+    :numBackgrounds, :default1hWeaponDie, :default2hWeaponDie, :defaultThrownDie, :defaultBowDie, 
+    :shieldPenalty, :meleeMissDmg, :rangedMissDmg, :abilityBonuses, :powersByLevel], 
+  powers: [:name, :type, :attacktype, :usage, :description], 
+  talents: [:name, :type, :description], 
+  feats: [:name, :description, :prereq]
+}
 
 # creating defaults
 top_keys = [:tiers, :ability_scores, :point_buys, :levels, :races, :character_classes, :powers, :talents, :feats]
@@ -16,6 +31,23 @@ top_keys.each do |top_key|
   srd[top_keys] ||= []
   srd_lookup[top_key] = {}
 end
+
+def assign_to_reverse_lookup(type, key, value)
+  reverse_lookup[type] ||= {}
+  reverse_lookup[type][key] = value
+end
+
+def create_and_assign_to_srd_lookup(clazz, clazz_obj, key_field)
+  record_name = clazz.to_s.underscore.pluralize.to_sym
+  if (fields[record_name])
+    # creating new ActiveModel record with only valid fields
+    clean_fields_obj = clazz_obj.slice(*fields[record_name])
+    record = clazz.new clean_fields_obj
+    srd_lookup[record_name][clazz_obj[key_field]] = record
+  end
+end
+
+#------------------------#
 
 # seeding ActiveModel records without embedding
 srd[:ability_scores].each do |ability_score_obj|
@@ -31,27 +63,42 @@ end
 # Parent records (CharacterClass, Race) get persisted to Mongo.
 
 srd[:tiers].each do |tier_obj|
-  tier = Tier.new tier_obj
-  srd_lookup[:tiers][tier_obj[:name]] = tier
+  create_and_assign_to_srd_lookup(Tier, tier_obj, :name)
 end
 
 srd[:levels].each do |level_obj|
-  level_obj[:tier] = srd_lookup[:tiers][level_obj[:tier]] # Level -> Tier
-  level = Level.new level_obj
-  srd_lookup[:levels][level_obj[:level]] = level
+  level_obj[:tier] = srd_lookup[:tiers][level_obj[:tier]] if level_obj[:tier] # Level -> Tier
+  create_and_assign_to_srd_lookup(Level, level_obj, :level)
 end
 
 srd[:feats].each do |feat_obj|
-  feat_obj[:tier] = srd_lookup[:tiers][feat_obj[:tier]] # Feat -> Tier
-  feat = Feat.new feat_obj
-  srd_lookup[:feats][feat_obj[:name]] = feat
+  feat_obj[:tier] = srd_lookup[:tiers][feat_obj[:tier]] if feat_obj[:tier] # Feat -> Tier
+  create_and_assign_to_srd_lookup(Feat, feat_obj, :name)
 end
 
-srd[:talents].each do |feat_obj|
-  feat_obj[:tier] = srd_lookup[:talents][feat_obj[:tier]] # Talent -> Tier
-  feat = Feat.new feat_obj
-  srd_lookup[:talents][feat_obj[:name]] = feat
+srd[:talents].each do |talent_obj|
+  talent_obj[:tier] = srd_lookup[:talents][talent_obj[:tier]] if talent_obj[:tier] # Talent -> Tier
+  create_and_assign_to_srd_lookup(Talent, talent_obj, :name)
 end
 
+srd[:powers].each do |power_obj|
+  power_obj[:level] = srd_lookup[:powers][power_obj[:level]] if power_obj[:level] # Power -> Level
+#  power_obj[:feat] = srd_lookup[:powers][power_obj[:feat]] if power_obj[:feat] # Power -> Feat
+  create_and_assign_to_srd_lookup(Power, power_obj, :name)
+end
+
+srd[:races].each do |race_obj|
+  create_and_assign_to_srd_lookup(Race, race_obj, :name)
+end
+
+srd[:character_classes].each do |character_class_obj|
+  create_and_assign_to_srd_lookup(CharacterClass, character_class_obj, :name)
+end
+
+# performing child-parent associations
 
 
+# saving root-level records
+
+srd_lookup[:races].values.each {|race_obj| race_obj.save! }
+srd_lookup[:character_classes].values.each {|character_class_obj| character_class_obj.save! }
