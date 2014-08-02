@@ -150,7 +150,7 @@
     "races": [
         {
             "name": "human",
-            "abilityBonus": [
+            "abilityBonuses": [
                 "strength",
                 "constitution",
                 "dexterity",
@@ -161,56 +161,56 @@
         },
         {
             "name": "dwarf",
-            "abilityBonus": [
+            "abilityBonuses": [
                 "constitution",
                 "wisdom"
             ]
         },
         {
             "name": "dark elf",
-            "abilityBonus": [
+            "abilityBonuses": [
                 "dexterity",
                 "charisma"
             ]
         },
         {
             "name": "high elf",
-            "abilityBonus": [
+            "abilityBonuses": [
                 "intelligence",
                 "charisma"
             ]
         },
         {
             "name": "wood elf",
-            "abilityBonus": [
+            "abilityBonuses": [
                 "dexterity",
                 "wisdom"
             ]
         },
         {
             "name": "gnome",
-            "abilityBonus": [
+            "abilityBonuses": [
                 "dexterity",
                 "intelligence"
             ]
         },
         {
             "name": "half-elf",
-            "abilityBonus": [
+            "abilityBonuses": [
                 "constitution",
                 "charisma"
             ]
         },
         {
             "name": "half-orc",
-            "abilityBonus": [
+            "abilityBonuses": [
                 "strength",
                 "dexterity"
             ]
         },
         {
             "name": "halfling",
-            "abilityBonus": [
+            "abilityBonuses": [
                 "constitution",
                 "dexterity"
             ]
@@ -218,7 +218,7 @@
         {
             "name": "dragonic",
             "alternateName": "dragonspawn",
-            "abilityBonus": [
+            "abilityBonuses": [
                 "strength",
                 "charisma"
             ]
@@ -226,7 +226,7 @@
         {
             "name": "holy one",
             "alternateName": "aasimar",
-            "abilityBonus": [
+            "abilityBonuses": [
                 "wisdom",
                 "charisma"
             ]
@@ -234,7 +234,7 @@
         {
             "name": "forgeborn",
             "alternateName": "dwarf-forged",
-            "abilityBonus": [
+            "abilityBonuses": [
                 "strength",
                 "constitution"
             ]
@@ -242,7 +242,7 @@
         {
             "name": "tiefling",
             "alternateName": "demontouched",
-            "abilityBonus": [
+            "abilityBonuses": [
                 "strength",
                 "intelligence"
             ]
@@ -265,7 +265,7 @@
             "shieldPenalty": 0,
             "meleeMissDmg": true,
             "rangedMissDmg": false,
-            "abilityBonus": [
+            "abilityBonuses": [
                 "strength",
                 "constitution"
             ]
@@ -286,11 +286,11 @@
             "shieldPenalty": 1,
             "meleeMissDmg": true,
             "rangedMissDmg": false,
-            "abilityBonus": [
+            "abilityBonuses": [
                 "dexterity",
                 "charisma"
             ],
-            "powers": {
+            "powersByLevel": {
                 "Battlecry": {
                     "1": {"1": 2},
                     "2": {"1": 2},
@@ -333,11 +333,11 @@
             "shieldPenalty": 0,
             "meleeMissDmg": true,
             "rangedMissDmg": false,
-            "abilityBonus": [
+            "abilityBonuses": [
                 "strength",
                 "wisdom"
             ],
-            "powers": {
+            "powersByLevel": {
                 "Spell": {
                     "1": {"1": 4},
                     "2": {"1": 5},
@@ -368,11 +368,11 @@
             "shieldPenalty": 0,
             "meleeMissDmg": true,
             "rangedMissDmg": false,
-            "abilityBonus": [
+            "abilityBonuses": [
                 "strength",
                 "constitution"
             ],
-            "powers": {
+            "powersByLevel": {
                 "Maneuver": {
                     "1": {"1": 3},
                     "2": {"1": 4},
@@ -403,7 +403,7 @@
             "shieldPenalty": 0,
             "meleeMissDmg": true,
             "rangedMissDmg": false,
-            "abilityBonus": [
+            "abilityBonuses": [
                 "strength",
                 "charisma"
             ]
@@ -424,7 +424,7 @@
             "shieldPenalty": 0,
             "meleeMissDmg": true,
             "rangedMissDmg": true,
-            "abilityBonus": [
+            "abilityBonuses": [
                 "strength",
                 "dexterity",
                 "wisdom"
@@ -446,11 +446,11 @@
             "shieldPenalty": 2,
             "meleeMissDmg": true,
             "rangedMissDmg": true,
-            "abilityBonus": [
+            "abilityBonuses": [
                 "dexterity",
                 "charisma"
             ],
-            "powers": {
+            "powersByLevel": {
                 "Power": {
                     "1": {"1": 4},
                     "2": {"1": 5},
@@ -481,11 +481,11 @@
             "shieldPenalty": 2,
             "meleeMissDmg": true,
             "rangedMissDmg": false,
-            "abilityBonus": [
+            "abilityBonuses": [
                 "constitution",
                 "charisma"
             ],
-            "powers": {
+            "powersByLevel": {
                 "Spell": {
                     "1": {"1": 4},
                     "2": {"1": 5},
@@ -516,11 +516,11 @@
             "shieldPenalty": 2,
             "meleeMissDmg": false,
             "rangedMissDmg": false,
-            "abilityBonus": [
+            "abilityBonuses": [
                 "intelligence",
                 "wisdom"
             ],
-            "powers": {
+            "powersByLevel": {
                 "Spell": {
                     "1": {"1": 5},
                     "2": {"1": 6},
@@ -540,7 +540,7 @@
         {
             "name": "Move It!",
             "type": "Battlecry",
-            "class": "Bard",
+            "class": "bard",
             "level": 1,
             "attacktype": "Flexible melee attack",
             "usage": "Triggering Roll: Natural even roll",
@@ -549,7 +549,7 @@
         {
             "name": "Pull It Together!",
             "type": "Battlecry",
-            "class": "Bard",
+            "class": "bard",
             "level": 1,
             "attacktype": "Flexible melee attack",
             "usage": "Triggering Roll: Natural 11+; use only twice per battle",
@@ -558,7 +558,7 @@
         {
             "name": "Stay Strong!",
             "type": "Battlecry",
-            "class": "Bard",
+            "class": "bard",
             "level": 1,
             "attacktype": "Flexible melee attack",
             "usage": "Triggering Roll: Natural 16+",
@@ -567,7 +567,7 @@
         {
             "name": "We Need You!",
             "type": "Battlecry",
-            "class": "Bard",
+            "class": "bard",
             "level": 1,
             "attacktype": "Flexible melee attack",
             "usage": "Triggering Roll: Natural even hit",
@@ -576,7 +576,7 @@
         {
             "name": "Song of Heroes",
             "type": "Song/Spell",
-            "class": "Bard",
+            "class": "bard",
             "level": 1,
             "attacktype": "Bardic song",
             "usage": "Recharge 11+ after battle",
@@ -585,7 +585,7 @@
         {
             "name": "Song of Spilt Blood",
             "type": "Song/Spell",
-            "class": "Bard",
+            "class": "bard",
             "level": 1,
             "attacktype": "Bardic song",
             "usage": "Daily",
@@ -594,7 +594,7 @@
         {
             "name": "Battle Chant",
             "type": "Song/Spell",
-            "class": "Bard",
+            "class": "bard",
             "level": 1,
             "attacktype": "Ranged spell",
             "usage": "At-Will",
@@ -603,7 +603,7 @@
         {
             "name": "Befuddle",
             "type": "Song/Spell",
-            "class": "Bard",
+            "class": "bard",
             "level": 1,
             "attacktype": "Ranged spell",
             "usage": "Recharge 11+ after battle",
@@ -612,7 +612,7 @@
         {
             "name": "Charm Person",
             "type": "Song/Spell",
-            "class": "Bard",
+            "class": "bard",
             "level": 1,
             "attacktype": "Ranged spell",
             "usage": "Daily",
@@ -621,7 +621,7 @@
         {
             "name": "Soundburst",
             "type": "Song/Spell",
-            "class": "Bard",
+            "class": "bard",
             "level": 1,
             "attacktype": "Ranged spell",
             "usage": "Daily",
@@ -630,7 +630,7 @@
         {
             "name": "Hang Tough!",
             "type": "Battlecry",
-            "class": "Bard",
+            "class": "bard",
             "level": 3,
             "attacktype": "Flexible melee attack",
             "usage": "Triggering Roll: Natural odd roll",
@@ -639,7 +639,7 @@
         {
             "name": "It’s All Yours!",
             "type": "Battlecry",
-            "class": "Bard",
+            "class": "bard",
             "level": 3,
             "attacktype": "Flexible melee attack",
             "usage": "Triggering Roll: Natural even miss",
@@ -648,7 +648,7 @@
         {
             "name": "Take Heart!",
             "type": "Battlecry",
-            "class": "Bard",
+            "class": "bard",
             "level": 3,
             "attacktype": "Flexible melee attack",
             "usage": "Triggering Roll: Any hit",
@@ -657,7 +657,7 @@
         {
             "name": "Song of Aid",
             "type": "Song/Spell",
-            "class": "Bard",
+            "class": "bard",
             "level": 3,
             "attacktype": "Bardic song",
             "usage": "Daily",
@@ -666,7 +666,7 @@
         {
             "name": "Song of Thunder",
             "type": "Song/Spell",
-            "class": "Bard",
+            "class": "bard",
             "level": 3,
             "attacktype": "Bardic song",
             "usage": "Daily",
@@ -675,7 +675,7 @@
         {
             "name": "Vicious Mockery",
             "type": "Song/Spell",
-            "class": "Bard",
+            "class": "bard",
             "level": 3,
             "attacktype": "Ranged spell",
             "usage": "Recharge 11+ after battle",
@@ -684,7 +684,7 @@
         {
             "name": "Wild Heal",
             "type": "Song/Spell",
-            "class": "Bard",
+            "class": "bard",
             "level": 3,
             "attacktype": "Ranged spell",
             "usage": "Daily",
@@ -693,7 +693,7 @@
         {
             "name": "Stay True!",
             "type": "Battlecry",
-            "class": "Bard",
+            "class": "bard",
             "level": 5,
             "attacktype": "Flexible melee attack",
             "usage": "Triggering Roll: Natural 16+ if the escalation die is 3+; otherwise natural 20",
@@ -702,7 +702,7 @@
         {
             "name": "Victory Is Ours!",
             "type": "Battlecry",
-            "class": "Bard",
+            "class": "bard",
             "level": 5,
             "attacktype": "Flexible melee attack",
             "usage": "Triggering Roll: Natural 16+ if the escalation die is 5+; otherwise natural 20",
@@ -711,7 +711,7 @@
         {
             "name": "Song of Magic",
             "type": "Song/Spell",
-            "class": "Bard",
+            "class": "bard",
             "level": 5,
             "attacktype": "Bardic song",
             "usage": "Daily",
@@ -720,7 +720,7 @@
         {
             "name": "Arrow of Verse",
             "type": "Song/Spell",
-            "class": "Bard",
+            "class": "bard",
             "level": 5,
             "attacktype": "Ranged spell",
             "usage": "Recharge 16+ after battle",
@@ -729,7 +729,7 @@
         {
             "name": "Discombobulate",
             "type": "Song/Spell",
-            "class": "Bard",
+            "class": "bard",
             "level": 5,
             "attacktype": "Ranged spell",
             "usage": "Daily",
@@ -738,7 +738,7 @@
         {
             "name": "They Fall Before Us!",
             "type": "Battlecry",
-            "class": "Bard",
+            "class": "bard",
             "level": 7,
             "attacktype": "Flexible melee attack",
             "usage": "Special: You can use this battle cry only on your turn.",
@@ -747,7 +747,7 @@
         {
             "name": "Song of Blood & Legends",
             "type": "Song/Spell",
-            "class": "Bard",
+            "class": "bard",
             "level": 7,
             "attacktype": "Bardic song",
             "usage": "Daily",
@@ -756,7 +756,7 @@
         {
             "name": "Song of Victory",
             "type": "Song/Spell",
-            "class": "Bard",
+            "class": "bard",
             "level": 7,
             "attacktype": "Bardic song",
             "usage": "Daily",
@@ -765,7 +765,7 @@
         {
             "name": "The Overworld Two-Step",
             "type": "Song/Spell",
-            "class": "Bard",
+            "class": "bard",
             "level": 7,
             "attacktype": "Close-quarters spell",
             "usage": "Quick action to cast",
@@ -774,7 +774,7 @@
         {
             "name": "The Time Is Now!",
             "type": "Battlecry",
-            "class": "Bard",
+            "class": "bard",
             "level": 9,
             "attacktype": "Flexible melee attack",
             "usage": "Triggering Roll: Natural 19+",
@@ -783,7 +783,7 @@
         {
             "name": "Song of Destinies",
             "type": "Song/Spell",
-            "class": "Bard",
+            "class": "bard",
             "level": 9,
             "attacktype": "Bardic song",
             "usage": "Daily",
@@ -792,7 +792,7 @@
         {
             "name": "Inspire Legends",
             "type": "Song/Spell",
-            "class": "Bard",
+            "class": "bard",
             "level": 9,
             "attacktype": "Close-quarters spell",
             "usage": "Special: Escalation die must be 4+.",
@@ -801,7 +801,7 @@
         {
             "name": "Bless",
             "type": "Spell",
-            "class": "Cleric",
+            "class": "cleric",
             "level": 1,
             "attacktype": "Ranged spell",
             "usage": "Daily",
@@ -810,7 +810,7 @@
         {
             "name": "Cure Wounds",
             "type": "Spell",
-            "class": "Cleric",
+            "class": "cleric",
             "level": 1,
             "attacktype": "Ranged spell",
             "usage": "Daily",
@@ -819,7 +819,7 @@
         {
             "name": "Hammer of Faith",
             "type": "Spell",
-            "class": "Cleric",
+            "class": "cleric",
             "level": 1,
             "attacktype": "Close-quarters spell",
             "usage": "Daily",
@@ -828,7 +828,7 @@
         {
             "name": "Javelin of Faith",
             "type": "Spell",
-            "class": "Cleric",
+            "class": "cleric",
             "level": 1,
             "attacktype": "Ranged spell",
             "usage": "At-Will",
@@ -837,7 +837,7 @@
         {
             "name": "Shield of Faith",
             "type": "Spell",
-            "class": "Cleric",
+            "class": "cleric",
             "level": 1,
             "attacktype": "Ranged spell",
             "usage": "Daily",
@@ -846,7 +846,7 @@
         {
             "name": "Spirits of the Righteous",
             "type": "Spell",
-            "class": "Cleric",
+            "class": "cleric",
             "level": 1,
             "attacktype": "Ranged spell",
             "usage": "Once per battle",
@@ -855,7 +855,7 @@
         {
             "name": "Turn Undead",
             "type": "Spell",
-            "class": "Cleric",
+            "class": "cleric",
             "level": 1,
             "attacktype": "Close-quarters spell",
             "usage": "Daily",
@@ -864,7 +864,7 @@
         {
             "name": "Cause Fear",
             "type": "Spell",
-            "class": "Cleric",
+            "class": "cleric",
             "level": 3,
             "attacktype": "Ranged spell",
             "usage": "Daily",
@@ -873,7 +873,7 @@
         {
             "name": "Combat Boon",
             "type": "Spell",
-            "class": "Cleric",
+            "class": "cleric",
             "level": 3,
             "attacktype": "Close-quarters spell",
             "usage": "At-Will",
@@ -882,7 +882,7 @@
         {
             "name": "Divine Endurance",
             "type": "Spell",
-            "class": "Cleric",
+            "class": "cleric",
             "level": 3,
             "attacktype": "Ranged spell",
             "usage": "Daily",
@@ -891,7 +891,7 @@
         {
             "name": "Judgment",
             "type": "Spell",
-            "class": "Cleric",
+            "class": "cleric",
             "level": 3,
             "attacktype": "Ranged spell",
             "usage": "Daily",
@@ -900,7 +900,7 @@
         {
             "name": "Mighty Healing",
             "type": "Spell",
-            "class": "Cleric",
+            "class": "cleric",
             "level": 3,
             "attacktype": "Ranged spell",
             "usage": "Daily",
@@ -909,7 +909,7 @@
         {
             "name": "Strength of the Gods",
             "type": "Spell",
-            "class": "Cleric",
+            "class": "cleric",
             "level": 3,
             "attacktype": "Ranged spell",
             "usage": "Daily",
@@ -918,7 +918,7 @@
         {
             "name": "Crisis of Faith",
             "type": "Spell",
-            "class": "Cleric",
+            "class": "cleric",
             "level": 5,
             "attacktype": "Close-quarters spell",
             "usage": "Daily",
@@ -927,7 +927,7 @@
         {
             "name": "Sanctuary",
             "type": "Spell",
-            "class": "Cleric",
+            "class": "cleric",
             "level": 5,
             "attacktype": "Close-quarters spell",
             "usage": "Daily",
@@ -936,7 +936,7 @@
         {
             "name": "Sphere of Radiance",
             "type": "Spell",
-            "class": "Cleric",
+            "class": "cleric",
             "level": 5,
             "attacktype": "Close-quarters spell",
             "usage": "Daily",
@@ -945,7 +945,7 @@
         {
             "name": "Circle of Protection",
             "type": "Spell",
-            "class": "Cleric",
+            "class": "cleric",
             "level": 7,
             "attacktype": "Close-quarters spell",
             "usage": "Daily",
@@ -954,7 +954,7 @@
         {
             "name": "Resurrection",
             "type": "Spell",
-            "class": "Cleric",
+            "class": "cleric",
             "level": 7,
             "attacktype": "Ranged spell",
             "usage": "Special: You can cast this spell only once per level, and a limited number of times in your life. You must have most of the corpse available to cast the spell. There’s no time limit on resurrecting a dead PC, so long as you have the corpse.",
@@ -963,7 +963,7 @@
         {
             "name": "Overworld Travel",
             "type": "Spell",
-            "class": "Cleric",
+            "class": "cleric",
             "level": 9,
             "attacktype": "Close-quarters spell",
             "usage": "Daily",
@@ -972,7 +972,7 @@
         {
             "name": "Prayer for Readiness",
             "type": "Spell",
-            "class": "Cleric",
+            "class": "cleric",
             "level": 9,
             "attacktype": "Close-quarters spell",
             "usage": "Daily",
@@ -981,7 +981,7 @@
         {
             "name": "Brace for It",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 1,
             "attacktype": "Flexible melee attack",
             "usage": "Triggering Roll: Any miss",
@@ -990,7 +990,7 @@
         {
             "name": "Carve an Opening",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 1,
             "attacktype": "Flexible melee attack",
             "usage": "Triggering Roll: Any natural odd roll",
@@ -999,7 +999,7 @@
         {
             "name": "Deadly Assault",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 1,
             "attacktype": "Flexible melee or ranged attack",
             "usage": "Triggering Roll: Any natural even hit",
@@ -1008,7 +1008,7 @@
         {
             "name": "Defensive Fighting",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 1,
             "attacktype": "Flexible melee attack",
             "usage": "Triggering Roll: Natural 16+; if you fight with a shield, also any natural even roll",
@@ -1017,7 +1017,7 @@
         {
             "name": "Grim Intent",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 1,
             "attacktype": "Flexible melee attack",
             "usage": "Triggering Roll: Any natural even miss",
@@ -1026,7 +1026,7 @@
         {
             "name": "Heavy Blows",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 1,
             "attacktype": "Flexible melee attack",
             "usage": "Triggering Roll: Any natural even miss",
@@ -1035,7 +1035,7 @@
         {
             "name": "Precision Attack",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 1,
             "attacktype": "Flexible melee attack",
             "usage": "Triggering Roll: Any hit with a natural 16+",
@@ -1044,7 +1044,7 @@
         {
             "name": "Second Shot",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 1,
             "attacktype": "Flexible ranged attack",
             "usage": "Triggering Roll: Natural 16+",
@@ -1053,7 +1053,7 @@
         {
             "name": "Shield Bash",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 1,
             "attacktype": "Flexible melee attack",
             "usage": "Special: You must be using a shield.",
@@ -1062,7 +1062,7 @@
         {
             "name": "Two-Weapon Pressure",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 1,
             "attacktype": "Flexible melee attack",
             "usage": "Special: You must be using a weapon in each hand.",
@@ -1071,7 +1071,7 @@
         {
             "name": "Hack & Slash",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 3,
             "attacktype": "Flexible melee attack",
             "usage": "Special: You can use this maneuver only once per round.",
@@ -1080,7 +1080,7 @@
         {
             "name": "Make ’em Flinch",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 3,
             "attacktype": "Flexible ranged attack",
             "usage": "Triggering Roll: Any natural even miss",
@@ -1089,7 +1089,7 @@
         {
             "name": "Punish Them",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 3,
             "attacktype": "Flexible melee attack",
             "usage": "Special: You can use this maneuver only when you make an opportunity attack.",
@@ -1098,7 +1098,7 @@
         {
             "name": "Steady Now",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 3,
             "attacktype": "Flexible melee attack",
             "usage": "Triggering Roll: Any natural even miss",
@@ -1107,7 +1107,7 @@
         {
             "name": "Strong Guard",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 3,
             "attacktype": "Flexible melee attack",
             "usage": "Special: You must be using a shield.",
@@ -1116,7 +1116,7 @@
         {
             "name": "A Dozen Cuts",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 5,
             "attacktype": "Flexible melee attack",
             "usage": "Triggering Roll: Any natural even hit",
@@ -1125,7 +1125,7 @@
         {
             "name": "Hero’s Skill",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 5,
             "attacktype": "Flexible melee or ranged attack",
             "usage": "Triggering Roll: Any natural even miss",
@@ -1134,7 +1134,7 @@
         {
             "name": "Sword Master’s Anticipation",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 5,
             "attacktype": "Flexible melee attack",
             "usage": "Special: You must have the Skilled Intercept talent to use this maneuver.",
@@ -1143,7 +1143,7 @@
         {
             "name": "Never Surrender",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 7,
             "attacktype": "Flexible melee attack",
             "usage": "Triggering Roll: Any natural even roll",
@@ -1152,7 +1152,7 @@
         {
             "name": "Spinning Charge",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 7,
             "attacktype": "Flexible melee attack",
             "usage": "Special: You must have moved before the attack.",
@@ -1161,7 +1161,7 @@
         {
             "name": "Sword of Destiny",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 7,
             "attacktype": "Flexible melee attack",
             "usage": "Triggering Roll: Natural 20",
@@ -1170,7 +1170,7 @@
         {
             "name": "Combat Mastery",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 9,
             "attacktype": "Flexible melee attack",
             "usage": "Special: You can use this maneuver only once per battle.",
@@ -1179,7 +1179,7 @@
         {
             "name": "Set ’em Up",
             "type": "Maneuver",
-            "class": "Fighter",
+            "class": "fighter",
             "level": 9,
             "attacktype": "Flexible melee attack",
             "usage": "Triggering Roll: Any hit with a natural 16+",
@@ -1188,7 +1188,7 @@
         {
             "name": "Evasive Strike",
             "type": "Power",
-            "class": "Rogue",
+            "class": "rogue",
             "level": 1,
             "attacktype": "Melee attack",
             "usage": "At-Will",
@@ -1197,7 +1197,7 @@
         {
             "name": "Deadly Thrust",
             "type": "Power",
-            "class": "Rogue",
+            "class": "rogue",
             "level": 1,
             "attacktype": "Melee attack",
             "usage": "At-Will",
@@ -1206,7 +1206,7 @@
         {
             "name": "Flying Blade",
             "type": "Power",
-            "class": "Rogue",
+            "class": "rogue",
             "level": 1,
             "attacktype": "Ranged attack",
             "usage": "At-Will",
@@ -1215,7 +1215,7 @@
         {
             "name": "Roll With It",
             "type": "Power",
-            "class": "Rogue",
+            "class": "rogue",
             "level": 1,
             "attacktype": "Momentum power",
             "usage": "At-Will (once per round)",
@@ -1224,7 +1224,7 @@
         {
             "name": "Sure Cut",
             "type": "Power",
-            "class": "Rogue",
+            "class": "rogue",
             "level": 1,
             "attacktype": "Melee attack",
             "usage": "At-Will",
@@ -1233,7 +1233,7 @@
         {
             "name": "Tumbling Strike",
             "type": "Power",
-            "class": "Rogue",
+            "class": "rogue",
             "level": 1,
             "attacktype": "Melee attack",
             "usage": "At-Will",
@@ -1242,7 +1242,7 @@
         {
             "name": "Bleeding Strike",
             "type": "Power",
-            "class": "Rogue",
+            "class": "rogue",
             "level": 3,
             "attacktype": "Melee attack",
             "usage": "At-Will",
@@ -1251,7 +1251,7 @@
         {
             "name": "Deflection",
             "type": "Power",
-            "class": "Rogue",
+            "class": "rogue",
             "level": 3,
             "attacktype": "Momentum power",
             "usage": "At-Will (once per round)",
@@ -1260,7 +1260,7 @@
         {
             "name": "Slick Feint",
             "type": "Power",
-            "class": "Rogue",
+            "class": "rogue",
             "level": 3,
             "attacktype": "Melee attack",
             "usage": "At-Will",
@@ -1269,7 +1269,7 @@
         {
             "name": "Thief’s Strike",
             "type": "Power",
-            "class": "Rogue",
+            "class": "rogue",
             "level": 3,
             "attacktype": "Note: This is a bonus 3rd-level power for rogues with the Thievery talent. Other rogues can choose it if they like.",
             "usage": "Melee attack",
@@ -1278,7 +1278,7 @@
         {
             "name": "Harmless Misdirection",
             "type": "Power",
-            "class": "Rogue",
+            "class": "rogue",
             "level": 5,
             "attacktype": "Momentum power",
             "usage": "At-Will (once per round)",
@@ -1287,7 +1287,7 @@
         {
             "name": "Spiky Bastard",
             "type": "Power",
-            "class": "Rogue",
+            "class": "rogue",
             "level": 5,
             "attacktype": "Daily",
             "usage": "Quick action",
@@ -1296,7 +1296,7 @@
         {
             "name": "Swift Dodge",
             "type": "Power",
-            "class": "Rogue",
+            "class": "rogue",
             "level": 5,
             "attacktype": "Momentum power",
             "usage": "At-Will (once per round)",
@@ -1305,7 +1305,7 @@
         {
             "name": "Assassin’s Gambit",
             "type": "Power",
-            "class": "Rogue",
+            "class": "rogue",
             "level": 7,
             "attacktype": "Melee attack",
             "usage": "At-Will",
@@ -1314,7 +1314,7 @@
         {
             "name": "Swift Riposte",
             "type": "Power",
-            "class": "Rogue",
+            "class": "rogue",
             "level": 7,
             "attacktype": "Momentum power",
             "usage": "At-Will (once per round)",
@@ -1323,7 +1323,7 @@
         {
             "name": "Death’s Twin",
             "type": "Power",
-            "class": "Rogue",
+            "class": "rogue",
             "level": 9,
             "attacktype": "Momentum power",
             "usage": "At-Will",
@@ -1332,7 +1332,7 @@
         {
             "name": "True Targeting",
             "type": "Power",
-            "class": "Rogue",
+            "class": "rogue",
             "level": 9,
             "attacktype": "Momentum power",
             "usage": "At-Will",
